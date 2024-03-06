@@ -6,7 +6,10 @@ export default function Home() {
   return (
     <main className={styles.main}>
 
-      <div className={styles.center}>
+
+      <h1>Valeries Factory</h1>
+
+      {/* <div className={styles.center}>
         <Image
           className={styles.logo}
           src="/next.svg"
@@ -15,7 +18,7 @@ export default function Home() {
           height={37}
           priority
         />
-      </div>
+      </div> */}
 
       {/* <div className={styles.grid}>
         <a

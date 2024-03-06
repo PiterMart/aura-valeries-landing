@@ -1,8 +1,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   padding: 3rem;
   padding-top: 1rem;
   min-height: 100vh;
@@ -80,6 +79,13 @@
 }
 .list li{
   padding: 0.5rem;
+}
+.artistList ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-self: left;
+  text-align: left;
 }
 
 .center {
