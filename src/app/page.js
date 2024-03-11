@@ -2,23 +2,21 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
 
+
 export default function Home() {
   return (
     <main className={styles.main}>
 
-
-      <h1>Valeries Factory</h1>
-
-      {/* <div className={styles.center}>
+      <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/next.svg"
+          src="/valeriesLogo2.png"
           alt="Next.js Logo"
-          width={180}
-          height={37}
+          width={640}
+          height={360}
           priority
         />
-      </div> */}
+      </div>
 
       {/* <div className={styles.grid}>
         <a

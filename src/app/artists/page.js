@@ -1,6 +1,9 @@
 import styles from "../page.module.css";
+import Link from "next/link";
+
 
 export default function Artists() {
+
     return (
       <main className={styles.main}>
         <div>
@@ -8,7 +11,7 @@ export default function Artists() {
         </div>
         <div className={styles.artistList}>
             <ul>
-              <li>Alvaro Godoy</li>
+              <li><Link href="./alvaroGodoy">Alvaro Godoy</Link></li>
               <li>Elias Leiro</li>
               <li>Facundo Belen</li>
               <li>Facundo Lugea</li>

@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import styles from "./page.module.css";
 import Link from "next/link";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +17,16 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className={styles.nav}>
           <div>
-            <p><Link href="/">LOGO</Link></p>
+            <Link href="/">
+            <Image
+              src="/valeriesLogo.png"
+              alt="Valeries"
+              width={60}
+              height={60}
+              priority
+            />
+
+            </Link>
           </div>
           <div className={styles.list}>
             <ul>
@@ -28,11 +38,33 @@ export default function RootLayout({ children }) {
             </ul>
           </div>
           <div>
-            <p>Socials</p>
           </div>
         </div>
 
         {children}
+
+        <div className={styles.footer}>
+          <div>
+            <p>
+              Instagram
+            </p>
+          </div>
+          <div>
+            <p>
+              LinkedIn
+            </p>
+          </div>
+          <div>
+            <p>
+              Twitter
+            </p>
+          </div>
+          <div>
+            <p>
+              Email
+            </p>
+          </div>
+        </div>
         
         </body>
     </html>
