@@ -44,6 +44,14 @@ export default function RootLayout({ children }) {
         {children}
 
         <div className={styles.footer}>
+          <Image
+                  src="/valeriesLogoWhite.png"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', height: 'auto', maxWidth: '10rem', padding: '0' }}
+                  alt="Picture of the author"
+          />
           <div>
             <p>
               Instagram

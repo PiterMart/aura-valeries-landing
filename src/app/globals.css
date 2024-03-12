@@ -1,4 +1,10 @@
+html{
+  scroll-behavior: smooth;
+  scroll-padding: 5.5rem;
+}
+
 :root {
+
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: "Work Sans", sans-serif;

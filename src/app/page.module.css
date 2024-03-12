@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+
 .body{
   font-family: "Work Sans", sans-serif;
 
@@ -60,12 +62,35 @@
 }
 
 .artist {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.artistContent{
+  margin-left: 250px;
+  overflow: auto;
+
+}
+.artistNav {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  position: fixed;
+  float: left;
+  left: 5rem;
+  margin-top: 5rem;
 }
+
+.artistSection{
+  margin-top: 5rem;
+  max-width: 30rem;
+  padding-top: 2rem;
+  border-top: 1px solid #000000;
+}
+
 .title {
-  font-weight: 900;
+  font-weight: 400;
+  font-size: 2rem;
 }
 
 .code {
@@ -114,11 +139,13 @@
   padding: 0.5rem;
 }
 .artistList ul{
+  margin-top: 2rem;
   list-style: none;
   display: flex;
   flex-direction: column;
   align-self: left;
   text-align: left;
+  gap: 10px;
 }
 
 .center {
