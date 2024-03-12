@@ -11,35 +11,263 @@ export default function Artists() {
           <h1>Artists</h1>
         </div>
         <div className={styles.artistList}>
-          {/* <a>
-            <Image
-              src="/alvarogodoyObra.jpg"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '500px' }}
-              alt="Picture of the author"
-            />
-          </a> */}
-            <ul>
-              <li><Link href="./alvaroGodoy">Alvaro Godoy</Link></li>
-              <li>Elias Leiro</li>
-              <li>Facundo Belen</li>
-              <li>Facundo Lugea</li>
-              <li>Fanny Edith Diazt</li>
-              <li>Franco Palioff</li>
-              <li>Frenetik Void</li>
-              <li>Julieta Proto Boca</li>
-              <li>Leonardo Sanchez</li>
-              <li>Marco Pimentel</li>
-              <li>Matias Tomas</li>
-              <li>Sofia Castro</li>
-              <li>Tomo Cabrera</li>
-              <li>Trinidad Metz Brea</li>
-              <li>Valentina Quintero AKA VALENTINE</li>
-              <li>Vladimir Martus</li>
-            </ul>
-          </div>
+          <Link href="./alvaroGodoy">
+            <div className={styles.imgContainer}>
+              <Image
+                src="/alvarogodoyObra.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover', borderRadius: '50%'  }}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className={styles.dataContainer}>
+              <p>Alvaro Godoy</p>
+
+            </div>
+          </Link>
+          <a>
+            <div className={styles.imgContainer}>
+              <Image
+                src="/eliasleiroObra.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover', borderRadius: '50%'  }}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className={styles.dataContainer}>
+              <p>Elias Leiro</p>
+
+            </div>
+          </a>
+          <a>
+            <div className={styles.imgContainer}>
+              <Image
+                src="/facundobelenObra.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: '10rem', maxWidth: '150px', objectFit: 'cover', borderRadius: '50%'  }}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className={styles.dataContainer}>
+              <p>Facundo Belen</p>
+
+            </div>
+          </a>
+          <a>
+            <div className={styles.imgContainer}>
+              <Image
+                src="/facundolugeaObra.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: '10rem', maxWidth: '150px', objectFit: 'cover', borderRadius: '50%'  }}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className={styles.dataContainer}>
+              <p>Facundo Lugea</p>
+
+            </div>
+          </a>
+          <a>
+            <div className={styles.imgContainer}>
+              <Image
+                src="/fannyedithdiazObra.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: '10rem', maxWidth: '150px', objectFit: 'cover', borderRadius: '50%' }}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className={styles.dataContainer}>
+              <p>Fanny Edith Diaz</p>
+
+            </div>
+          </a>
+          <Link href="./alvaroGodoy">
+            <div className={styles.imgContainer}>
+              <Image
+                src="/francopalioffObra.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover', borderRadius: '50%'  }}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className={styles.dataContainer}>
+              <p>Franco Palioff</p>
+
+            </div>
+          </Link>
+          <Link href="./alvaroGodoy">
+            <div className={styles.imgContainer}>
+              <Image
+                src="/frenetikvoidObra.png"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover', borderRadius: '50%'  }}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className={styles.dataContainer}>
+              <p>Frenetik Void</p>
+
+            </div>
+          </Link>
+          <Link href="./alvaroGodoy">
+            <div className={styles.imgContainer}>
+              <Image
+                src="/julietaprotoObra.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover', borderRadius: '50%'  }}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className={styles.dataContainer}>
+              <p>Julieta Proto Boca</p>
+
+            </div>
+          </Link>
+          <Link href="./alvaroGodoy">
+            <div className={styles.imgContainer}>
+              <Image
+                src="/leonardosanchezObra.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover', borderRadius: '50%'  }}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className={styles.dataContainer}>
+              <p>Leonardo Sanchez</p>
+
+            </div>
+          </Link>
+          <Link href="./alvaroGodoy">
+            <div className={styles.imgContainer}>
+              <Image
+                src="/marcopimentelObra.jpeg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover', borderRadius: '50%'  }}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className={styles.dataContainer}>
+              <p>Marco Pimentel</p>
+
+            </div>
+          </Link>
+          <Link href="./alvaroGodoy">
+            <div className={styles.imgContainer}>
+              <Image
+                src="/marutsballetObra.png"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover', borderRadius: '50%'  }}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className={styles.dataContainer}>
+              <p>Maruts Ballet</p>
+
+            </div>
+          </Link>
+          <Link href="./alvaroGodoy">
+            <div className={styles.imgContainer}>
+              <Image
+                src="/matiastomasObra.jpeg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover', borderRadius: '50%'  }}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className={styles.dataContainer}>
+              <p>Matias Tomas</p>
+
+            </div>
+          </Link>
+          <Link href="./alvaroGodoy">
+            <div className={styles.imgContainer}>
+              <Image
+                src="/sofiacastroObra.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover', borderRadius: '50%'  }}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className={styles.dataContainer}>
+              <p>Sofia Castro</p>
+
+            </div>
+          </Link>
+          <Link href="./alvaroGodoy">
+            <div className={styles.imgContainer}>
+              <Image
+                src="/tomocabreraObra.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover', borderRadius: '50%'  }}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className={styles.dataContainer}>
+              <p>Tomo Cabrera</p>
+
+            </div>
+          </Link>
+          <Link href="./alvaroGodoy">
+            <div className={styles.imgContainer}>
+              <Image
+                src="/trinidametzbreaObra.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover', borderRadius: '50%'  }}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className={styles.dataContainer}>
+              <p>Trinidad Metz Brea</p>
+
+            </div>
+          </Link>
+          <Link href="./alvaroGodoy">
+            <div className={styles.imgContainer}>
+              <Image
+                src="/valentinaquinteroObra.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover', borderRadius: '50%'  }}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className={styles.dataContainer}>
+              <p>Valentina Quintero</p>
+
+            </div>
+          </Link>
+        </div>
       </main>
     );
   }

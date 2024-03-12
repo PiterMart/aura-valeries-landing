@@ -18,6 +18,9 @@ export default function Artists() {
                 <li><a href="#obra">Obra</a></li>
                 <li><a href="#bio">Biografia</a></li>
                 <li><a href="#muestras">Muestras</a></li>
+                <li><a href="#muestras">Prensa</a></li>
+                <li><a href="#statement">Statement</a></li>
+                <li><a href="#redes">Redes</a></li>
               </ul>
             </div>
 
@@ -34,16 +37,20 @@ export default function Artists() {
                 alt="Picture of the author"
               />
             </div>
-            
             <div className={styles.artistSection} id="bio">
-
-              <Image
+            <p>Nacido en Buenos Aires, en 1994. </p>
+            <Image
                 src="/alvarogodoyCarnet.jpg"
                 width={200}
                 height={200}
                 alt="Picture of the author"
                 style={{ 'margin-bottom': '10px'}}
               />
+
+            </div>
+            
+            <div className={styles.artistSection}>
+
 
               <p>Alvaro Godoy de pequeño miraba "El banquete telemático" de Federico Kleem sin tener idea de qué se trataba; el excéntrico hombre rubio le resultaba interesante, explicaba cosas que no estaban en Discovery Channel. Hizo la primaria en seis colegios, escuchaba discos de heavy metal de su madre y jugaba mucho solo.
               A los 17 años alquiló su primer taller en una casa tomada por un punk que los jueves hacía fiestas sadomasoquistas. El taller es para él como un laboratorio: un espacio donde las posibilidades se amplían, un lugar con las condiciones necesarias para que algo especial suceda. Ese algo en su caso es variado, pero íntimamente relacionado.
@@ -52,6 +59,7 @@ export default function Artists() {
               </p>
 
             </div>
+            
             <div className={styles.artistSection} id="muestras">
 
               <p>MUESTRAS COLECTIVAS</p>
@@ -110,7 +118,17 @@ export default function Artists() {
                 (2019-2022) MDA -Método Diana Aisenberg-
               </p>
             </div>
+            <div className={styles.artistSection} id="statement">
+              <p>STATEMENT</p>
+              <p>
+              En mis obras confluyen el dibujo, la pintura, la escultura, la música, la programación y la biología. Me interesan los límites de las técnicas, los puntos en que una se transforma en otra y las combinaciones que pueden surgir entre ellas. Trabajo bajo la premisa de la existencia de otros mundos, de que la materia posee infinitas formas de organizarse y que las formas que actualmente vemos, conocemos, olemos y escuchamos son accidentes precisos.
+              Vinculo técnicas como el dibujo o la pintura con la mecánica y la programación, generando imágenes híbridas que albergan en sí partes de los dos universos: analógico y digital. Me interesa integrar la robótica a campos sensibles como el dibujo y comprender y participar en la asociación artística entre una máquina y un humano. También investigo las posibilidades de la botánica como medio plástico escultórico y cómo esto propone un tipo de obra mutante, no limitativa e incluso perecedera. 
+              </p>
+            </div>
+            <div className={styles.artistSection} id="contacto">
 
+              <p>REDES</p>
+            </div>
           </div>
         </div>
       </main>

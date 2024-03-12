@@ -82,6 +82,8 @@
 }
 
 .artistSection{
+  display: flex;
+  gap: 1rem;
   margin-top: 5rem;
   max-width: 30rem;
   padding-top: 2rem;
@@ -138,6 +140,32 @@
 .list li{
   padding: 0.5rem;
 }
+
+.artistList{
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  margin: 10REM;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.artistList a:hover{
+  animation-duration: 5ms;
+  transition: color .2s ease-in, font-weight .2s ease-in-out, text-decoration .7s ease-in-out;
+  box-shadow: black;
+  font-weight: 600;
+  color: #F73939;
+}
+.list li:hover{
+  animation-duration: 5ms;
+  transition: color .2s ease-in, font-weight .2s ease-in-out, letter-spacing .7s ease-in-out;
+  box-shadow: black;
+  font-weight: 600;
+  color: #F73939;
+  letter-spacing: 10px;
+}
+
 .artistList ul{
   margin-top: 2rem;
   list-style: none;
@@ -146,6 +174,11 @@
   align-self: left;
   text-align: left;
   gap: 10px;
+}
+
+.imgContainer{
+  width: 10rem;
+  
 }
 
 .center {
@@ -205,6 +238,10 @@
 @media (max-width: 700px) {
   .content {
     padding: 4rem;
+  }
+    .artistList{
+    margin: auto;
+    margin-top: 5rem;
   }
 
   .grid {
@@ -282,6 +319,10 @@
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
+  }
+  .artistList{
+    margin: auto;
+    margin-top: 5rem;
   }
 }
 

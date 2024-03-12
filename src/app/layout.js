@@ -32,8 +32,8 @@ export default function RootLayout({ children }) {
             <ul>
               <li><Link href="/artists">Artists</Link></li>
               <li><a href="">Exhibitions</a></li>
-              <li><a href="">Art Fairs</a></li>
-              <li><a href="">Info</a></li>
+              {/* <li><a href="">Art Fairs</a></li>
+              <li><a href="">Info</a></li> */}
               <li><a href="">Contact</a></li>
             </ul>
           </div>
@@ -55,16 +55,6 @@ export default function RootLayout({ children }) {
           <div>
             <p>
               Instagram
-            </p>
-          </div>
-          <div>
-            <p>
-              LinkedIn
-            </p>
-          </div>
-          <div>
-            <p>
-              Twitter
             </p>
           </div>
           <div>
