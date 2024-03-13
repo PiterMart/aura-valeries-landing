@@ -11,13 +11,13 @@ export default function Artists() {
           <h1>Exhibitions</h1>
 
           <div className={styles.content}>
-          <p className={styles.title}>Los Patitos Feos</p>
+          <p className={styles.DUBtitle}>Los Patitos Feos</p>
             <Image
                 src="/Flyer-Los Patitos Feos_6_1.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{ width: '50%', height: 'auto', maxWidth: '500px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
+                style={{ width: '100%', height: 'auto', maxWidth: '500px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
                 alt="Picture of the author"
             />
             <Image
@@ -25,7 +25,7 @@ export default function Artists() {
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: '50%', height: 'auto', maxWidth: '500px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
+              style={{ width: '100%', height: 'auto', maxWidth: '500px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
               alt="Picture of the author"
             />
 

@@ -8,14 +8,36 @@ export default function Artists() {
     return (
       <main className={styles.main}>
         <div>
-          <h1>Exhibitions</h1>
+          <div className={styles.artistSection}>
 
-          <div className={styles.content}>
-          <p className={styles.title}>dirección artística 
-Jimena Nahuel Lusi 
-Xul Jan
-</p>
+            <p className={styles.subtitle}>DIRECCIÓN ARTÍSTICA</p>
+            <p>
+              Jimena Nahuel Lusi
+            </p>
+            <p>
+              Xul Jan
+            </p>
+          </div>
+          <div className={styles.artistSection}>
 
+            <p className={styles.subtitle}>PRODUCCIÓN EJECUTIVA</p>
+            <p>
+              Sandro Guevara
+            </p>
+          </div>
+          <div className={styles.artistSection}>
+
+            <p className={styles.subtitle}>PRODUCCIÓN ARTÍSTICA</p>
+            <p>
+              Lucia Ranzuglia
+            </p>
+          </div>
+          <div className={styles.artistSection}>
+
+            <p className={styles.subtitle}>COMUNICACIÓN</p>
+            <p>
+              Danila Nieto
+            </p>
           </div>
         </div>
       </main>
