@@ -17,17 +17,17 @@ export default function Artists() {
               <ul>
                 <li><a href="#obra">Obra</a></li>
                 <li><a href="#bio">Biografia</a></li>
-                <li><a href="#muestras">Muestras</a></li>
-                <li><a href="#muestras">Prensa</a></li>
                 <li><a href="#statement">Statement</a></li>
+                <li><a href="#muestras">Muestras</a></li>
+                <li><a href="#catalogo">Catalogo</a></li>
                 <li><a href="#redes">Redes</a></li>
               </ul>
             </div>
 
 
           </div>
-          <div className={styles.artistContent} id="obra">
-            <div className={styles.artistSection}>    
+          <div className={styles.artistContent}>
+            <div className={styles.artistSection} id="obra">    
               <Image
                 src="/alvarogodoyObra.jpg"
                 width={0}
@@ -38,7 +38,7 @@ export default function Artists() {
               />
             </div>
             <div className={styles.artistSection} id="bio">
-            <p>Nacido en Buenos Aires, en 1994. </p>
+            <p className={styles.subtitle}>Nacido en Buenos Aires, en 1994. </p>
             <Image
                 src="/alvarogodoyCarnet.jpg"
                 width={200}
@@ -59,10 +59,17 @@ export default function Artists() {
               </p>
 
             </div>
+            <div className={styles.artistSection} id="statement">
+              <p className={styles.subtitle}>STATEMENT</p>
+              <p>
+              En mis obras confluyen el dibujo, la pintura, la escultura, la música, la programación y la biología. Me interesan los límites de las técnicas, los puntos en que una se transforma en otra y las combinaciones que pueden surgir entre ellas. Trabajo bajo la premisa de la existencia de otros mundos, de que la materia posee infinitas formas de organizarse y que las formas que actualmente vemos, conocemos, olemos y escuchamos son accidentes precisos.
+              Vinculo técnicas como el dibujo o la pintura con la mecánica y la programación, generando imágenes híbridas que albergan en sí partes de los dos universos: analógico y digital. Me interesa integrar la robótica a campos sensibles como el dibujo y comprender y participar en la asociación artística entre una máquina y un humano. También investigo las posibilidades de la botánica como medio plástico escultórico y cómo esto propone un tipo de obra mutante, no limitativa e incluso perecedera. 
+              </p>
+            </div>
             
             <div className={styles.artistSection} id="muestras">
 
-              <p>MUESTRAS COLECTIVAS</p>
+              <p className={styles.subtitle}>MUESTRAS COLECTIVAS</p>
               
               <p>
               (2022) “Ensayo de convergencia” L.A.R. 
@@ -86,7 +93,7 @@ export default function Artists() {
             </div>
             <div className={styles.artistSection}>
 
-              <p>BECAS</p>
+              <p className={styles.subtitle}>BECAS</p>
 
               <p>
               (2020) Artistas x Artistas - Beca Completa
@@ -97,37 +104,34 @@ export default function Artists() {
             </div>
             <div className={styles.artistSection}>
 
-              <p>RESIDENCIAS</p>
+              <p className={styles.subtitle}>RESIDENCIAS</p>
               <p>
                 (2023) Zona residencia - San Carlos, Salta, Argentina 
               </p>
             </div>
             <div className={styles.artistSection}>
 
-              <p>PROYECTOS EN COLABORACION</p>
+              <p className={styles.subtitle}>PROYECTOS EN COLABORACION</p>
               <p>
                 (2019-2020) Luces Calientes (joyería) junto a Diana Grieco.
               </p>
             </div>
             <div className={styles.artistSection}>
 
-              <p>CLINICAS</p>
+              <p className={styles.subtitle}>CLINICAS</p>
               <p>
                 (2020-2021) Artistas x Artistas
                 <br></br>
                 (2019-2022) MDA -Método Diana Aisenberg-
               </p>
             </div>
-            <div className={styles.artistSection} id="statement">
-              <p>STATEMENT</p>
-              <p>
-              En mis obras confluyen el dibujo, la pintura, la escultura, la música, la programación y la biología. Me interesan los límites de las técnicas, los puntos en que una se transforma en otra y las combinaciones que pueden surgir entre ellas. Trabajo bajo la premisa de la existencia de otros mundos, de que la materia posee infinitas formas de organizarse y que las formas que actualmente vemos, conocemos, olemos y escuchamos son accidentes precisos.
-              Vinculo técnicas como el dibujo o la pintura con la mecánica y la programación, generando imágenes híbridas que albergan en sí partes de los dos universos: analógico y digital. Me interesa integrar la robótica a campos sensibles como el dibujo y comprender y participar en la asociación artística entre una máquina y un humano. También investigo las posibilidades de la botánica como medio plástico escultórico y cómo esto propone un tipo de obra mutante, no limitativa e incluso perecedera. 
-              </p>
-            </div>
-            <div className={styles.artistSection} id="contacto">
+            <div className={styles.artistSection} id="catalogo">
 
-              <p>REDES</p>
+              <p className={styles.subtitle}>CATALOGO</p>
+            </div>
+            <div className={styles.artistSection} id="redes">
+
+              <p className={styles.subtitle}>REDES</p>
             </div>
           </div>
         </div>

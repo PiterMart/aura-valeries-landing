@@ -7,13 +7,15 @@ export default function Home() {
     <main className={styles.main}>
 
       <div className={styles.center}>
+
         <Image
           className={styles.logo}
           src="/valeriesLogo2.png"
-          alt="Next.js Logo"
-          width={640}
-          height={360}
-          priority
+          alt="Valeries factory"
+          width={0}
+          height={0}
+          sizes="100vw"
+          style={{ width: '100%', height: 'auto', maxWidth: '800px' }}
         />
       </div>
     </main>

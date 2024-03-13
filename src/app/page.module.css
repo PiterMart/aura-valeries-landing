@@ -12,8 +12,19 @@
   display: flex;
   flex-direction: column;
   padding: 3rem;
-  padding-top: 6rem;
+  padding-top: 7rem;
   min-height: 100vh;
+  cursor: url("/heart.svg"), auto;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  gap: 1rem;
+  justify-content: space-between;
+  float: left;
+  margin-top: 5rem;
+  flex-wrap: wrap;
 }
 
 .nav {
@@ -22,12 +33,14 @@
   align-items: center;
   position: fixed;
   font-size: 1rem;
+  font-weight: 500;
   width: 100%;
   z-index: 1;
   font-family: var(--font-mono);
   margin: auto;
   padding: 1rem;
-  background: #ffffff00;
+  background: #ffffff60;
+  border-bottom: solid#F73939;
 }
 
 .nav a {
@@ -48,7 +61,7 @@
 .footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   font-size: 1rem;
   width: 100%;
@@ -57,6 +70,7 @@
   font-family: var(--font-mono);
   margin: auto;
   padding: 1rem;
+  padding-right: 2rem;
   color: white;
   background: #F73939;
 }
@@ -83,6 +97,7 @@
 
 .artistSection{
   display: flex;
+  justify-content: space-between;
   gap: 1rem;
   margin-top: 5rem;
   max-width: 30rem;
@@ -93,6 +108,9 @@
 .title {
   font-weight: 400;
   font-size: 2rem;
+}
+.subtitle{
+  font-weight: 500;
 }
 
 .code {
@@ -241,7 +259,27 @@
   }
     .artistList{
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 1rem;
+  }
+  .artistSection{
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  
+  .artist{
+    flex-direction: column;
+  }
+  .artistContent{
+    margin: auto;
+  }
+  .artistNav{
+    position: relative;
+    left: 0;
+  }
+
+  .main{
+    padding: 1rem;
+    padding-top: 7rem;
   }
 
   .grid {
@@ -321,6 +359,12 @@
     grid-template-columns: repeat(2, 50%);
   }
   .artistList{
+    margin: auto;
+    margin-top: 5rem;
+  }
+  .content{
+    flex-direction: column;
+    width: 100%;
     margin: auto;
     margin-top: 5rem;
   }

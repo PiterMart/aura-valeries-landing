@@ -31,10 +31,10 @@ export default function RootLayout({ children }) {
           <div className={styles.list}>
             <ul>
               <li><Link href="/artists">Artists</Link></li>
-              <li><a href="">Exhibitions</a></li>
+              <li><Link href="/exhibitions">Exhibitions</Link></li>
               {/* <li><a href="">Art Fairs</a></li>
               <li><a href="">Info</a></li> */}
-              <li><a href="">Contact</a></li>
+              <li><Link href="/contact">Contact</Link></li>
             </ul>
           </div>
           <div>
@@ -44,6 +44,7 @@ export default function RootLayout({ children }) {
         {children}
 
         <div className={styles.footer}>
+          <Link href="/">
           <Image
                   src="/valeriesLogoWhite.png"
                   width={0}
@@ -52,18 +53,13 @@ export default function RootLayout({ children }) {
                   style={{ width: '100%', height: 'auto', maxWidth: '10rem', padding: '0' }}
                   alt="Picture of the author"
           />
+          </Link>
           <div>
             <p>
-              Instagram
-            </p>
-          </div>
-          <div>
-            <p>
-              Email
+              Contact
             </p>
           </div>
         </div>
-        
         </body>
     </html>
   );
