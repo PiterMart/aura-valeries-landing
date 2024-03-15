@@ -8,7 +8,7 @@ export default function Artists() {
     return (
       <main className={styles.main}>
         <div>
-          <h1>Artistas</h1>
+          <h1 className={styles.title}>Artistas</h1>
         </div>
         <div className={styles.artistList}>
           <Link href="./alvaroGodoy">

@@ -7,37 +7,63 @@ export default function Artists() {
 
     return (
       <main className={styles.main}>
-        <div>
-          <div className={styles.artistSection}>
+        <div className={styles.contact}>
+          <div className={styles.contentSection}>
 
             <p className={styles.subtitle}>DIRECCIÓN ARTÍSTICA</p>
-            <p>
-              Jimena Nahuel Lusi
-            </p>
-            <p>
-              Xul Jan
-            </p>
-          </div>
-          <div className={styles.artistSection}>
-
+            <div className={styles.contactInfo}>
+              <div className={styles.contactInfo}>
+                <p className={styles.subtitle}>
+                  Xul Jan
+                </p>
+                <p>
+                  xul@valeriesfactory.com
+                </p>
+              </div>
+              <div className={styles.contactInfo}>
+                <p className={styles.subtitle}>
+                  Jimena Nahuel Lusi
+                </p>
+                <p>
+                  Jimena@valeriesfactory.com
+                </p>
+              </div>
+            </div>
+            </div>
+          <div className={styles.contentSection}>
             <p className={styles.subtitle}>PRODUCCIÓN EJECUTIVA</p>
-            <p>
-              Sandro Guevara
-            </p>
+            <div className={styles.contactInfo}>
+              <p className={styles.subtitle}>
+                Sandro Guevara
+              </p>
+              <p>
+                Sandro@valeriesfactory.com
+              </p>
+            </div>
           </div>
-          <div className={styles.artistSection}>
+          <div className={styles.contentSection}>
 
             <p className={styles.subtitle}>PRODUCCIÓN ARTÍSTICA</p>
-            <p>
-              Lucia Ranzuglia
-            </p>
+            <div className={styles.contactInfo}>
+              <p className={styles.subtitle}>
+                Lucia Ranzuglia
+              </p>
+              <p>
+                lucia@valeriesfactory.com
+              </p>
+            </div>
           </div>
-          <div className={styles.artistSection}>
+          <div className={styles.contentSection}>
 
             <p className={styles.subtitle}>COMUNICACIÓN</p>
-            <p>
-              Danila Nieto
-            </p>
+            <div className={styles.contactInfo}>
+              <p className={styles.subtitle}>
+                Danila Nieto
+              </p>
+              <p>
+                desiree@valeriesfactory.com
+              </p>
+            </div>
           </div>
         </div>
       </main>

@@ -16,10 +16,10 @@ export default function Artists() {
             <div className={styles.artistList}>
               <ul>
                 <li><a href="#obra">Obra</a></li>
-                <li><a href="#bio">Biografia</a></li>
+                <li><a href="#bio">Biografía</a></li>
                 <li><a href="#statement">Statement</a></li>
                 <li><a href="#muestras">Muestras</a></li>
-                <li><a href="#catalogo">Catalogo</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
                 <li><a href="#redes">Redes</a></li>
               </ul>
             </div>
@@ -111,7 +111,7 @@ export default function Artists() {
             </div>
             <div className={styles.artistSection}>
 
-              <p className={styles.subtitle}>PROYECTOS EN COLABORACION</p>
+              <p className={styles.subtitle}>PROYECTOS EN COLABORACIÓN</p>
               <p>
                 (2019-2020) Luces Calientes (joyería) junto a Diana Grieco.
               </p>
@@ -127,7 +127,7 @@ export default function Artists() {
             </div>
             <div className={styles.artistSection} id="catalogo">
 
-              <p className={styles.subtitle}>CATALOGO</p>
+              <p className={styles.subtitle}>CATÁLOGO</p>
             </div>
             <div className={styles.artistSection} id="redes">
 

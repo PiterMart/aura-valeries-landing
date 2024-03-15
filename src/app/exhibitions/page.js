@@ -8,10 +8,10 @@ export default function Artists() {
     return (
       <main className={styles.main}>
         <div>
-          <h1>Exhibitions</h1>
+          <h1 className={styles.title}>Exhibiciones</h1>
 
           <div className={styles.content}>
-          <p className={styles.DUBtitle}>Los Patitos Feos</p>
+          <p className={styles.subtitle}>Los Patitos Feos</p>
             <Image
                 src="/Flyer-Los Patitos Feos_6_1.jpg"
                 width={0}

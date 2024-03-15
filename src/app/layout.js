@@ -32,8 +32,6 @@ export default function RootLayout({ children }) {
             <ul>
               <li><Link href="/artists">Artistas</Link></li>
               <li><Link href="/exhibitions">Exhibiciones</Link></li>
-              {/* <li><a href="">Art Fairs</a></li>
-              <li><a href="">Info</a></li> */}
               <li><Link href="/contact">Contacto</Link></li>
             </ul>
           </div>
@@ -54,11 +52,11 @@ export default function RootLayout({ children }) {
                   alt="Picture of the author"
           />
           </Link>
-          <div>
+          {/* <div>
             <p>
               Contact
             </p>
-          </div>
+          </div> */}
         </div>
         </body>
     </html>
