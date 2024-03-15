@@ -11,6 +11,7 @@
   padding-bottom: 7rem;
   min-height: 100vh;
   cursor: url("/heart.svg"), auto;
+
 }
 .content{
   display: flex;
@@ -73,7 +74,18 @@
   background: #F73939;
   position: absolute;
   padding-bottom: 10rem;
+  padding-top: 5rem;
   text-align: center;
+  cursor: url("/heart.svg"), auto;
+}
+.progressBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 23rem;
+  background: var(--red);
+  transform-origin: 0%;
 }
 
 .artist {
@@ -104,6 +116,7 @@
   max-width: 30rem;
   padding-top: 2rem;
   border-top: 1px solid #000000;
+  opacity: 'scrollYProgress'
 }
 .contentSection{
   display: flex;

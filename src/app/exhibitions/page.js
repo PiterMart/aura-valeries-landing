@@ -21,7 +21,7 @@ export default function Artists() {
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{ width: '100%', height: 'auto', maxWidth: '500px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
+                style={{ width: '100%', height: 'auto', maxWidth: '500px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
                 alt="Picture of the author"
             />
             <Image
@@ -29,7 +29,7 @@ export default function Artists() {
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '500px', "overflow-clip-margin": 'content-box', objectFit: 'cover',  }}
+              style={{ width: '100%', height: 'auto', maxWidth: '500px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
               alt="Picture of the author"
             />
 

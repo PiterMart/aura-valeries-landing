@@ -4,6 +4,7 @@ import styles from "./page.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -42,17 +43,9 @@ export default function RootLayout({ children }) {
         {children}
 
         <div className={styles.footer}>
-          <Link href="/">
-          <Image
-                  src="/valeriesLogoWhite.png"
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: 'auto', maxWidth: '10rem', padding: '0' }}
-                  alt="Picture of the author"
-          />
-          </Link>
-          <div className={styles.contentSection} style={{borderTop: '1px solid #ffffff'}}>
+          <p className={styles.title}>Manifesto</p>
+
+          <div className={styles.contentSection} style={{borderTop: '0px solid #ffffff', marginTop: '1rem'}}>
             <p>
             Valerie es una galería de arte contemporáneo dirigida por Jimena Lusi, Xul Jan y Sandro Guevara. Es un espacio de cruce de lenguajes teniendo como núcleo las artes visuales, que pondera el trabajo colaborativo entre artistas, diseñadores, músicxs, curadores y gestores. Nos excitan los desafíos y lxs artistas apasionadxs, la moda y el futuro, las obras que  auguran ese espíritu que ama los días de sol, las girl-girls, las boy girls, los girl-boys y los boy-boys. El punk se relaciona con la contracultura, el decolonialismo y la rebelión juvenil; es nuestra utopía que tiene objetivos múltiples
             es proyectar una imagen de potencialidad y posibilidad
@@ -90,6 +83,16 @@ export default function RootLayout({ children }) {
 
               </p>
           </div>
+          <Link href="/">
+          <Image
+                  src="/valeriesLogoWhite.png"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', height: 'auto', maxWidth: '15rem', paddingTop: '5rem' }}
+                  alt="Picture of the author"
+          />
+          </Link>
         </div>
         </body>
     </html>
