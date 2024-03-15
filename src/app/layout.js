@@ -52,11 +52,44 @@ export default function RootLayout({ children }) {
                   alt="Picture of the author"
           />
           </Link>
-          {/* <div>
+          <div className={styles.contentSection} style={{borderTop: '1px solid #ffffff'}}>
             <p>
-              Contact
+            Valerie es una galería de arte contemporáneo dirigida por Jimena Lusi, Xul Jan y Sandro Guevara. Es un espacio de cruce de lenguajes teniendo como núcleo las artes visuales, que pondera el trabajo colaborativo entre artistas, diseñadores, músicxs, curadores y gestores. Nos excitan los desafíos y lxs artistas apasionadxs, la moda y el futuro, las obras que  auguran ese espíritu que ama los días de sol, las girl-girls, las boy girls, los girl-boys y los boy-boys. El punk se relaciona con la contracultura, el decolonialismo y la rebelión juvenil; es nuestra utopía que tiene objetivos múltiples
+            es proyectar una imagen de potencialidad y posibilidad
+            en nombre de otro tiempo y otro lugar, socavando el tejido de la realidad.
+            Una imagen intermedial del futuro,
+            Negamos el presente que nos entristece.
+            Nuestrx organismo como una ilegalidad,
+            ninguna legalidad excepto el placer.
+            Nuestra factoría. 
+
             </p>
-          </div> */}
+          </div>
+          <div className={styles.contentSection} style={{borderTop: '1px solid #ffffff'}}>
+            <p className={styles.subtitle}>
+              Artistas representados
+            </p>
+            <p>
+              Alvaro Godoy -
+              Elias Leiro -
+              Facundo Belen -
+              Facundo Jesus Lugea -
+              Fanny Diaz -
+              Franco Palioff -
+              Frenetik Void -
+              Julieta Proto Boca -
+              Leonardo Sanchez -
+              Marco Pimentel -
+              Maruts Ballet -
+              Matias Tomas -
+              Sofia Castro -
+              Tomo Cabrera -
+              Trinidad Metz Brea
+              Valentina Quintero
+              
+
+              </p>
+          </div>
         </div>
         </body>
     </html>

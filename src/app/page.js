@@ -10,12 +10,12 @@ export default function Home() {
         <source src="/auravaleries bloon heart0001_H.264_H.264.mp4" />
       </video>
       
-      {/* <Image
+      <Image
           src="/testbloon.png"
           layout="fill"
           sizes="100vw"
           style={{ zIndex: '-100', objectFit: 'cover' }}
-        /> */}
+        />
 
       <div className={styles.center}>
 
