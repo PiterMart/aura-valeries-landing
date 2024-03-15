@@ -14,7 +14,7 @@ export default function Artists() {
         ease: [0.65, 0, 0.35, 1],
         duration: 0.75,
         x: { duration: 0.25 }
-      }}>
+        }}>
         <video autoPlay muted loop style={{ width: '100%', height: '100%', position: 'fixed', objectFit: 'cover', zIndex: '-1', display:
         'block', right: '0', bottom: '0'}}>
         <source src="/auravaleries bloon heart0001_H.264_H.264.mp4" />
@@ -39,7 +39,7 @@ export default function Artists() {
 
             </div>
           </Link>
-          <a>
+          <Link href="./eliasLeiro">
             <div className={styles.imgContainer}>
               <Image
                 src="/eliasleiroObra.JPG"
@@ -54,8 +54,8 @@ export default function Artists() {
               <p>Elias Leiro</p>
 
             </div>
-          </a>
-          <a>
+          </Link>
+          <Link href="./facundoBelen">
             <div className={styles.imgContainer}>
               <Image
                 src="/facundobelenObra.jpg"
@@ -70,8 +70,8 @@ export default function Artists() {
               <p>Facundo Belen</p>
 
             </div>
-          </a>
-          <a>
+          </Link>
+          <Link href="./facundoLugea">
             <div className={styles.imgContainer}>
               <Image
                 src="/facundolugeaObra.jpg"
@@ -86,8 +86,8 @@ export default function Artists() {
               <p>Facundo Lugea</p>
 
             </div>
-          </a>
-          <a>
+          </Link>
+          <Link href="/fannyedithDiaz">
             <div className={styles.imgContainer}>
               <Image
                 src="/fannyedithdiazObra.jpg"
@@ -102,7 +102,7 @@ export default function Artists() {
               <p>Fanny Edith Diaz</p>
 
             </div>
-          </a>
+          </Link>
           <Link href="./alvaroGodoy">
             <div className={styles.imgContainer}>
               <Image
@@ -282,7 +282,7 @@ export default function Artists() {
         </div>
 
       </motion.div>
-      </main>
+    </main>
     );
   }
   
