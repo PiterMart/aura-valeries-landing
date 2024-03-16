@@ -103,7 +103,7 @@ export default function Artists() {
 
             </div>
           </Link>
-          <Link href="./alvaroGodoy">
+          <Link href="./francoPalioff">
             <div className={styles.imgContainer}>
               <Image
                 src="/francopalioffObra.jpg"
@@ -119,7 +119,7 @@ export default function Artists() {
 
             </div>
           </Link>
-          <Link href="./alvaroGodoy">
+          <Link href="./frenetikVoid">
             <div className={styles.imgContainer}>
               <Image
                 src="/frenetikvoidObra.png"
@@ -135,7 +135,7 @@ export default function Artists() {
 
             </div>
           </Link>
-          <Link href="./alvaroGodoy">
+          <Link href="./julietaprotoBoca">
             <div className={styles.imgContainer}>
               <Image
                 src="/julietaprotoObra.jpg"
@@ -151,7 +151,7 @@ export default function Artists() {
 
             </div>
           </Link>
-          <Link href="./alvaroGodoy">
+          <Link href="./leonardoSanchez">
             <div className={styles.imgContainer}>
               <Image
                 src="/leonardosanchezObra.jpg"
@@ -167,7 +167,7 @@ export default function Artists() {
 
             </div>
           </Link>
-          <Link href="./alvaroGodoy">
+          <Link href="./marcoPimentel">
             <div className={styles.imgContainer}>
               <Image
                 src="/marcopimentelObra.jpeg"
@@ -183,7 +183,7 @@ export default function Artists() {
 
             </div>
           </Link>
-          <Link href="./alvaroGodoy">
+          <Link href="./martusBallet">
             <div className={styles.imgContainer}>
               <Image
                 src="/marutsballetObra.png"
@@ -199,7 +199,7 @@ export default function Artists() {
 
             </div>
           </Link>
-          <Link href="./alvaroGodoy">
+          <Link href="./matiasTomas">
             <div className={styles.imgContainer}>
               <Image
                 src="/matiastomasObra.jpeg"
@@ -215,7 +215,7 @@ export default function Artists() {
 
             </div>
           </Link>
-          <Link href="./alvaroGodoy">
+          <Link href="./sofiaCastro">
             <div className={styles.imgContainer}>
               <Image
                 src="/sofiacastroObra.jpg"
@@ -231,7 +231,7 @@ export default function Artists() {
 
             </div>
           </Link>
-          <Link href="./alvaroGodoy">
+          <Link href="./tomoCabrera">
             <div className={styles.imgContainer}>
               <Image
                 src="/tomocabreraObra.jpg"
@@ -247,7 +247,7 @@ export default function Artists() {
 
             </div>
           </Link>
-          <Link href="./alvaroGodoy">
+          <Link href="./trinidadmetzBarra">
             <div className={styles.imgContainer}>
               <Image
                 src="/trinidametzbreaObra.jpg"
@@ -263,7 +263,7 @@ export default function Artists() {
 
             </div>
           </Link>
-          <Link href="./alvaroGodoy">
+          <Link href="./valentinaQuintero">
             <div className={styles.imgContainer}>
               <Image
                 src="/valentinaquinteroObra.jpg"
