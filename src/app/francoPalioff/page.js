@@ -92,42 +92,78 @@ export default function Artists() {
 
               </p>
             </div>
-            
             <div className={styles.artistSection} id="muestras">
+
+              <p className={styles.subtitle}>MUESTRAS INDIVIDUALES</p>
+
+              <p>
+              (2023) UIUIUI - Aura gallery, Buenos Aires.
+              <br></br>
+              (2022) FIRST HIT - Erratum Gallery, Berlin, Germany.
+              <br></br>
+              (2019) DECODE - Airez Gallery, Curitiba, Paraná, Brazil.
+              <br></br>
+              (2017) ARQUETIPOS - Museu de arte, CIC, Florianópolis, SC, Brazil.
+              <br></br>
+              (2016) MONTE - Nacasa, Florianópolis, Santa Catarina, Brazil.
+              </p>
+
+            </div>
+            
+            
+            <div className={styles.artistSection}>
 
               <p className={styles.subtitle}>MUESTRAS COLECTIVAS</p>
               
               <p>
-              (2023) UIUIUI - Aura gallery, Buenos Aires.
+              (2022) Esfingico Frontal - Mendes Wood Gallery, São Paulo, Brazil. 
               <br></br>
-              (2022) FIRST HIT - Erratum Gallery, Berlin, Germany.
+              (2022)Exhibition of 3D videos in process with funds from Ruanet in Brazil. 
               <br></br>
-              (2019) DECODE - Airez Gallery, Curitiba, Paraná, Brazil.
+              (2022) Open Studios Moos Vol 01 - Berlin, Germany.
               <br></br>
-              (2017) ARQUETIPOS - Museu de arte, CIC, Florianópolis, SC, Brazil.
+              (2022) Random Kingdom Vol 01 - Berlin, Germany.
               <br></br>
-              (2016) MONTE - Nacasa, Florianópolis, Santa Catarina, Brazil.
+              (2021) RIP HEN - Curated by Jesse Drexler, Switzerland.
+              <br></br>
+              (2021) Sameheads, solo show. Berlin, Germany.
+              <br></br>
+              (2021) Open studios GlogauAIR - Berlin, Germany.
+              <br></br>
+              (2021) Mid Fall Modied Dream, Erratum Gallery, Berlin, Germany
+              <br></br>
+              (2021) Platform 101 vol 03 - Teheran, Iran.
+              <br></br>
+              (2021) Open Studios Glogauair, Berlin, Germany.
+              <br></br>
+              (2020) São Paulo fashion week at Casa de Criadores, Plasma project
+              <br></br>
+              (2020) Algoritmia maquinica - Online - Galería O Sitio, Florianópolis, Brazil.
+              <br></br>
+              (2020) O amanhã chegou mais cedo. Curitiba, Brazil. link
+              <br></br>
+              (2020) Corpos Sintéticos - Synthetic bodies - Curitiba, Brazil.
+              <br></br>
+              (2020) 101 Platform exhibition - Tehran, Rasht, and Shiraz, Irán.
+              <br></br>
+              (2020) The Wrong exhibition  Laniakea  Curitiba, Paraná,Brazil.
+              <br></br>
+              (2019) Intimo/estranho - Galeria Lona, São Paulo, Brazil
+              <br></br>
+              (2019) Antes tarde Duke Nukem. Rio Janeiro, Brazil.
+              <br></br>
+              (2019) Redoma exhibitor at dierent events.
+              <br></br>
+              (2018) Conexão III exhibition - Centro Cultural Portão, Curitiba, Paraná.
+              <br></br>
+              (2017) Feira de Arte do Solar do Barão - Curitiba, Paraná, Brazil.
+              <br></br>
+              (2015) 7th entremostras - Fundação Badesc, Florianópolis, SC, Brazil.
+              <br></br>
+              (2015) 5th entremostras - Fundação Badesc, Florianópolis, SC, Brazil.
               </p>
 
             </div>
-            <div className={styles.artistSection} id="muestras">
-
-              <p className={styles.subtitle}>MUESTRAS COLECTIVAS</p>
-
-              <p>
-              (2023) UIUIUI - Aura gallery, Buenos Aires.
-              <br></br>
-              (2022) FIRST HIT - Erratum Gallery, Berlin, Germany.
-              <br></br>
-              (2019) DECODE - Airez Gallery, Curitiba, Paraná, Brazil.
-              <br></br>
-              (2017) ARQUETIPOS - Museu de arte, CIC, Florianópolis, SC, Brazil.
-              <br></br>
-              (2016) MONTE - Nacasa, Florianópolis, Santa Catarina, Brazil.
-              </p>
-
-            </div>
-            
             <div className={styles.artistSection} id="muestras">
 
               <p className={styles.subtitle}>COLABORACIONES</p>
@@ -151,7 +187,7 @@ export default function Artists() {
             <div className={styles.artistSection} id="redes">
 
               <p className={styles.subtitle}>REDES</p>
-              <a href="http://www.francopalioff.com/">Web</a>
+              <a href="http://www.francopalioff.com/" target="_blank">Web</a>
             </div>
           </div>
         </div>

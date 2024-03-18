@@ -137,25 +137,8 @@ export default function Artists() {
               </p>
 
             </div>
-            
+
             <div className={styles.artistSection} id="muestras">
-
-              <p className={styles.subtitle}>MUESTRAS COLECTIVAS</p>
-              
-              <p>
-              (2023) Casi Angeles, Galería Barro 
-              <br></br>
-              (2023) Twinks vs Dolls, Galeria Hipopoety 
-              <br></br>
-              (2018) Arte, Género y Política en Biblioteca San Martín, Mendoza
-              <br></br>
-              (2015 / 2017) Como ecos en la Bruma - muestra dúo junto a Maria Filomena Pierri / Pionera. 
-              <br></br>
-              </p>
-
-
-            </div>
-            <div className={styles.artistSection}>
 
               <p className={styles.subtitle}>MUESTRAS INDIVIDUALES</p>
 
@@ -176,6 +159,24 @@ export default function Artists() {
               </p>
 
             </div>
+            
+            <div className={styles.artistSection}>
+
+              <p className={styles.subtitle}>MUESTRAS COLECTIVAS</p>
+              
+              <p>
+              (2023) Casi Angeles, Galería Barro 
+              <br></br>
+              (2023) Twinks vs Dolls, Galeria Hipopoety 
+              <br></br>
+              (2018) Arte, Género y Política en Biblioteca San Martín, Mendoza
+              <br></br>
+              (2015 / 2017) Como ecos en la Bruma - muestra dúo junto a Maria Filomena Pierri / Pionera. 
+              <br></br>
+              </p>
+
+
+            </div>
             <div className={styles.artistSection}>
 
               <p className={styles.subtitle}>PREMIOS Y SALONES</p>
@@ -192,8 +193,8 @@ export default function Artists() {
             <div className={styles.artistSection} id="redes">
 
               <p className={styles.subtitle}>REDES</p>
-              <a href="valentinaquinteroart.tumblr.com">Tumblr</a>
-              <a href="https://instagram.com/holavalentine">Instagram</a>
+              <a href="valentinaquinteroart.tumblr.com" target="_blank">Tumblr</a>
+              <a href="https://instagram.com/holavalentine" target="_blank">Instagram</a>
             </div>
           </div>
         </div>

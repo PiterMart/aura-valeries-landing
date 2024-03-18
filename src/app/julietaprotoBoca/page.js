@@ -93,7 +93,7 @@ export default function Artists() {
               </p>
 
             </div>
-            <div className={styles.artistSection} id="muestras">
+            <div className={styles.artistSection} >
 
               <p className={styles.subtitle}>FORMACIÓN ESPECÍFICA</p>
 
@@ -119,8 +119,17 @@ export default function Artists() {
 
               </p>
             </div>
-            
             <div className={styles.artistSection} id="muestras">
+
+              <p className={styles.subtitle}>MUESTRAS INDIVIDUALES</p>
+
+              <p>
+              (2023) “Las Chicas C”, curada por Gimena Macri, Valerie’s en Barrakesh
+              </p>
+
+            </div>
+            
+            <div className={styles.artistSection}>
 
               <p className={styles.subtitle}>MUESTRAS COLECTIVAS</p>
               
@@ -135,15 +144,6 @@ export default function Artists() {
               </p>
 
             </div>
-            <div className={styles.artistSection} id="muestras">
-
-              <p className={styles.subtitle}>MUESTRAS INDIVIDUALES</p>
-
-              <p>
-              (2023) “Las Chicas C”, curada por Gimena Macri, Valerie’s en Barrakesh
-              </p>
-
-            </div>
             
             <div className={styles.artistSection} id="catalogo">
 
@@ -152,7 +152,7 @@ export default function Artists() {
             <div className={styles.artistSection} id="redes">
 
               <p className={styles.subtitle}>REDES</p>
-              <a href="https://www.instagram.com/julietaprotoboca/">Instagram</a>
+              <a href="https://www.instagram.com/julietaprotoboca/" target="_blank">Instagram</a>
             </div>
           </div>
         </div>

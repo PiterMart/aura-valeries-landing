@@ -191,9 +191,9 @@ export default function Artists() {
             <div className={styles.artistSection} id="redes">
 
               <p className={styles.subtitle}>REDES</p>
-              <a href="https://tcabrerac.com/">Web</a>
-              <a href="https://www.instagram.com/tcabrerac/">Instagram</a>
-              <a href="https://vimeo.com/user5369142">Vimeo</a>
+              <a href="https://tcabrerac.com/" target="_blank">Web</a>
+              <a href="https://www.instagram.com/tcabrerac/" target="_blank">Instagram</a>
+              <a href="https://vimeo.com/user5369142" target="_blank">Vimeo</a>
             </div>
           </div>
         </div>

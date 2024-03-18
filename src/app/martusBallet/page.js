@@ -87,8 +87,17 @@ export default function Artists() {
               Me motiva la búsqueda constante de nuevas formas de estética y de expresión, tratando de volcar en cada obra la naturaleza humana y alienada, propia y ajena en todos los sentidos. Intento describir de una forma visual tantos los mundos que me rodean como el universo psíquico. Algunas obras son absurdas, algunas fieles descripciones de la realidad y otras tienen un sentido crítico.
               </p>
             </div>
-            
             <div className={styles.artistSection} id="muestras">
+
+              <p className={styles.subtitle}>MUESTRAS INDIVIDUALES</p>
+
+              <p>
+              (2023) “Papa Urbano 1” Solo show at Aura Fábrica Galería - Buenos Aires
+              </p>
+
+            </div>
+            
+            <div className={styles.artistSection}>
 
               <p className={styles.subtitle}>MUESTRAS COLECTIVAS</p>
               
@@ -107,15 +116,6 @@ export default function Artists() {
               </p>
 
             </div>
-            <div className={styles.artistSection} >
-
-              <p className={styles.subtitle}>MUESTRAS INDIVIDUALES</p>
-
-              <p>
-              (2023) “Papa Urbano 1” Solo show at Aura Fábrica Galería - Buenos Aires
-              </p>
-
-            </div>
             
             <div className={styles.artistSection} id="catalogo">
 
@@ -124,7 +124,7 @@ export default function Artists() {
             <div className={styles.artistSection} id="redes">
 
               <p className={styles.subtitle}>REDES</p>
-              <a href="https://www.instagram.com/maruts_ballet/">Instagram</a>
+              <a href="https://www.instagram.com/maruts_ballet/" target="_blank">Instagram</a>
             </div>
           </div>
         </div>

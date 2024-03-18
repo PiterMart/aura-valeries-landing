@@ -92,6 +92,16 @@ export default function Artists() {
             
             <div className={styles.artistSection} id="muestras">
 
+              <p className={styles.subtitle}>MUESTRAS INDIVIDUALES</p>
+
+              <p>
+              (2022) “En el nombre de nadie” su primera muestra individual con curaduría de Nicolás Cuello en Valerie Galería. 
+              </p>
+
+            </div>
+            
+            <div className={styles.artistSection}>
+
               <p className={styles.subtitle}>MUESTRAS COLECTIVAS</p>
               
               <p>
@@ -103,16 +113,6 @@ export default function Artists() {
               </p>
 
             </div>
-            <div className={styles.artistSection}>
-
-              <p className={styles.subtitle}>MUESTRAS INDIVIDUALES</p>
-
-              <p>
-              (2022) “En el nombre de nadie” su primera muestra individual con curaduría de Nicolás Cuello en Valerie Galería. 
-              </p>
-
-            </div>
-            
             <div className={styles.artistSection} id="catalogo">
 
               <p className={styles.subtitle}>CATÁLOGO</p>
@@ -120,7 +120,7 @@ export default function Artists() {
             <div className={styles.artistSection} id="redes">
 
               <p className={styles.subtitle}>REDES</p>
-              <a href="https://cargocollective.com/LeonardoSanchez">Instagram</a>
+              <a href="https://cargocollective.com/LeonardoSanchez" target="_blank">Instagram</a>
             </div>
           </div>
         </div>

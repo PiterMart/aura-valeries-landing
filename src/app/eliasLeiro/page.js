@@ -86,7 +86,7 @@ export default function Artists() {
               </p>
 
             </motion.div>
-            <div className={styles.artistSection} id="muestras">
+            <div className={styles.artistSection}>
 
               <p className={styles.subtitle}>FORMACIÓN ACADÉMICA</p>
               
@@ -104,8 +104,17 @@ export default function Artists() {
 
               </p>
             </div>
-            
             <div className={styles.artistSection} id="muestras">
+
+              <p className={styles.subtitle}>MUESTRAS INDIVIDUALES</p>
+
+              <p>
+              (2023) “Normcore”, Valeries.
+              </p>
+
+            </div>
+            
+            <div className={styles.artistSection} >
 
               <p className={styles.subtitle}>MUESTRAS COLECTIVAS</p>
               
@@ -124,15 +133,6 @@ export default function Artists() {
               </p>
 
             </div>
-            <div className={styles.artistSection}>
-
-              <p className={styles.subtitle}>MUESTRAS INDIVIDUALES</p>
-
-              <p>
-              (2023) “Normcore”, Valeries.
-              </p>
-
-            </div>
             <div className={styles.artistSection} id="catalogo">
 
               <p className={styles.subtitle}>CATÁLOGO</p>
@@ -140,8 +140,8 @@ export default function Artists() {
             <div className={styles.artistSection} id="redes">
 
               <p className={styles.subtitle}>REDES</p>
-              <a href="https://instagram.com/eliasleiro">Instagram</a>
-              <a href="https://instagram.com/eliasleiro">Vimeo</a>
+              <a href="https://instagram.com/eliasleiro" target="_blank">Instagram</a>
+              <a href="https://vimeo.com/eliasleiro" target="_blank">Vimeo</a>
             </div>
           </div>
         </div>

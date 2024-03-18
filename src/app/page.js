@@ -16,7 +16,7 @@ export default function Home() {
         x: { duration: 0.25 }
       }}>
         <video autoPlay muted loop style={{ width: '100%', height: '100%', position: 'fixed', objectFit: 'cover', zIndex: '-1', display:
-        'block', right: '0', bottom: '0'}}>
+        'block', right: '0', bottom: '0', pointerEvents: 'none'}}>
         <source src="/auravaleries bloon heart0001_H.264_H.264.mp4" />
       </video>
       

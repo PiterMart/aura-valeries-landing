@@ -84,8 +84,19 @@ export default function Artists() {
               </p>
 
             </motion.div>
-
             <div className={styles.artistSection} id="muestras">
+
+              <p className={styles.subtitle}>MUESTRAS INDIVIDUALES</p>
+              
+              <p>
+              (2020) Sereno de mi Mente - C.h.e.L.A / Buenos Aires
+              <br></br>
+              (2020) Psipsi Koko junto a Julián Brangold - Aura / Buenos Aires
+              </p>
+
+            </div>
+
+            <div className={styles.artistSection}>
 
               <p className={styles.subtitle}>MUESTRAS COLECTIVAS</p>
               
@@ -118,17 +129,6 @@ export default function Artists() {
               </p>
 
             </div>
-            <div className={styles.artistSection} id="muestras">
-
-              <p className={styles.subtitle}>MUESTRAS INDIVIDUALES</p>
-              
-              <p>
-              (2020) Sereno de mi Mente - C.h.e.L.A / Buenos Aires
-              <br></br>
-              (2020) Psipsi Koko junto a Julián Brangold - Aura / Buenos Aires
-              </p>
-
-            </div>
             <div className={styles.artistSection} id="catalogo">
 
               <p className={styles.subtitle}>CATÁLOGO</p>
@@ -136,8 +136,8 @@ export default function Artists() {
             <div className={styles.artistSection} id="redes">
 
               <p className={styles.subtitle}>REDES</p>
-              <a href="http://Frenetikvoid.xyz">Web</a>
-              <a href="https://www.instagram.com/frenetikvoid/">Instagram</a>
+              <a href="http://Frenetikvoid.xyz" target="_blank">Web</a>
+              <a href="https://www.instagram.com/frenetikvoid/" target="_blank">Instagram</a>
             </div>
           </div>
         </div>

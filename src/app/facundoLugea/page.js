@@ -162,7 +162,7 @@ export default function Artists() {
             <div className={styles.artistSection} id="redes">
 
               <p className={styles.subtitle}>REDES</p>
-              <a href="https://cargocollective.com/facundojesuslugea">Cargo Collective</a>
+              <a href="https://cargocollective.com/facundojesuslugea" target="_blank">Cargo Collective</a>
             </div>
           </div>
         </div>

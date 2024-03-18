@@ -36,7 +36,7 @@ export default function Artists() {
               <ul>
                 <li><a href="#obra">Obra</a></li>
                 <li><a href="#bio">Biografía</a></li>
-                <li><a href="#statement">Statement</a></li>
+                {/* <li><a href="#statement">Statement</a></li> */}
                 <li><a href="#muestras">Muestras</a></li>
                 <li><a href="#catalogo">Catálogo</a></li>
                 <li><a href="#redes">Redes</a></li>
@@ -85,8 +85,22 @@ export default function Artists() {
               </p>
 
             </motion.div>
-            
+
             <div className={styles.artistSection} id="muestras">
+
+              <p className={styles.subtitle}>MUESTRAS INDIVIDUALES</p>
+
+              <p>
+              (2023) Ferales / Aura.
+              <br></br>
+              (2021) La Motherboard / Fundación El 
+              <br></br>
+              (2019) Nada que lastime / CPU. Palacio Barolo 
+              </p>
+
+            </div>
+            
+            <div className={styles.artistSection}>
 
               <p className={styles.subtitle}>MUESTRAS COLECTIVAS</p>
               
@@ -116,19 +130,6 @@ export default function Artists() {
               (2017)  Poiesis / Centro Cultural San Martin. 
               <br></br>
               (2017)  Intervención en Trimarchi / Auditorio MDQ. 
-              </p>
-
-            </div>
-            <div className={styles.artistSection}>
-
-              <p className={styles.subtitle}>MUESTRAS INDIVIDUALES</p>
-
-              <p>
-              (2023) Ferales / Aura.
-              <br></br>
-              (2021) La Motherboard / Fundación El 
-              <br></br>
-              (2019) Nada que lastime / CPU. Palacio Barolo 
               </p>
 
             </div>

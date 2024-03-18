@@ -131,7 +131,7 @@ export default function Artists() {
             <div className={styles.artistSection} id="redes">
 
               <p className={styles.subtitle}>REDES</p>
-              <a href="https://www.instagram.com/tartadezapallito/">Instagram</a>
+              <a href="https://www.instagram.com/tartadezapallito/" target="_blank">Instagram</a>
             </div>
           </div>
         </div>

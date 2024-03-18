@@ -39,7 +39,7 @@ export default function Artists() {
                 <li><a href="#statement">Statement</a></li>
                 <li><a href="#muestras">Muestras</a></li>
                 <li><a href="#catalogo">Catálogo</a></li>
-                <li><a href="#redes">Redes</a></li>
+                {/* <li><a href="#redes">Redes</a></li> */}
               </ul>
             </div>
 
@@ -116,10 +116,10 @@ export default function Artists() {
 
               <p className={styles.subtitle}>CATÁLOGO</p>
             </div>
-            <div className={styles.artistSection} id="redes">
+            {/* <div className={styles.artistSection} id="redes">
 
               <p className={styles.subtitle}>REDES</p>
-            </div>
+            </div> */}
           </div>
         </div>
 

@@ -111,9 +111,9 @@ export default function Artists() {
             <div className={styles.artistSection} id="redes">
 
               <p className={styles.subtitle}>REDES</p>
-              <a href="https://www.instagram.com/matiastomas2024/ ">Instagram</a>
-              <a href="https://matiastomas.tumblr.com ">Tumblr</a>
-              <a href="https://youtu.be/-WcdpWEczg0 ">Museo de Arte Moderno</a>
+              <a href="https://www.instagram.com/matiastomas2024/ " target="_blank">Instagram</a>
+              <a href="https://matiastomas.tumblr.com " target="_blank">Tumblr</a>
+              <a href="https://youtu.be/-WcdpWEczg0 " target="_blank">Museo de Arte Moderno</a>
             </div>
           </div>
         </div>

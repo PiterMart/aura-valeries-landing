@@ -86,7 +86,7 @@ export default function Artists() {
               </p>
 
             </motion.div>
-            <div className={styles.artistSection} id="muestras">
+            <div className={styles.artistSection}>
 
               <p className={styles.subtitle}>FORMACIÓN ACADÉMICA</p>
               
@@ -134,7 +134,7 @@ export default function Artists() {
             <div className={styles.artistSection} id="redes">
 
               <p className={styles.subtitle}>REDES</p>
-              <a href="https://www.instagram.com/sofiacastro_c/">Instagram</a>
+              <a href="https://www.instagram.com/sofiacastro_c/" target="_blank">Instagram</a>
             </div>
           </div>
         </div>

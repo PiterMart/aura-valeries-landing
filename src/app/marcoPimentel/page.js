@@ -127,8 +127,18 @@ export default function Artists() {
 
               </p>
             </div>
-            
+
             <div className={styles.artistSection} id="muestras">
+
+              <p className={styles.subtitle}>MUESTRAS INDIVIDUALES</p>
+
+              <p>
+              (2021) Apnea, curada por Maruki Nowacki. Fundación el mirador.
+              </p>
+
+            </div>
+            
+            <div className={styles.artistSection}>
 
               <p className={styles.subtitle}>MUESTRAS COLECTIVAS</p>
               
@@ -153,16 +163,7 @@ export default function Artists() {
               </p>
 
             </div>
-            <div className={styles.artistSection} >
-
-              <p className={styles.subtitle}>MUESTRAS INDIVIDUALES</p>
-
-              <p>
-              (2021) Apnea, curada por Maruki Nowacki. Fundación el mirador.
-              </p>
-
-            </div>
-            <div className={styles.artistSection} id="muestras">
+            <div className={styles.artistSection}>
 
               <p className={styles.subtitle}>RESIDENCIAS</p>
 
@@ -179,8 +180,8 @@ export default function Artists() {
             <div className={styles.artistSection} id="redes">
 
               <p className={styles.subtitle}>REDES</p>
-              <a href="https://www.instagram.com/marco_pimentel__/">Instagram</a>
-              <a href="https://www.artsy.net/artist/marco-pimentel">Web</a>
+              <a href="https://www.instagram.com/marco_pimentel__/" target="_blank">Instagram</a>
+              <a href="https://www.artsy.net/artist/marco-pimentel" target="_blank">Web</a>
             </div>
           </div>
         </div>
