@@ -77,7 +77,7 @@ export default function RootLayout({ children }) {
               Matias Tomas -
               Sofia Castro -
               Tomo Cabrera -
-              Trinidad Metz Brea
+              Trinidad Metz Brea -
               Valentina Quintero
               
 
