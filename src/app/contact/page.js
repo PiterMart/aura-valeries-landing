@@ -15,10 +15,6 @@ export default function Artists() {
         duration: 0.75,
         x: { duration: 0.25 }
       }}>
-        <video autoPlay muted loop style={{ width: '100%', height: '100%', position: 'fixed', objectFit: 'cover', zIndex: '-1', display:
-        'block', right: '0', bottom: '0' , pointerEvents: 'none'}}>
-          <source src="/auravaleries bloon heart0001_H.264_H.264.mp4" />
-        </video>
         <div className={styles.contact}>
           <div className={styles.contentSection} style={{border: '0px'}}>
 
@@ -37,7 +33,7 @@ export default function Artists() {
                   Jimena Nahuel Lusi
                 </p>
                 <p>
-                  Jimena@valeriesfactory.com
+                  jimena@valeriesfactory.com
                 </p>
               </div>
               <div className={styles.contactInfo}>
@@ -45,7 +41,7 @@ export default function Artists() {
                   Sandro Guevara
                 </p>
                 <p>
-                  Sandro@valeriesfactory.com
+                  sandro@valeriesfactory.com
                 </p>
               </div>
             </div>
@@ -75,6 +71,10 @@ export default function Artists() {
             </div>
           </div>
         </div>
+        <video autoPlay muted loop style={{ width: '100%', height: '100%', position: 'fixed', objectFit: 'cover', zIndex: '-1', display:
+        'block', right: '0', bottom: '0' , pointerEvents: 'none'}}>
+          <source src="/auravaleries bloon heart0001_H.264_H.264.mp4" />
+        </video>
       </motion.div>
       </main>
     );
