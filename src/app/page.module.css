@@ -226,7 +226,7 @@
   box-shadow: black;
   font-weight: 600;
   color: #F73939;
-  letter-spacing: 10px;
+  /* letter-spacing: 10px; */
 }
 
 .artistList ul{
