@@ -15,13 +15,6 @@ export default function Home() {
         duration: 0.75,
         x: { duration: 0.25 }
       }}>
-      
-      <Image
-          src="/testbloon.png"
-          layout="fill"
-          sizes="100vw"
-          style={{ zIndex: '-100', objectFit: 'cover' }}
-        />
 
       <div className={styles.center}>
 
