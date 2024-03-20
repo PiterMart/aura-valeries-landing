@@ -116,6 +116,7 @@ export default function Artists() {
             <div className={styles.artistSection} id="catalogo">
 
               <p className={styles.subtitle}>CATÁLOGO</p>
+              <a href="/LEO SANCHEZ.pdf" target="_blank">PDF</a>
             </div>
             <div className={styles.artistSection} id="redes">
 
