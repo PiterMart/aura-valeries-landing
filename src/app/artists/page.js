@@ -183,7 +183,7 @@ export default function Artists() {
 
             </div>
           </Link>
-          <Link href="./martusBallet">
+          <Link href="./vladimirmarutsBallet">
             <div className={styles.imgContainer}>
               <Image
                 src="/marutsballetObra.png"
@@ -195,7 +195,7 @@ export default function Artists() {
               />
             </div>
             <div className={styles.dataContainer}>
-              <p>Maruts Ballet</p>
+              <p> Vladimir Maruts Ballet</p>
 
             </div>
           </Link>

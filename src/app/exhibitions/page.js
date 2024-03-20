@@ -15,18 +15,18 @@ export default function Artists() {
         duration: 0.75,
         x: { duration: 0.25 }
         }}>
-        <div>
+        <div className={styles.exhibitions}>
           <h1 className={styles.title}>Exhibiciones</h1>
 
           <div className={styles.content}>
-          <p className={styles.subtitle}>Los Patitos Feos</p>
+            <p className={styles.subtitle}>Los Patitos Feos</p>
             <Image
-                src="/Flyer-Los Patitos Feos_6_1.jpg"
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{ width: '100%', height: 'auto', maxWidth: '500px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                alt="Picture of the author"
+                  src="/Flyer-Los Patitos Feos_6_1.jpg"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', height: 'auto', maxWidth: '500px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                  alt="Picture of the author"
             />
             <Image
               src="/Flyer-Los Patitos Feos_6_2.jpg"
@@ -36,12 +36,11 @@ export default function Artists() {
               style={{ width: '100%', height: 'auto', maxWidth: '500px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
               alt="Picture of the author"
             />
-
+          </div>
+          <div className={styles.content}>
+          <a href="/LOSPATITOSFEOS.pdf" target="_blank">PDF</a>
           </div>
         </div>
-        <video autoPlay muted loop playsInline style={{ width: '100%', height: '100%', position: 'fixed', objectFit: 'cover', zIndex: '-3', right: '0', bottom: '0' , pointerEvents: 'none'}}>
-          <source src="/auravaleries bloon heart0001_H.264_H.264.mp4" />
-        </video>
 
         </motion.div>
       </main>

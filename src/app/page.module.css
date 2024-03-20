@@ -143,6 +143,11 @@
   gap: 1rem;
 }
 
+.exhibitions{
+  display: flex;
+  flex-direction: column;
+}
+
 .title {
   font-weight: 400;
   font-size: 3rem;
@@ -303,6 +308,9 @@
   .content {
     padding: 4rem;
   }
+  .title{
+    text-align: center;
+  }
   .nav {
     padding: 0.5rem;
   }
@@ -437,7 +445,8 @@
     margin-top: 5rem;
   }
   .artistNav {
-    left: 2rem;
+    left: 4rem;
+    width: 10rem;
   }
   .contentSection{
     display: flex;
