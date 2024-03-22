@@ -38,7 +38,7 @@ export default function Artists() {
             />
           </div>
           <div className={styles.content}>
-          <a href="/LOSPATITOSFEOS.pdf" target="_blank">PDF</a>
+          <a href="/LosPatitosFeos.pdf" target="_blank">PDF</a>
           </div>
         </div>
 
