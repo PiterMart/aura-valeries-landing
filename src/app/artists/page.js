@@ -15,10 +15,10 @@ export default function Artists() {
         duration: 0.75,
         x: { duration: 0.25 }
         }}>
-        <video autoPlay muted loop playsInline style={{ width: '100%', height: '100%', position: 'fixed', objectFit: 'cover', zIndex: '-1', display:
+        {/* <video autoPlay muted loop playsInline style={{ width: '100%', height: '100%', position: 'fixed', objectFit: 'cover', zIndex: '-1', display:
         'block', right: '0', bottom: '0'}}>
         <source src="/auravaleries bloon heart0001_H.264_H.264.mp4" />
-        </video>
+        </video> */}
         <div>
           <h1 className={styles.title}>Artistas</h1>
         </div>
@@ -42,7 +42,7 @@ export default function Artists() {
           <Link href="./eliasLeiro">
             <div className={styles.imgContainer}>
               <Image
-                src="/eliasleiroObra.JPG"
+                src="/eliasT.png"
                 width={0}
                 height={0}
                 sizes="100vw"

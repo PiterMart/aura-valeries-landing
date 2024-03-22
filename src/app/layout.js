@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Valeries Factory",
-  description: "",
+  description: "Valerie es una galería fundada en 2001 e instalada en Villa Crespo, una fábrica que aloja la práctica de todxs los artistas y hacedores de la galería. Nos llamamos así en tributo a Valerie Solanas, para traerla como pregunta, ¿qué hubiese sido de la historia del arte, del pop, si ella hubiese tenido su propia Factory?",
 };
 
 export default function RootLayout({ children }) {
