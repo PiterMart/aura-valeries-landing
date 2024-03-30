@@ -23,6 +23,50 @@
   margin-top: 5rem;
   flex-wrap: wrap;
 }
+.container{
+  width: 100%;
+  margin: auto;
+  align-self: center;
+  align-content: center;
+  display: flex;
+  border-top: solid 1px;
+  margin-top: 5rem;
+}
+
+.exhibitions{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  gap: 1rem;
+  line-height: 1.5rem;
+  justify-content: space-between;
+  float: left;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+}
+
+.current_exhibition{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  gap: 1rem;
+  line-height: 1.5rem;
+  justify-content: space-between;
+  float: left;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+}
+
+.exhibition_info{
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  margin: auto;
+  margin-right: 3rem;
+}
+.exhibition_text{
+  padding-left: 1rem;
+}
 
 .nav {
   display: flex;
@@ -143,11 +187,6 @@
   gap: 1rem;
 }
 
-.exhibitions{
-  display: flex;
-  flex-direction: column;
-}
-
 .title {
   font-weight: 400;
   font-size: 3rem;
@@ -155,7 +194,9 @@
   font-family: "Parisienne", cursive;
   font-weight: 400;
   font-style: normal;
-  text-align: center;
+  text-align: left;
+  line-height: 3rem;
+  margin-bottom: 2rem;
 }
 .subtitle{
   font-weight: 500;
@@ -309,8 +350,18 @@
   .content {
     padding: 4rem;
   }
+  .exhibitions {
+    padding: 1rem;
+  }
+  .current_exhibition {
+    padding: 1rem;
+  }
+  .exhibition_info{
+    margin-right: 0;
+    margin-left: 0;
+  }
   .title{
-    text-align: center;
+    text-align: left;
   }
   .nav {
     padding: 0.5rem;
@@ -444,6 +495,21 @@
     width: 100%;
     margin: auto;
     margin-top: 5rem;
+  }
+  .exhibitions{
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  .current_exhibition{
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  .exhibition_info{
+    margin: auto;
   }
   .artistNav {
     left: 4rem;

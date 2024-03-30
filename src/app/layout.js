@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
         {children}
 
         <div className={styles.footer}>
-          <p className={styles.title}>Manifesto</p>
+          <p className={styles.title} style={{textAlign: 'center'}}>Manifesto</p>
 
           <div className={styles.contentSection} style={{borderTop: '0px solid #ffffff', marginTop: '1rem'}}>
             <p>
