@@ -373,6 +373,7 @@
   .exhibition_info{
     margin-right: 0;
     margin-left: 0;
+    gap: 0.5rem;
   }
   .imageContainer{
     display: flex;
@@ -425,11 +426,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 3rem;
-    margin-top: 5rem;
+    gap: 1rem;
+    margin-top: 2rem;
     padding-top: 2rem;
     border-top: 1px solid #000000;
     width: 20rem;
+    align-items: center;
   }
 
   .grid {

@@ -30,97 +30,16 @@ export default function Artists() {
               </div>
               <div className={styles.imageContainer}>
                 <Image
-                      src="/Flyer-Los Patitos Feos_6_1.jpg"
+                      src="/exhibiciones/losPatitosFeos.jpg"
                       width={0}
                       height={0}
                       sizes="100vw"
                       style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
                       alt="Picture of the author"
                 />
-                <Image
-                  src="/Flyer-Los Patitos Feos_6_2.jpg"
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                  alt="Picture of the author"
-                />
-
               </div>
               
             </div>
-          </div>
-          
-          <div className={styles.container}>
-            <div className={styles.exhibitions}>
-              <div className={styles.exhibition_info}>
-                <p className={styles.title}>Utopía</p>
-                <p className={styles.subtitle}>Arte BA</p>
-                <p className={styles.subtitle}>Artistas</p>
-                <p className={styles.exhibition_text}>Sofi Castro / Valentina Quintero / Leonardo Sanchez  / Tomo Cabrera / Fanny Díaz / Julieta Proto / Matías Tomás / Elias Leiro </p>
-                <p className={styles.subtitle}>Buenos Aires / 2023</p>
-              </div>
-              <div className={styles.imageContainer}></div>
-            </div>
-            
-          </div>
-          <div className={styles.container}>
-            <div className={styles.exhibitions}>
-              <div className={styles.exhibition_info}>
-                <p className={styles.title}>Las Chicas C.</p>
-                <p className={styles.subtitle}>Barrakesh</p>
-                <p className={styles.subtitle}>Artista</p>
-                <p className={styles.exhibition_text}>Julieta Proto</p>
-                <p className={styles.subtitle}>Curaduría</p>
-                <p className={styles.exhibition_text}>Gimena Macri</p>
-                <p className={styles.subtitle}>Buenos Aires / 2023</p>
-              </div>
-              <div className={styles.imageContainer}>
-                <Image
-                      src="/exhibiciones/lasChicasC.jpg"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                      alt="Picture of the author"
-                />
-                <Image
-                  src="/exhibiciones/lasChicasC2.jpg"
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                  alt="Picture of the author"
-                />
-                <Image
-                  src="/exhibiciones/lasChicasC3.jpg"
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                  alt="Picture of the author"
-                />
-
-              </div>
-            </div>
-
-          </div>
-
-          <div className={styles.container}>
-            <div className={styles.exhibitions}>
-              <div className={styles.exhibition_info}>
-              <p className={styles.title}>Novias</p>
-              <p className={styles.subtitle}>Barrakesh</p>
-              <p className={styles.subtitle}>Artistas</p>
-              <p className={styles.exhibition_text}>Adrian Quiroz / Ana Vallejo / Archivo de la Memoria Trans / Bett Pavetti / Carlos Cima / Dana Balajovsky / Dana Vitorino / Fanny Díaz / Foto Estudio Luisita / GagBall / Julia Sbriller / Karina Acosta / Kasa Loka / Leo Sanchez / Marisol Mendez / Mariana Papagni / Óscar Sánchez Gómez / Rafaelly (La Conga Rosa) / Rocío Englender / Thales Pessoa</p>
-              <p className={styles.subtitle}>Curaduría</p>
-              <p className={styles.exhibition_text}>Luis Juárez / Jimena Lusis </p>
-              <p className={styles.subtitle}>Buenos Aires / 2023</p>
-              <p className={styles.subtitle}>Valeries x Balam</p>
-              </div>
-              <div className={styles.imageContainer}></div>
-            </div>
-            
           </div>
 
           <div className={styles.container}>
@@ -336,14 +255,37 @@ export default function Artists() {
               </div>
             </div>
           </div>
+          
           <div className={styles.container}>
             <div className={styles.exhibitions}>
               <div className={styles.exhibition_info}>
-                <p className={styles.title}>Arte Ba</p>
-                <p className={styles.subtitle}>Utopía</p>
+                <p className={styles.title}>Utopía</p>
+                <p className={styles.subtitle}>Arte BA</p>
+                <p className={styles.subtitle}>Artistas</p>
+                <p className={styles.exhibition_text}>Sofi Castro / Valentina Quintero / Leonardo Sanchez  / Tomo Cabrera / Fanny Díaz / Julieta Proto / Matías Tomás / Elias Leiro </p>
+                <p className={styles.subtitle}>Buenos Aires / 2023</p>
+              </div>
+              <div className={styles.imageContainer}>
+              <Image
+                  src="/exhibiciones/arteBA2023VALERIES.jpg"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                  alt="Picture of the author"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.container}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
+                <p className={styles.title}>Utopía</p>
+                <p className={styles.subtitle}>Arte Ba</p>
                 <p className={styles.subtitle}>Artistas</p>
                 <p className={styles.exhibition_text}>Aun Helden / Enco / Eva Moro Cafiero / Facundo Jesus Luega / Franco Pailoff / Frenetik Void / Juan Pablo Ferlat / Lila Llunez / Orkgotik / Trinidad Metz Brea</p>
-                <p className={styles.subtitle}>Argentina - 2023</p>
+                <p className={styles.subtitle}>Buenos Aires - 2023</p>
                 <p className={styles.subtitle}>Aura VTV</p>
               </div>
               <div className={styles.imageContainer}>
@@ -372,8 +314,7 @@ export default function Artists() {
                   alt="Picture of the author"
                 />
                 
-              </div>
-              
+              </div>              
             </div>
           </div>
 
@@ -422,6 +363,47 @@ export default function Artists() {
           <div className={styles.container}>
             <div className={styles.exhibitions}>
               <div className={styles.exhibition_info}>
+                <p className={styles.title}>Las Chicas C.</p>
+                <p className={styles.subtitle}>Barrakesh</p>
+                <p className={styles.subtitle}>Artista</p>
+                <p className={styles.exhibition_text}>Julieta Proto</p>
+                <p className={styles.subtitle}>Curaduría</p>
+                <p className={styles.exhibition_text}>Gimena Macri</p>
+                <p className={styles.subtitle}>Buenos Aires / 2023</p>
+              </div>
+              <div className={styles.imageContainer}>
+                <Image
+                      src="/exhibiciones/lasChicasC.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="Picture of the author"
+                />
+                <Image
+                  src="/exhibiciones/lasChicasC2.jpg"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                  alt="Picture of the author"
+                />
+                <Image
+                  src="/exhibiciones/lasChicasC3.jpg"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                  alt="Picture of the author"
+                />
+
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.container}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
                 <p className={styles.title}>Uiuiui</p>
                 <p className={styles.subtitle}>Aura</p>
                 <p className={styles.subtitle}>Artista</p>
@@ -457,8 +439,24 @@ export default function Artists() {
                 />
 
               </div>
-              
             </div>
+          </div>
+
+          <div className={styles.container}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
+              <p className={styles.title}>Novias</p>
+              <p className={styles.subtitle}>Barrakesh</p>
+              <p className={styles.subtitle}>Artistas</p>
+              <p className={styles.exhibition_text}>Adrian Quiroz / Ana Vallejo / Archivo de la Memoria Trans / Bett Pavetti / Carlos Cima / Dana Balajovsky / Dana Vitorino / Fanny Díaz / Foto Estudio Luisita / GagBall / Julia Sbriller / Karina Acosta / Kasa Loka / Leo Sanchez / Marisol Mendez / Mariana Papagni / Óscar Sánchez Gómez / Rafaelly (La Conga Rosa) / Rocío Englender / Thales Pessoa</p>
+              <p className={styles.subtitle}>Curaduría</p>
+              <p className={styles.exhibition_text}>Luis Juárez / Jimena Lusis </p>
+              <p className={styles.subtitle}>Buenos Aires / 2023</p>
+              <p className={styles.subtitle}>Valeries x Balam</p>
+              </div>
+              <div className={styles.imageContainer}></div>
+            </div>
+            
           </div>
 
           <div className={styles.container}>
@@ -527,7 +525,24 @@ export default function Artists() {
                 <p className={styles.exhibition_text}>Enco Desgem / Aun Helden</p>
                 <p className={styles.subtitle}>Brazil / 2022</p>
               </div>
-              <div className={styles.imageContainer}></div>
+              <div className={styles.imageContainer}>
+                <Image
+                    src="/exhibiciones/SP.jpeg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                    alt="Picture of the author"
+                  />
+                  <Image
+                    src="/exhibiciones/SP2.jpg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                    alt="Picture of the author"
+                  />
+              </div>
             </div>
           </div>
         

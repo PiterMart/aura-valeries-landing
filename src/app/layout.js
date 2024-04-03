@@ -63,21 +63,21 @@ export default function RootLayout({ children }) {
               Artistas representados
             </p>
             <p>
-              Alvaro Godoy -
-              Elias Leiro -
-              Facundo Belen -
-              Facundo Jesus Lugea -
-              Fanny Diaz -
-              Franco Palioff -
-              Frenetik Void -
-              Julieta Proto Boca -
-              Leonardo Sanchez -
-              Marco Pimentel -
-              Vladimir Maruts Ballet -
-              Matias Tomas -
-              Sofia Castro -
-              Tomo Cabrera -
-              Trinidad Metz Brea -
+              Alvaro Godoy /
+              Elias Leiro /
+              Facundo Belen /
+              Facundo Jesus Lugea /
+              Fanny Diaz /
+              Franco Palioff /
+              Frenetik Void /
+              Julieta Proto Boca /
+              Leonardo Sanchez /
+              Marco Pimentel /
+              Vladimir Maruts Ballet /
+              Matias Tomas /
+              Sofia Castro /
+              Tomo Cabrera /
+              Trinidad Metz Brea /
               Valentina Quintero
               
 
@@ -89,16 +89,21 @@ export default function RootLayout({ children }) {
             </p>
             <a href="https://www.instagram.com/valeries_factory/">Instagram</a>
           </div>
-          <Link href="/">
-          <Image
-                  src="/valeriesLogoWhite.png"
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: 'auto', maxWidth: '15rem', paddingTop: '5rem' }}
-                  alt="Picture of the author"
-          />
-          </Link>
+          <div className={styles.contentSection} style={{borderTop: '1px solid #ffffff'}}>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.4908106012235!2d-58.4446443!3d-34.5917485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb56bc74fc40d%3A0xde01271c180d65!2sValerie&#39;s%20Factory!5e0!3m2!1ses-419!2sar!4v1712180399625!5m2!1ses-419!2sar" style={{border: '0', filter: 'grayscale(100%)', marginTop: '5rem'}}width="240" height="135" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <Link href="/">
+            <Image
+                    src="/valeriesLogoWhite.png"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto', maxWidth: '15rem', paddingTop: '5rem' }}
+                    alt="Picture of the author"
+            />
+            </Link>
+          </div>
+          
         </div>
         </body>
     </html>
