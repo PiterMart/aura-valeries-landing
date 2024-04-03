@@ -43,7 +43,7 @@
   float: left;
   margin-top: 5rem;
   flex-wrap: wrap;
-  margin-left: 10rem;
+  margin-left: 0rem;
 }
 
 .current_exhibition{
@@ -63,7 +63,7 @@
   flex-wrap: wrap;
   gap: 1rem;
   flex-direction: column;
-  border-left: solid 1px gray;
+  /* border-left: solid 1px gray; */
   padding-left: 10rem;
 }
 
@@ -71,7 +71,7 @@
   display: flex;
   flex-direction: column;
   width: 20rem;
-  margin-left: 10rem;
+  margin-left: 1rem;
 }
 .exhibition_text{
   padding-left: 1rem;
