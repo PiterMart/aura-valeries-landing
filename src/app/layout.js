@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
 
           <div className={styles.contentSection} style={{borderTop: '0px solid #ffffff', marginTop: '1rem'}}>
             <p>
-            Valerie es una galería de arte contemporáneo dirigida por Jimena Lusi, Xul Jan y Sandro Guevara. Es un espacio de cruce de lenguajes teniendo como núcleo las artes visuales, que pondera el trabajo colaborativo entre artistas, diseñadores, músicos, curadores y gestores. Nos excitan los desafíos y los artistas apasionados, la moda y el futuro, las obras que  auguran ese espíritu que ama los días de sol, las girl-girls, las boy-girls, los girl-boys y los boy-boys. El punk, la contracultura, el decolonialismo y la rebelión juvenil; es nuestra utopía que tiene objetivos múltiples
+            Valerie es una galería de arte contemporáneo dirigida por Jimena Nahuel Lusi, Xul Jan y Sandro Guevara. Es un espacio de cruce de lenguajes teniendo como núcleo las artes visuales, que pondera el trabajo colaborativo entre artistas, diseñadores, músicos, curadores y gestores. Nos excitan los desafíos y los artistas apasionados, la moda y el futuro, las obras que  auguran ese espíritu que ama los días de sol, las girl-girls, las boy-girls, los girl-boys y los boy-boys. El punk, la contracultura, el decolonialismo y la rebelión juvenil; es nuestra utopía que tiene objetivos múltiples
             es proyectar una imagen de potencialidad y posibilidad
             en nombre de otro tiempo y otro lugar, socavando el tejido de la realidad.
             Una imagen intermedial del futuro,
