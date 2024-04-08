@@ -82,7 +82,7 @@
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 500;
   width: 100%;
   z-index: 1;
@@ -389,6 +389,7 @@
   }
   .nav {
     padding: 0.5rem;
+    font-size: 1.5rem;
   }
   .logo {
     position: fixed;

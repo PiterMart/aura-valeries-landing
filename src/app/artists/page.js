@@ -27,10 +27,10 @@ export default function Artists() {
                 alt="Picture of the author"
               />
             </div>
-            {/* <div className={styles.dataContainer}>
+            <div className={styles.dataContainer}>
               <p>Alvaro Godoy</p>
 
-            </div> */}
+            </div>
           </Link>
           <Link href="./eliasLeiro">
             <div className={styles.imgContainer}>
@@ -43,10 +43,10 @@ export default function Artists() {
                 alt="Picture of the author"
               />
             </div>
-            {/* <div className={styles.dataContainer}>
+            <div className={styles.dataContainer}>
               <p>Elias Leiro</p>
 
-            </div> */}
+            </div>
           </Link>
           <Link href="./facundoBelen">
             <div className={styles.imgContainer}>
@@ -59,10 +59,10 @@ export default function Artists() {
                 alt="Picture of the author"
               />
             </div>
-            {/* <div className={styles.dataContainer}>
+            <div className={styles.dataContainer}>
               <p>Facundo Belen</p>
 
-            </div> */}
+            </div>
           </Link>
           <Link href="./facundoLugea">
             <div className={styles.imgContainer}>
@@ -75,10 +75,10 @@ export default function Artists() {
                 alt="Picture of the author"
               />
             </div>
-            {/* <div className={styles.dataContainer}>
+            <div className={styles.dataContainer}>
               <p>Facundo Lugea</p>
 
-            </div> */}
+            </div>
           </Link>
           <Link href="/fannyedithDiaz">
             <div className={styles.imgContainer}>
@@ -91,10 +91,10 @@ export default function Artists() {
                 alt="Picture of the author"
               />
             </div>
-            {/* <div className={styles.dataContainer}>
+            <div className={styles.dataContainer}>
               <p>Fanny Edith Diaz</p>
 
-            </div> */}
+            </div>
           </Link>
           <Link href="./francoPalioff">
             <div className={styles.imgContainer}>
@@ -107,10 +107,10 @@ export default function Artists() {
                 alt="Picture of the author"
               />
             </div>
-            {/* <div className={styles.dataContainer}>
+            <div className={styles.dataContainer}>
               <p>Franco Palioff</p>
 
-            </div> */}
+            </div>
           </Link>
           <Link href="./frenetikVoid">
             <div className={styles.imgContainer}>
@@ -123,10 +123,10 @@ export default function Artists() {
                 alt="Picture of the author"
               />
             </div>
-            {/* <div className={styles.dataContainer}>
+            <div className={styles.dataContainer}>
               <p>Frenetik Void</p>
 
-            </div> */}
+            </div>
           </Link>
           <Link href="./julietaprotoBoca">
             <div className={styles.imgContainer}>
@@ -139,10 +139,10 @@ export default function Artists() {
                 alt="Picture of the author"
               />
             </div>
-            {/* <div className={styles.dataContainer}>
+            <div className={styles.dataContainer}>
               <p>Julieta Proto Boca</p>
 
-            </div> */}
+            </div>
           </Link>
           <Link href="./leonardoSanchez">
             <div className={styles.imgContainer}>
@@ -155,10 +155,10 @@ export default function Artists() {
                 alt="Picture of the author"
               />
             </div>
-            {/* <div className={styles.dataContainer}>
+            <div className={styles.dataContainer}>
               <p>Leonardo Sanchez</p>
 
-            </div> */}
+            </div>
           </Link>
           <Link href="./marcoPimentel">
             <div className={styles.imgContainer}>
@@ -171,10 +171,10 @@ export default function Artists() {
                 alt="Picture of the author"
               />
             </div>
-            {/* <div className={styles.dataContainer}>
+            <div className={styles.dataContainer}>
               <p>Marco Pimentel</p>
 
-            </div> */}
+            </div>
           </Link>
           <Link href="./vladimirmarutsBallet">
             <div className={styles.imgContainer}>
@@ -187,10 +187,10 @@ export default function Artists() {
                 alt="Picture of the author"
               />
             </div>
-            {/* <div className={styles.dataContainer}>
+            <div className={styles.dataContainer}>
               <p> Vladimir Maruts Ballet</p>
 
-            </div> */}
+            </div>
           </Link>
           <Link href="./matiasTomas">
             <div className={styles.imgContainer}>
@@ -203,10 +203,10 @@ export default function Artists() {
                 alt="Picture of the author"
               />
             </div>
-            {/* <div className={styles.dataContainer}>
+            <div className={styles.dataContainer}>
               <p>Matias Tomas</p>
 
-            </div> */}
+            </div>
           </Link>
           <Link href="./sofiaCastro">
             <div className={styles.imgContainer}>
@@ -219,10 +219,10 @@ export default function Artists() {
                 alt="Picture of the author"
               />
             </div>
-            {/* <div className={styles.dataContainer}>
+            <div className={styles.dataContainer}>
               <p>Sofia Castro</p>
 
-            </div> */}
+            </div>
           </Link>
           <Link href="./tomoCabrera">
             <div className={styles.imgContainer}>
@@ -235,10 +235,10 @@ export default function Artists() {
                 alt="Picture of the author"
               />
             </div>
-            {/* <div className={styles.dataContainer}>
+            <div className={styles.dataContainer}>
               <p>Tomo Cabrera</p>
 
-            </div> */}
+            </div>
           </Link>
           <Link href="./trinidadmetzBarra">
             <div className={styles.imgContainer}>
@@ -251,10 +251,10 @@ export default function Artists() {
                 alt="Picture of the author"
               />
             </div>
-            {/* <div className={styles.dataContainer}>
+            <div className={styles.dataContainer}>
               <p>Trinidad Metz Brea</p>
 
-            </div> */}
+            </div>
           </Link>
           <Link href="./valentinaQuintero">
             <div className={styles.imgContainer}>
@@ -267,10 +267,10 @@ export default function Artists() {
                 alt="Picture of the author"
               />
             </div>
-            {/* <div className={styles.dataContainer}>
+            <div className={styles.dataContainer}>
               <p>Valentina Quintero</p>
 
-            </div> */}
+            </div>
           </Link>
         </div>
       </motion.div>

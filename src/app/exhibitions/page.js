@@ -221,7 +221,7 @@ export default function Artists() {
                 <p className={styles.title}>Amniótica</p>
                 <p className={styles.subtitle}>Aura</p>
                 <p className={styles.subtitle}>Artista</p>
-                <p className={styles.exhibition_text}>Fausto Valientet</p>
+                <p className={styles.exhibition_text}>Fausto Valiente</p>
                 <p className={styles.subtitle}>Texto</p>
                 <p className={styles.exhibition_text}>Renata Molinari</p>
                 <p className={styles.subtitle}>Argentina / 2023</p>
@@ -450,7 +450,7 @@ export default function Artists() {
               <p className={styles.subtitle}>Artistas</p>
               <p className={styles.exhibition_text}>Adrian Quiroz / Ana Vallejo / Archivo de la Memoria Trans / Bett Pavetti / Carlos Cima / Dana Balajovsky / Dana Vitorino / Fanny Díaz / Foto Estudio Luisita / GagBall / Julia Sbriller / Karina Acosta / Kasa Loka / Leo Sanchez / Marisol Mendez / Mariana Papagni / Óscar Sánchez Gómez / Rafaelly (La Conga Rosa) / Rocío Englender / Thales Pessoa</p>
               <p className={styles.subtitle}>Curaduría</p>
-              <p className={styles.exhibition_text}>Luis Juárez / Jimena Lusis </p>
+              <p className={styles.exhibition_text}>Luis Juárez / Jimena Lusi </p>
               <p className={styles.subtitle}>Buenos Aires / 2023</p>
               <p className={styles.subtitle}>Valeries x Balam</p>
               </div>
@@ -492,7 +492,7 @@ export default function Artists() {
             
           </div>
 
-          <div className={styles.container}>
+          {/* <div className={styles.container}>
             <div className={styles.exhibitions}>
               <div className={styles.exhibition_info}>
                 <p className={styles.title}>Magma Futura</p>
@@ -503,7 +503,7 @@ export default function Artists() {
               </div>
               <div className={styles.imageContainer}></div>
             </div>
-          </div>
+          </div> */}
 
         
 
