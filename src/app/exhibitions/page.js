@@ -266,14 +266,24 @@ export default function Artists() {
                 <p className={styles.subtitle}>Buenos Aires / 2023</p>
               </div>
               <div className={styles.imageContainer}>
-              <Image
-                  src="/exhibiciones/arteBA2023VALERIES.jpg"
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                  alt="Picture of the author"
-                />
+                <Image
+                    src="/exhibiciones/ARTEBA2022 (1).jpg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                    alt="Picture of the author"
+                  />
+              </div>
+              <div className={styles.imageContainer}>
+                <Image
+                    src="/exhibiciones/ARTEBA2022 (2).jpg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                    alt="Picture of the author"
+                  />
               </div>
             </div>
           </div>

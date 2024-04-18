@@ -89,9 +89,9 @@ export default function Artists() {
               <p className={styles.subtitle}>MUESTRAS INDIVIDUALES</p>
               
               <p>
-              (2020) Sereno de mi Mente - C.h.e.L.A / Buenos Aires
+              (2023) Sereno de mi Mente - C.h.e.L.A / Buenos Aires
               <br></br>
-              (2020) Psipsi Koko junto a Julián Brangold - Aura / Buenos Aires
+              (2023) Psipsi Koko junto a Julián Brangold - Aura / Buenos Aires
               </p>
 
             </div>

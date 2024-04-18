@@ -36,7 +36,6 @@ export default function Artists() {
               <ul>
                 <li><a href="#obra">Obra</a></li>
                 <li><a href="#bio">Biografía</a></li>
-                <li><a href="#statement">Statement</a></li>
                 <li><a href="#muestras">Muestras</a></li>
                 <li><a href="#catalogo">Catálogo</a></li>
                 <li><a href="#redes">Redes</a></li>
@@ -84,14 +83,6 @@ export default function Artists() {
               </p>
 
             </motion.div>
-            <div className={styles.artistSection} id="statement">
-              <p className={styles.subtitle}>STATEMENT</p>
-              <p>
-              Reconozco una fuerza tremenda que me invade, mi deseo e interés con los materiales es inquieto, las ideas se pueden contar de diferentes maneras y es en esa diversidad que me gusta materializar mi obra. Pinturas, dibujos, textiles y esculturas conviven en mi taller, se animan entre ellos. Hay en mis piezas hay una particular preocupación por el material como articulador de imágenes. El tejido que estas forman dejan a descubierto una preocupación sobre la vitalidad: sobre lo que significa tener vida, tener pasiones. Considero que la práctica artística es una oportunidad para actuar en el estar bien, sin importar lo que nos sucede o las acciones de las otras personas. Mi obra es un ensayo sobre la tranquilidad del ánimo, la ausencia de miedos y la libertad. 
-
-
-              </p>
-            </div>
             <div className={styles.artistSection} id="muestras">
 
               <p className={styles.subtitle}>MUESTRAS INDIVIDUALES</p>
