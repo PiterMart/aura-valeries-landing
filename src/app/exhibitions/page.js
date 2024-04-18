@@ -274,9 +274,7 @@ export default function Artists() {
                     style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
                     alt="Picture of the author"
                   />
-              </div>
-              <div className={styles.imageContainer}>
-                <Image
+                  <Image
                     src="/exhibiciones/ARTEBA2022 (2).jpg"
                     width={0}
                     height={0}
