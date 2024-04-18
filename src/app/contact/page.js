@@ -25,7 +25,9 @@ export default function Artists() {
                   Xul Jan
                 </p>
                 <p>
-                  xul@valeriesfactory.com
+                  <a href="mailto:xul@valeriesfactory.com">
+                    xul@valeriesfactory.com
+                  </a>
                 </p>
               </div>
               <div className={styles.contactInfo}>
@@ -33,15 +35,9 @@ export default function Artists() {
                   Jimena Nahuel Lusi
                 </p>
                 <p>
-                  jimena@valeriesfactory.com
-                </p>
-              </div>
-              <div className={styles.contactInfo}>
-                <p className={styles.subtitle}>
-                  Sandro Guevara
-                </p>
-                <p>
-                  sandro@valeriesfactory.com
+                  <a href="mailto:jimena@valeriesfactory.com">
+                    jimena@valeriesfactory.com
+                  </a>
                 </p>
               </div>
             </div>
@@ -54,22 +50,26 @@ export default function Artists() {
                 Lucia Ranzuglia
               </p>
               <p>
-                lucia@valeriesfactory.com
+                <a href="mailto:lucia@valeriesfactory.com">
+                  lucia@valeriesfactory.com
+                </a>
               </p>
             </div>
           </div>
-          {/* <div className={styles.contentSection}>
+          <div className={styles.contentSection}>
 
-            <p className={styles.subtitle}>COMUNICACIÓN</p>
+            <p className={styles.subtitle}>PRODUCCIÓN EJECUTIVA</p>
             <div className={styles.contactInfo}>
-              <p className={styles.subtitle}>
-                Danila Nieto
-              </p>
-              <p>
-                desiree@valeriesfactory.com
-              </p>
-            </div>
-          </div> */}
+                <p className={styles.subtitle}>
+                  Sandro Guevara
+                </p>
+                <p>
+                  <a href="mailto:sandro@valeriesfactory.com">
+                  sandro@valeriesfactory.com
+                  </a>
+                </p>
+              </div>
+          </div>
         </div>
         <video autoPlay muted loop playsInline style={{ width: '100%', height: '100%', position: 'fixed', objectFit: 'cover', zIndex: '-1', right: '0', bottom: '0' , pointerEvents: 'none'}}>
           <source src="/auravaleries bloon heart0001_H.264_H.264.mp4" />
