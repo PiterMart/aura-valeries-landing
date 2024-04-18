@@ -41,7 +41,20 @@ export default function Artists() {
                 </p>
               </div>
             </div>
+          </div>
+          <div className={styles.contentSection}>
+            <p className={styles.subtitle}>PRODUCCIÓN EJECUTIVA</p>
+            <div className={styles.contactInfo}>
+              <p className={styles.subtitle}>
+                 Sandro Guevara
+              </p>
+              <p>
+                <a href="mailto:sandro@valeriesfactory.com">
+                  sandro@valeriesfactory.com
+                </a>
+              </p>
             </div>
+          </div>
           <div className={styles.contentSection}>
 
             <p className={styles.subtitle}>PRODUCCIÓN ARTÍSTICA</p>
@@ -55,20 +68,6 @@ export default function Artists() {
                 </a>
               </p>
             </div>
-          </div>
-          <div className={styles.contentSection}>
-
-            <p className={styles.subtitle}>PRODUCCIÓN EJECUTIVA</p>
-            <div className={styles.contactInfo}>
-                <p className={styles.subtitle}>
-                  Sandro Guevara
-                </p>
-                <p>
-                  <a href="mailto:sandro@valeriesfactory.com">
-                  sandro@valeriesfactory.com
-                  </a>
-                </p>
-              </div>
           </div>
         </div>
         <video autoPlay muted loop playsInline style={{ width: '100%', height: '100%', position: 'fixed', objectFit: 'cover', zIndex: '-1', right: '0', bottom: '0' , pointerEvents: 'none'}}>
