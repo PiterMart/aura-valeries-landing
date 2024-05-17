@@ -96,7 +96,7 @@ export default function Artists() {
 
             </div>
           </Link>
-          <Link href="./francoPalioff">
+          {/* <Link href="./francoPalioff">
             <div className={styles.imgContainer}>
               <Image
                 src="/francopalioffT.png"
@@ -111,7 +111,7 @@ export default function Artists() {
               <p>Franco Palioff</p>
 
             </div>
-          </Link>
+          </Link> */}
           <Link href="./frenetikVoid">
             <div className={styles.imgContainer}>
               <Image
