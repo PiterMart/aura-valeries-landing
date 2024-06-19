@@ -1,6 +1,6 @@
 "use client"
-import { useEffect } from "react";
-import $ from 'jquery';
+// import { useEffect } from "react";
+// import $ from 'jquery';
 import styles from "../page.module.css";
 
 export default function Newsletter() {
