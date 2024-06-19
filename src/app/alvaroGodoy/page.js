@@ -15,7 +15,7 @@ export default function Artists() {
 
   useEffect( () => {
     scrollYProgress.on("change", e => console.log(e))
-  }, [])
+  }, [scrollYProgress])
 
 
     return (
