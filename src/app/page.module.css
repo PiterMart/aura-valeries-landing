@@ -338,23 +338,8 @@
   position: fixed;
   margin-top: 30rem;
 }
-/* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
-  .card:hover {
-    background: rgba(var(--card-rgb), 0.1);
-    border: 1px solid rgba(var(--card-border-rgb), 0.15);
-  }
-
-  .card:hover span {
-    transform: translateX(4px);
-  }
-}
-
-
-@media (prefers-reduced-motion) {
-  .card:hover span {
-    transform: none;
-  }
+.newsletter{
+  background-color: #F73939;
 }
 
 /* Mobile */
@@ -565,16 +550,6 @@
     width: 40rem;
   }
 }
-
-/* @media (prefers-color-scheme: dark) {
-  .vercelLogo {
-    filter: invert(1);
-  }
-
-  .logo {
-    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-  }
-} */
 
 @keyframes rotate {
   from {

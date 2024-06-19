@@ -48,7 +48,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/eliasleiroObra.JPG"
+                src="/artists/eliasleiroObra.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -62,7 +62,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>Nacido en Buenos Aires, en 1995.</p>
             <Image
-                src="/eliasleiroCarnet.png"
+                src="/artists/eliasleiroCarnet.jpg"
                 width={200}
                 height={200}
                 alt="Picture of the author"

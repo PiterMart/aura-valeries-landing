@@ -48,7 +48,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/alvarogodoyObra.jpg"
+                src="/artists/alvarogodoyObra.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"

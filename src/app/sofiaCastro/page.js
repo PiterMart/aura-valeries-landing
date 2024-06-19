@@ -47,7 +47,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/sofiacastroObra.jpg"
+                src="/artists/sofiacastroObra.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -61,7 +61,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>Nacida en Buenos Aires, en 1977.</p>
             <Image
-                src="/sofiacastroCarnet.png"
+                src="/artists/sofiacastroCarnet.jpg"
                 width={200}
                 height={200}
                 alt="Picture of the author"

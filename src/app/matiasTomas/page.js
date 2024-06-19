@@ -48,7 +48,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/matiastomasObra.jpeg"
+                src="/artists/matiastomasObra.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -62,7 +62,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>Nacido en Tucumán, en 1990. </p>
             <Image
-                src="/matiastomasCarnet.png"
+                src="/artists/matiastomasCarnet.jpg"
                 width={200}
                 height={200}
                 alt="Picture of the author"

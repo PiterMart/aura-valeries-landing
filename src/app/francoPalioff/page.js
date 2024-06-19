@@ -47,7 +47,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/francopalioffObra.jpg"
+                src="/artists/francopalioffObra.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -61,7 +61,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>Nacido en Junín, en 1988.</p>
             <Image
-                src="/francopalioffCarnet.png"
+                src="/artists/francopalioffCarnet.jpg"
                 width={200}
                 height={200}
                 alt="Picture of the author"

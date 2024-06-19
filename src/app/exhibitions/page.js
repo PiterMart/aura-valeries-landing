@@ -20,6 +20,118 @@ export default function Artists() {
           <div className={styles.container}>
             <div className={styles.exhibitions}>
               <div className={styles.exhibition_info}>
+                <p className={styles.title}>Valentina</p>
+                <p className={styles.subtitle}>Artista</p>
+                <p className={styles.exhibition_text}>Valentina Quintero </p>
+                <p className={styles.subtitle}>Texto</p>
+                <p className={styles.exhibition_text}>Leandro Martínez Depietri</p>
+                <p className={styles.subtitle}>Buenos Aires / 2024</p>
+              </div>
+              <div className={styles.imageContainer}>
+                <Image
+                      src="/exhibiciones/VALENTINA(1).jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+                <Image
+                      src="/exhibiciones/VALENTINA(2).jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+                <Image
+                      src="/exhibiciones/VALENTINA(3).jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+              </div>             
+            </div>
+          </div>
+          <div className={styles.container}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
+                <p className={styles.title}>El Publico</p>
+                <p className={styles.subtitle}>Artista</p>
+                <p className={styles.exhibition_text}>Tomo Cabrera</p>
+                <p className={styles.subtitle}>Mentoría</p>
+                <p className={styles.exhibition_text}>Julieta García Vázquez</p>
+                <p className={styles.subtitle}>Buenos Aires / 2024</p>
+              </div>
+              <div className={styles.imageContainer}>
+                <Image
+                      src="/exhibiciones/ELPUBLICO(1).jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+                <Image
+                      src="/exhibiciones/ELPUBLICO(2).jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+                <Image
+                      src="/exhibiciones/ELPUBLICO(3).jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+              </div>             
+            </div>
+          </div>
+          <div className={styles.container}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
+                <p className={styles.title}>Memética</p>
+                <p className={styles.subtitle}>Artista</p>
+                <p className={styles.exhibition_text}>China / Julian Brangold / Frenetik Void / Mauro Koliva / Álvaro Godoy </p>
+                <p className={styles.subtitle}>Buenos Aires / 2024</p>
+              </div>
+              <div className={styles.imageContainer}>
+                <Image
+                      src="/exhibiciones/MEMETICA(1).jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+                <Image
+                      src="/exhibiciones/MEMETICA(2).jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+                <Image
+                      src="/exhibiciones/MEMETICA(3).jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+              </div>             
+            </div>
+          </div>
+          <div className={styles.container}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
                 <p className={styles.title}>Los Patitos Feos (Colectiva)</p>
                 <p className={styles.subtitle}>Artistas</p>
                 <p className={styles.exhibition_text}>Alvaro Godoy / Elias Leiro / Facundo Belen / Facundo Jesus Lugea / Fanny Diaz / Franco Palioff / Frenetik Void / Julieta Proto Boca / Leonardo Sanchez / Marco Pimentel / Maruts Ballet / Matias Tomas / Sofia Castro / Tomo Cabrera / Trinidad Metz Brea / Valentina Quintero.</p>
@@ -256,6 +368,45 @@ export default function Artists() {
             </div>
           </div>
           
+          <div className={styles.container}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
+                <p className={styles.title}>En El Nombre De Nadie</p>
+                <p className={styles.subtitle}>Artista</p>
+                <p className={styles.exhibition_text}>Leonardo Sanchez</p>
+                <p className={styles.subtitle}>Curaduría y Texto</p>
+                <p className={styles.exhibition_text}>Nicolas Cuello </p>
+                <p className={styles.subtitle}>Buenos Aires / 2022</p>
+              </div>
+              <div className={styles.imageContainer}>
+                <Image
+                      src="/exhibiciones/ENELNOMBREDENADIE(1).jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+                <Image
+                      src="/exhibiciones/ENELNOMBREDENADIE(2).jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+                <Image
+                      src="/exhibiciones/ENELNOMBREDENADIE(3).jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+              </div>             
+            </div>
+          </div>
+
           <div className={styles.container}>
             <div className={styles.exhibitions}>
               <div className={styles.exhibition_info}>

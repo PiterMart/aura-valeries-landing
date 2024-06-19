@@ -19,7 +19,7 @@ export default function Artists() {
           <Link href="./alvaroGodoy">
             <div className={styles.imgContainer}>
               <Image
-                src="/alvarogodoyObra.jpg"
+                src="/artists/alvarogodoyObra.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -35,7 +35,7 @@ export default function Artists() {
           <Link href="./eliasLeiro">
             <div className={styles.imgContainer}>
               <Image
-                src="/eliasT.png"
+                src="/artists/eliasT.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -51,7 +51,7 @@ export default function Artists() {
           <Link href="./facundoBelen">
             <div className={styles.imgContainer}>
               <Image
-                src="/facubelenT.png"
+                src="/artists/facubelenT.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -67,7 +67,7 @@ export default function Artists() {
           <Link href="./facundoLugea">
             <div className={styles.imgContainer}>
               <Image
-                src="/faculugeaT.png"
+                src="/artists/faculugeaT.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -83,7 +83,7 @@ export default function Artists() {
           <Link href="/fannyedithDiaz">
             <div className={styles.imgContainer}>
               <Image
-                src="/fannyT.png"
+                src="/artists/fannyT.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -115,7 +115,7 @@ export default function Artists() {
           <Link href="./frenetikVoid">
             <div className={styles.imgContainer}>
               <Image
-                src="/frenetikvoidObra.png"
+                src="/artists/frenetikvoidObra.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -131,7 +131,7 @@ export default function Artists() {
           <Link href="./julietaprotoBoca">
             <div className={styles.imgContainer}>
               <Image
-                src="/juliprotoT.png"
+                src="/artists/juliprotoT.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -147,7 +147,7 @@ export default function Artists() {
           <Link href="./leonardoSanchez">
             <div className={styles.imgContainer}>
               <Image
-                src="/leosnchezT.png"
+                src="/artists/leosnchezT.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -163,7 +163,7 @@ export default function Artists() {
           <Link href="./marcoPimentel">
             <div className={styles.imgContainer}>
               <Image
-                src="/marcopimentelObra.jpeg"
+                src="/artists/marcopimentelObra.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -179,7 +179,7 @@ export default function Artists() {
           <Link href="./vladimirmarutsBallet">
             <div className={styles.imgContainer}>
               <Image
-                src="/marutsT.png"
+                src="/artists/marutsT.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -195,7 +195,7 @@ export default function Artists() {
           <Link href="./matiasTomas">
             <div className={styles.imgContainer}>
               <Image
-                src="/matitomasT.png"
+                src="/artists/matitomasT.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -211,7 +211,7 @@ export default function Artists() {
           <Link href="./sofiaCastro">
             <div className={styles.imgContainer}>
               <Image
-                src="/soficastroT.png"
+                src="/artists/soficastroT.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -227,7 +227,7 @@ export default function Artists() {
           <Link href="./tomoCabrera">
             <div className={styles.imgContainer}>
               <Image
-                src="/tomocabreraObra.jpg"
+                src="/artists/tomocabreraObra.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -243,7 +243,7 @@ export default function Artists() {
           <Link href="./trinidadmetzBarra">
             <div className={styles.imgContainer}>
               <Image
-                src="/triniT.png"
+                src="/artists/triniT.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -259,7 +259,7 @@ export default function Artists() {
           <Link href="./valentinaQuintero">
             <div className={styles.imgContainer}>
               <Image
-                src="/valentineT.png"
+                src="/artists/valentineT.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"

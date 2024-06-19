@@ -48,7 +48,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/fannyedithdiazObra.jpg"
+                src="/artists/fannyedithdiazObra.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -62,7 +62,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>Nacida en Guaymallén, Mendoza, en 1966.</p>
             <Image
-                src="/fannyedithdiazCarnet.png"
+                src="/artists/fannyedithdiazCarnet.jpg"
                 width={200}
                 height={200}
                 alt="Picture of the author"

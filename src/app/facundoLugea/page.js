@@ -48,7 +48,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/facundolugeaObra.jpg"
+                src="/artists/facundolugeaObra.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -62,7 +62,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>Nacido en Mar del Plata, en 1996.</p>
             <Image
-                src="/facundolugeaCarnet.png"
+                src="/artists/facundolugeaCarnet.jpg"
                 width={200}
                 height={200}
                 alt="Picture of the author"

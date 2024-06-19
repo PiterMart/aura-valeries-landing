@@ -48,7 +48,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/julietaprotoObra.jpg"
+                src="/artists/julietaprotoObra.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -62,7 +62,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>Nacida en Buenos Aires, en 1996.</p>
             <Image
-                src="/julietaprotobocaCarnet.png"
+                src="/artists/julietaprotobocaCarnet.jpg"
                 width={200}
                 height={200}
                 alt="Picture of the author"

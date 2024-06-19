@@ -48,7 +48,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/valentinaquinteroObra.jpg"
+                src="/artists/valentinaquinteroObra.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -62,7 +62,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>Nacida en 1997 en Mendoza, Argentina.</p>
             <Image
-                src="/valentineCarnet.png"
+                src="/artists/valentineCarnet.jpg"
                 width={200}
                 height={200}
                 alt="Picture of the author"
