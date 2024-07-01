@@ -98,17 +98,24 @@ export default function Artists() {
               <p>
               (2019 - 2021) Clínica de obra y taller de pintura de Diana Aisenberg. 
               <br></br>
+              <br></br>
               (2019) Clínica de Pablo Siquier. 
+              <br></br>
               <br></br>
               (2018) Taller de Dibujo de Mauro Koliva.
               <br></br>
+              <br></br>
               (2018) Spooky Vision, clínica de Nicanor Araoz y Flavia Da Rin. AXA 
+              <br></br>
               <br></br>
               (2017)  Taller Sobrino Bruno.
               <br></br>
+              <br></br>
               (2016)  Proyecto Documental, seminario de Andrés Di Tella, UTDT
               <br></br>
+              <br></br>
               (2016)  Ejercicios Picasso, seminario de Eduardo Stupia, 
+              <br></br>
               <br></br>
               (2016)  Ejercicios Sistemáticos de Dibujo, seminario de Eduardo Stupia UTDT 
               </p>
@@ -145,19 +152,27 @@ export default function Artists() {
               <p>
               (2023) Siniestra, curada por Nahuel Aguero, en Proyecto Urra. Buenos 
               <br></br>
+              <br></br>
               (2022) Lagarta de fogo, junto a Mauro Agustín Cruz, curada por Max Gomez Canle. Residencia Fidalga. Sao Paulo.
+              <br></br>
               <br></br>
               (2022) Salón Nacional Jamaica Posible 
               <br></br>
+              <br></br>
               (2021) Perdedores Hermosos, junto a Renata Molinari, Belen Boeris y Maria Florencia, CCSM. 
+              <br></br>
               <br></br>
               (2021) Secreta noche nuestra. Rosas AC. 
               <br></br>
+              <br></br>
               (2021) Tegumento. curada por Max Zimmerman, Fundacion el mirador
+              <br></br>
               <br></br>
               (2020) Mientras mis sueños sangran, curador Joaquín Barrera. Fundacion el mirador
               <br></br>
+              <br></br>
               (2019) Banda Pop Metal ,Cervio Martini, Renata Molinari, y Santiago Licata. Roseti
+              <br></br>
               <br></br>
               (2018) El burro y la moto, curada por Nicanor Araoz y Flavia Da Rin, Fundación el mirador. 
               </p>

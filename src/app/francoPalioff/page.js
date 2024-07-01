@@ -109,47 +109,69 @@ export default function Artists() {
               <p>
               (2022) Esfingico Frontal - Mendes Wood Gallery, São Paulo, Brazil. 
               <br></br>
+              <br></br>
               (2022)Exhibition of 3D videos in process with funds from Ruanet in Brazil. 
+              <br></br>
               <br></br>
               (2022) Open Studios Moos Vol 01 - Berlin, Germany.
               <br></br>
+              <br></br>
               (2022) Random Kingdom Vol 01 - Berlin, Germany.
+              <br></br>
               <br></br>
               (2021) RIP HEN - Curated by Jesse Drexler, Switzerland.
               <br></br>
+              <br></br>
               (2021) Sameheads, solo show. Berlin, Germany.
+              <br></br>
               <br></br>
               (2021) Open studios GlogauAIR - Berlin, Germany.
               <br></br>
+              <br></br>
               (2021) Mid Fall Modied Dream, Erratum Gallery, Berlin, Germany
+              <br></br>
               <br></br>
               (2021) Platform 101 vol 03 - Teheran, Iran.
               <br></br>
+              <br></br>
               (2021) Open Studios Glogauair, Berlin, Germany.
+              <br></br>
               <br></br>
               (2020) São Paulo fashion week at Casa de Criadores, Plasma project
               <br></br>
+              <br></br>
               (2020) Algoritmia maquinica - Online - Galería O Sitio, Florianópolis, Brazil.
+              <br></br>
               <br></br>
               (2020) O amanhã chegou mais cedo. Curitiba, Brazil. link
               <br></br>
+              <br></br>
               (2020) Corpos Sintéticos - Synthetic bodies - Curitiba, Brazil.
+              <br></br>
               <br></br>
               (2020) 101 Platform exhibition - Tehran, Rasht, and Shiraz, Irán.
               <br></br>
+              <br></br>
               (2020) The Wrong exhibition  Laniakea  Curitiba, Paraná,Brazil.
+              <br></br>
               <br></br>
               (2019) Intimo/estranho - Galeria Lona, São Paulo, Brazil
               <br></br>
+              <br></br>
               (2019) Antes tarde Duke Nukem. Rio Janeiro, Brazil.
+              <br></br>
               <br></br>
               (2019) Redoma exhibitor at dierent events.
               <br></br>
+              <br></br>
               (2018) Conexão III exhibition - Centro Cultural Portão, Curitiba, Paraná.
+              <br></br>
               <br></br>
               (2017) Feira de Arte do Solar do Barão - Curitiba, Paraná, Brazil.
               <br></br>
+              <br></br>
               (2015) 7th entremostras - Fundação Badesc, Florianópolis, SC, Brazil.
+              <br></br>
               <br></br>
               (2015) 5th entremostras - Fundação Badesc, Florianópolis, SC, Brazil.
               </p>
@@ -162,9 +184,11 @@ export default function Artists() {
               <p>
               (2020) Main developer of the Plasma project presented at São Paulo Fashion Week at Casa de Criadores, Brazil. The project aimed to develop digitalrun.
               <br></br>
+              <br></br>
               (2020) Talk and Showcase about digital fashion and developent of 3D printable accesories at Brazil
               Immersive Fashion Week, São Paulo, Brazil.
 
+              <br></br>
               <br></br>
               (2019) Hired by artist Jack Holmer as programmer for robot exhibited in Museu de Minas e do
               Metal in Belo Horizonte, Brazil. Development of articial vision techniques for robots.

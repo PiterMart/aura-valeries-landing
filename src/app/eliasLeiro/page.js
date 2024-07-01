@@ -79,7 +79,9 @@ export default function Artists() {
               <p>
               Elías Leiro es un artista visual e historiador del arte. Su práctica artística inició en la fotografía para luego extenderse hacia video, pintura, instalación y escritura.
               <br></br>
+              <br></br>
               Su producción se desarrolla a partir de la observación de objetos cotidianos y sencillos que conviven de forma desjerarquizada junto a imágenes vinculadas a la cultura pop, internet y a la historia del arte. Las fotografías tomadas con celular dialogan con screenshots que el artista acumula sin ningún tipo de orden en su computadora y celular. La elección de los diferentes materiales que conforman la obra es intuitiva. La aleatoriedad es parte de su proceso y el resultado final no está planeado de antemano. 
+              <br></br>
               <br></br>
               Define su poética como realista. Está interesado en la composición de imágenes en el presente y en las diferentes capas de representación que constituyen la experiencia. Elías miras las escenas cotidianas con humor y asombro. Desde una tendencia casualista piensa a la realidad como una serie de hechos azarosos que mediante la ficción y la narración adquieren sentido. 
 
@@ -121,13 +123,18 @@ export default function Artists() {
               <p>
               (2022) “Programa de video”, curado por Lolo y Lauti, ArteBA 
               <br></br>
+              <br></br>
               (2022) “Y ahora, ¿qué hacemos?”, muestra de La Bienal de Arte Joven de Buenos Aires, curada por Tainá Azeredo, Centro Cultural Recoleta.
+              <br></br>
               <br></br>
               (2022) “Ciertos Destellos” curada para Carlos Herrera, Alianza Francesa de Buenos Aires.
               <br></br>
+              <br></br>
               (2022)  “Cómo debes imaginarme” curado por Lucia Nielsen, ECA Mendoza.
               <br></br>
+              <br></br>
               (2021)  “Muestra Final MUNAR”, Munar.
+              <br></br>
               <br></br>
               (2021)  “Full Feng Shui”, curada por el artista.
               </p>

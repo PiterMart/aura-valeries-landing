@@ -79,6 +79,7 @@ export default function Artists() {
               <p>
               Valentina Quintero, también conocida como Valentine es una artista visual, cantante y performer. Dibujante desde niña, comienza a desarrollar su obra desde 2015 junto al fugaz colectivo artístico Ricarda Espinosa y posteriormente su propio camino con performances e instalaciones/happenings como RED CARPET en el MMAMM (Mendoza, 2016) y TEMPLO en Imagen Galería (Mendoza, 2017).
               <br></br>
+              <br></br>
               Su obra visual descansa y se alimenta de su experiencia constante en el campo de lo escénico, como el teatro y la música, cruzando las fronteras de las disciplinas artísticas. 
               La feminidad, el no-binarismo, la re-escritura de la historia del arte en clave trans, la cultura popular, las nociones de identidad desde la fantasía, son algunos de los componentes que conjuran la obra que la artista realiza en diferentes medios como la foto performance, instalación, performance en vivo y el dibujo. 
 
@@ -94,7 +95,9 @@ export default function Artists() {
               <p>
               Licenciatura y Profesorado en Artes Visuales en la Universidad Nacional de Cuyo (Mendoza, Argentina).
               <br></br>
+              <br></br>
               Tecnicatura Superior en Diseño Multimedial en IES Manuel Belgrano (Mendoza, Argentina) 
+              <br></br>
               <br></br>
               </p>
 
@@ -115,23 +118,33 @@ export default function Artists() {
               <p>
               (2022) Programa ARTISTASXARTISTAS, Fundacion el Mirador 
               <br></br>
+              <br></br>
               (2020) Clinica de Artistas ’’Clinica Degenerada’’ Silvio Lang y SOMA 
+              <br></br>
               <br></br>
               (2019) Residencia ‘’Fuerzas Silvestres-Princesas del Asfalto’’ Silvio Lang 
               <br></br>
+              <br></br>
               (2019) Seminario de Actuación ‘’Insurgencias Afectivas’’ Silvio Lang 
+              <br></br>
               <br></br>
               (2016 - 2017) Laboratorio de Análisis y Producción de Arte Contemporáneo: ‘’Apariencia y Revestimiento’’ a cargo de Silvana Gutiérrez (Proyecto Penrose).
               <br></br>
+              <br></br>
               (2018) Clínica y Taller para artistas Método Diana Aisenberg en Curadora Residencia 
+              <br></br>
               <br></br>
               (2017) Seminario ‘’Operaciones del Lenguaje en las Artes Visuales’’ a cargo de Pilar Altilio 
               <br></br>
+              <br></br>
               (2017) Taller ‘’Un ArcoIris Negro’’ Nati Cristo Pan 
+              <br></br>
               <br></br>
               (2016) Taller ‘’Técnicas de Supervivencia para Artistas’’ Marisa Rossini 
               <br></br>
+              <br></br>
               (2016) Taller ‘’La Ilusion Biográfica’’ Cecilia Tello D’Elia 
+              <br></br>
               <br></br>
               (2016) Taller ‘’Donde está el Mundo’’ Mario Scorzelli 
               </p>
@@ -145,15 +158,21 @@ export default function Artists() {
               <p>
               (2023) Chicos Confundidos y yo, ECA Mendoza 
               <br></br>
+              <br></br>
               (2023) TEMPLO II, Valeries Factory 
+              <br></br>
               <br></br>
               (2019) Miro La Vida Pasar en Casa Colmena, 
               <br></br>
+              <br></br>
               (2019) Vesti La Giubba en Proyecto Galería   
+              <br></br>
               <br></br>
               (2018) Scary Mostra en Imagen Galeria de Mendoza 
               <br></br>
+              <br></br>
               (2017) TEMPLO en Imagen Galería de Mendoza 
+              <br></br>
               <br></br>
               (2016) RED CARPET en el Museo Municipal de Arte Moderno de Mendoza 
               </p>
@@ -167,9 +186,12 @@ export default function Artists() {
               <p>
               (2023) Casi Angeles, Galería Barro 
               <br></br>
+              <br></br>
               (2023) Twinks vs Dolls, Galeria Hipopoety 
               <br></br>
+              <br></br>
               (2018) Arte, Género y Política en Biblioteca San Martín, Mendoza
+              <br></br>
               <br></br>
               (2015 / 2017) Como ecos en la Bruma - muestra dúo junto a Maria Filomena Pierri / Pionera. 
               <br></br>

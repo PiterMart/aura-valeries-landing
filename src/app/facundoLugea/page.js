@@ -79,6 +79,7 @@ export default function Artists() {
               <p>
               Comenzó su práctica artística en 2015 a sus 18 años explorando diversas disciplinas al mismo tiempo que realizaba diferentes talleres de análisis de obra y curaduría, por al menos tres años. Luego de todo este tiempo de investigación y trabajo, tratando de entender la manera más fiel  de proyectar su obra.  En 2020 es donde considera el inicio formal de su carrera, ya que debido a la falta de espacio y oportunidad, comenzó un proyecto titulado “Autoedición”(2020-2024) el cual constaba de transformar el espacio de taller en una sala exhibición para  realizar diversos ensayos expositivos de su cuerpo de obra, investigando en  sus intereses conceptuales y formales. Al mismo tiempo que documentaba todo este proceso.
               <br></br>
+              <br></br>
               En 2021 obtuvo la beca a la creación del FNA (Fondo nacional Argentino) para continuar dicho proyecto “Autoedición”. Ese mismo año expuso un solo show en Nighttimestory- (Los Angeles, Estados Unidos). En 2022 realizó su primera muestra individual institucional titulada “La Prolongación de nuestra inercia” en Museo MAR (MDP, Argentina). En 2023 participó de la muestra colectiva “Montes no visibles” en MACBA - (Bs As, Argentina). 
               </p>
 
@@ -90,15 +91,21 @@ export default function Artists() {
               <p>
               (2021) Obtiene la beca de creación del Fondo Nacional de las Artes por su proyecto “Autoedición”
               <br></br>
+              <br></br>
               (2020) Seminario Curatorial “Exposición de Exposiciones” bajo la dirección de Lara Marmor en la Universidad Torcuato di Tella.
+              <br></br>
               <br></br>
               (2017) Seminario “Materialidad y Hacer” dirigido por Nilda Rosemberg en Casa Yakuzi.
               <br></br>
+              <br></br>
               (2017) Seleccionado para el Taller Abierto de Casa Intermitente en la Universidad Nacional de Mar del Plata - Facultad de Arquitectura y Urbanismo.
+              <br></br>
               <br></br>
               (2017) Becaria “Fronteras Suspendidas” en Museo MAR, Mar del Plata, de Sebastián Tedesco y Mariano Luna.
               <br></br>
+              <br></br>
               (2015)  G.R.A.P.A (Grupo de Reflexión y Análisis de la Producción Artística), con los tutores Claudio Roveda y Josefina Fossatti.
+              <br></br>
               <br></br>
               (2015)  Seminarios con Daniel Fitte, María Lightowler, Mariana Rodriguez Iglesias
               </p>
@@ -122,19 +129,27 @@ export default function Artists() {
               <p>
               (2023) “Montes invisibles” en MACBA (Museo de Arte Contemporáneo de Buenos Aires), curada por Natalia Sosa Molina y Víctor López zurumecu.
               <br></br>
+              <br></br>
               (2021) Premio Provincial de Arte Joven del Museo Pettoruti de La Plata, Buenos Aires.
+              <br></br>
               <br></br>
               (2021) Otra feria- Galería Singular 2020 Arteba + Artsy- Galería Leputit.
               <br></br>
+              <br></br>
               (2019)  “Una bolsa de hierro, rota por su extremo” Leputit en Mar del Mundo.
+              <br></br>
               <br></br>
               (2017)  “Taller Abierto #2” Sede de la Facultad de Urbanismo y Arquitectura 2017 “Fronteras Suspendidas” Museo MAR.
               <br></br>
+              <br></br>
               (2017)  “Mudar la piel”, GRAPA - Centro Cultural Villa Victoria Ocampo.
+              <br></br>
               <br></br>
               (2016)  “Parafernalia”," GRAPA - Centro Cultural Villa Victoria Ocampo.
               <br></br>
+              <br></br>
               (2015)  “El Lugar Eterno”, Galería Leputit en el Teatro Auditorio.
+              <br></br>
               <br></br>
               (2015)  “Calma Chicha”," GRAPA - Plaza del Agua, Mar del Plata.
               </p>
@@ -147,9 +162,12 @@ export default function Artists() {
               <p>
               (2022) “La expansión de nuestra inercia” MUSEO MAR (Museo de Arte Contemporáneo de Mar del Plata).
               <br></br>
+              <br></br>
               (2021) “Ciclos activos de expiaciones constantes” en NIGHT TIME STORY en Los Ángeles, EE. UU. curada por Laura Regoni y Lucie Baumgartner.
               <br></br>
+              <br></br>
               (2018) “Los débiles quedan” Casa Yakuzi en Mar del Plata, Argentina curada por Lole Remon.
+              <br></br>
               <br></br>
               (2016) “Agua en mis manos” Le putit galerie en Mar del Plata, Argentina curada por Nahuel Agüero.
               </p>

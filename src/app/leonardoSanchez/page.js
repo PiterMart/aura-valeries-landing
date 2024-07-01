@@ -78,6 +78,7 @@ export default function Artists() {
               A muy temprana edad se mudo a la provincia de San Juan donde se formó y desarrolló como artista visual y gestor cultural.
               Estudió Diseño Gráfico y Artes Visuales en la UNSJ. 
               <br></br>
+              <br></br>
               Realizó clínicas de formación con Carlos Herrera, Flavia Da Rin, Florencia Battitti y Roberto Echen. Participó en muestras colectivas en San Juan, Mendoza, Córdoba y Buenos Aires. 
               En 2020 se mudo a la Ciudad de Buenos Aires y participó del programa Artistas x Artistas de coordinado por Florencia Rodriguez Giles y Juan Tessi de Fundación El Mirador en Munar Arte
               </p>
@@ -107,7 +108,9 @@ export default function Artists() {
               <p>
               (2023) Programa de Formación MANGLAR coordinado por Andrés Labaké en Acéfala Galería.
               <br></br>
+              <br></br>
               (2022) Obtuvo el 2do premio adquisición del Premio Franklin Rawson. MPBA FR.
+              <br></br>
               <br></br>
               (2007 - 2019) participó en diferentes exposiciones y proyectos grupales de la escena artística sanjuanina.
               </p>

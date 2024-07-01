@@ -97,15 +97,21 @@ export default function Artists() {
               <p>
               (2022) Furor
               <br></br>
+              <br></br>
               (2020) realizó su performance LECTURA DE ALIAS BANCARIO en el ciclo Mi Vereda en el Museo de Arte Moderno de Bs As. Presentó su exhibición  individual FRUOR curada por Julieta Tarraubella en Fundación El Mirador. Participó de una muestra colectiva curada por Diego Bianchi en TRA Miami y fue seleccionado por Lolo y Lauti para la sección video de Arteba. 
+              <br></br>
               <br></br>
               (2021) su obra ECDISIS fue distinguida con una mención especial en el premio Fundación Andreani. A su vez, su obra Macedonia fue seleccionada para participar en el premio Fundación Fortabat. También fue seleccionado para la exhibición itinerante por el sur del país (Apóstoles) organizada por Distrito1. 
               <br></br>
+              <br></br>
               (2020) fue seleccionado en el salón Provincial de Artes Visuales e intervino una serie de naturalezas muertas del acervo del Museo Provincial de Bellas Artes Emilio Pettoruti con una performance que fue registrada en video en la sala Microespacio. 
+              <br></br>
               <br></br>
               (2019) Velo
               <br></br>
+              <br></br>
               (2019) su video performance Limpieza Profunda fue seleccionado para el Salón Nacional de Rosario. Realizó VELO una exhibición individual en la sala LAboratorio y fue becado por Fundación El Mirador para ser parte del programa anual Artistas x artistas, el cual terminó con una exhibición colectiva en Munar. 
+              <br></br>
               <br></br>
               (2016) Un Cuarto
               </p>
@@ -117,6 +123,7 @@ export default function Artists() {
               
               <p>
               (2023) Participó de Cómo Sentir? una muestra colectiva curada por Nicolás Cuello en la Casa del Bicentenario CABA. Y de ¨Cien caminos en un solo día¨ un proyecto de Jimena Ferreiro y Luciana Lamothe en el Museo de Arte Moderno de CABA. Su obra Árbol de Cristal fue seleccionada en el 111 Salon Nacional y fue exhibida en el CCK.
+              <br></br>
               <br></br>
               (2017 - 2018) Participó de exhibiciones colectivas en NN galería, UV estudios, galería Lanzallamas y Wunsch gallery.
               <br></br>

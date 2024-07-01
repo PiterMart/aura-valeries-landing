@@ -100,13 +100,18 @@ export default function Artists() {
               <p>
               (2023) “Natural”, Galeria Valeries Factory, ArteBA.
               <br></br>
+              <br></br>
               (2023) “Novias” curado por Jimena Lusi y Luis Juarez (Revista Balam), Barrakesh.
+              <br></br>
               <br></br>
               (2022) “Cómo debes imaginarme” curado por Lucia Nielsen, ECA Mendoza.
               <br></br>
+              <br></br>
               (2022) “SoldOut”, Galeria Valeries Factory, Feria Mapa.
               <br></br>
+              <br></br>
               (2021) “Playas paradisíacas, Talleres Brasil.
+              <br></br>
               <br></br>
               (2021) “Esperando como una pendeja”, Galeria Valeries Factory.
               </p>

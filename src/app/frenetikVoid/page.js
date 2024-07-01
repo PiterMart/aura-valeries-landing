@@ -78,7 +78,9 @@ export default function Artists() {
               <p>
               Es un artista digital que trabaja con múltiples herramientas y tecnologías. Su relación con este medio comenzó desde chico con los videojuegos. La posibilidad de crear mundo dentro de mundos, lo inspiraron a crear su propio universo virtual. A través del 3D, el collage digital y la Inteligencia Artifical, Frenetik Void creó un amplio cuerpo de obra que fue exhibiendo a lo largo de los años en diversas galerías digitales.
               <br></br>
+              <br></br>
               A partir del 2019 se dedicó a explorar las incipientes plataformas de arte en la blockchain, lo que lo posicionó velozmente como un referente local de este medio. Sus obras se exhiben y comercializan en plataformas como Superrare, Foundation, Makersplace y KnownOrigin. 
+              <br></br>
               <br></br>
               En 2020 creó “CryptoArg” la comunidad de crypto artistas más grande de Latinoamérica con cuatro muestras en su haber. En 2021 creó junto a Milton Sanz y 0xeegeno “Game Disease” un proyecto de NFTs coleccionables con perspectiva transmedia. En 2023 inauguró Sereno de mi Mente”, su primer muestra individual en C.h.e.L.A y “Psipsi Koko” una muestra junto a Julian Brangold en Aura Galería. Su obra también se exhibió en diversas muestras grupales en Nueva York, París, Lisboa, Miami, México, San Pablo, Milán, Turín y Venecia.
               </p>
@@ -90,6 +92,7 @@ export default function Artists() {
               
               <p>
               (2023) Sereno de mi Mente - C.h.e.L.A / Buenos Aires
+              <br></br>
               <br></br>
               (2023) Psipsi Koko junto a Julián Brangold - Aura / Buenos Aires
               </p>
@@ -103,27 +106,39 @@ export default function Artists() {
               <p>
               (2023) NFT Brasil - Pavilhao Bienal / San Pablo
               <br></br>
+              <br></br>
               (2023) Intertwined - Armazém Soul / Lisboa
+              <br></br>
               <br></br>
               (2023) Non Places - L’Atelier Éphémère / Paris
               <br></br>
+              <br></br>
               (2023) CryptoArg x Bright Moments  - Galería Güemes / Buenos Aires
+              <br></br>
               <br></br>
               (2022) Decentral Art Pavilion / Venecia
               <br></br>
+              <br></br>
               (2022) RIP HEN - Curated by Jesse Drexler, Switzerland.
+              <br></br>
               <br></br>
               (2022) Riesgo País - Newton Gallery / Nueva York
               <br></br>
+              <br></br>
               (2022) Italian Tech Week - OGR Torino  / Turin
+              <br></br>
               <br></br>
               (2022) Art Week Miami / Miami
               <br></br>
+              <br></br>
               (2022) Eth Latam - Centro de Convenciones / Buenos Aires
+              <br></br>
               <br></br>
               (2022) The Non NFT Summit - Prim / México DF
               <br></br>
+              <br></br>
               (2021) The Wrong Biennale - Museo della Permanente / Milan 
+              <br></br>
               <br></br>
               (2021) No Existe Tierra Más Allá - C.h.e.L.A / Buenos Aires
               </p>

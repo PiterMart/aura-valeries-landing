@@ -99,19 +99,27 @@ export default function Artists() {
               <p>
               (2022) “Ensayo de convergencia” L.A.R. 
               <br></br>
+              <br></br>
               (2021) “SpookyNacionalista” OHNO Galeria
+              <br></br>
               <br></br>
               (2021) “Prensado” Muestra final AxA
               <br></br>
+              <br></br>
               (2019)  “Maratón de performance” de Colectivo Triangular. Fundación Cazadores.
+              <br></br>
               <br></br>
               (2019)  “Casa intervenida III” de Cara-Seca duo.
               <br></br>
+              <br></br>
               (2018)  Muestra final taller Luis Teran.
+              <br></br>
               <br></br>
               (2017)  “11.11.S” Proyecto HHS.
               <br></br>
+              <br></br>
               (2015)  “El todo en las partes” Espacio Dasein.
+              <br></br>
               <br></br>
               </p>
 
@@ -122,6 +130,7 @@ export default function Artists() {
 
               <p>
               (2020) Artistas x Artistas - Beca Completa
+              <br></br>
               <br></br>
               (2020) MDA - Media Beca
               </p>
@@ -146,6 +155,7 @@ export default function Artists() {
               <p className={styles.subtitle}>CLINICAS</p>
               <p>
                 (2020-2021) Artistas x Artistas
+                <br></br>
                 <br></br>
                 (2019-2022) MDA -Método Diana Aisenberg-
               </p>

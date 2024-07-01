@@ -103,25 +103,36 @@ export default function Artists() {
               <p>
               (2022) "Mi Vereda" Museo Moderno de Buenos Aires. -Buenos Aires. 
               <br></br>
+              <br></br>
               (2022) "Espejismos. Un ensayo sobre los '90". Fundación Cazadores - Buenos Aires
               <br></br>
-              (2021) "Cuul". Segunda edición.  Museo del Traje- Buenos Aires
               <br></br>
               (2021) "Cuul". Segunda edición.  Museo del Traje- Buenos Aires
+              <br></br>
+              <br></br>
+              (2021) "Cuul". Segunda edición.  Museo del Traje- Buenos Aires
+              <br></br>
               <br></br>
               (2021)  "Cuul". Tercera edición.  Museo del Traje- Buenos Aires
               <br></br>
+              <br></br>
               (2021) ¨Yungas La Prensa¨  Casa de la cultura. - Buenos Aires
               <br></br>
-              (2020)  "Mi vereda" Primera edición. Curaduría Valeria Vilar - Buenos Aires
               <br></br>
               (2020)  "Mi vereda" Primera edición. Curaduría Valeria Vilar - Buenos Aires
+              <br></br>
+              <br></br>
+              (2020)  "Mi vereda" Primera edición. Curaduría Valeria Vilar - Buenos Aires
+              <br></br>
               <br></br>
               (2018)  “Pensamiento Textil” Centro Cultural Ricardo Rojas - Buenos Aires
               <br></br>
+              <br></br>
               (2018) “Infinito” Museo Judío - Buenos Aires
               <br></br>
+              <br></br>
               (2017) 106 edición del Salón Nacional de Artes Visuales 2017 - Buenos Aires
+              <br></br>
               <br></br>
               (2016) “Encuentro en conmemoración al 25 de noviembre, Día Internacional de la Eliminación de la Violencia contra la Mujer"  Espacio G104 - Buenos Aires
               </p>

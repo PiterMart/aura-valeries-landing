@@ -104,13 +104,18 @@ export default function Artists() {
               <p>
               (2022)  “HIJXS MAL HABIDXS" Galería CPU. Palacio Barolo  - Buenos Aires
               <br></br>
+              <br></br>
               (2022) Aura at SP arte  - Sao Paulo
+              <br></br>
               <br></br>
               (2022) Galería Vermeer - Aura - Buenos Aires
               <br></br>
+              <br></br>
               (2022)  Publicación Ballet Edicion 2 - Bucle editorial - Rata Kiosko - Buenos Aires
               <br></br>
+              <br></br>
               (2022) “Cute but Psycho” Galería Gazcon - Buenos Aires
+              <br></br>
               <br></br>
               (2021) Publicación Ballet Edición 1 - Bucle editorial - Feria Migra - Buenos Aires
               </p>
