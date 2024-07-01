@@ -128,6 +128,21 @@ export default function Artists() {
 
             </div>
           </Link>
+          <Link href="./julianBrangold">
+            <div className={styles.imgContainer}>
+              <Image
+                src="/artists/julianbrangoldObra.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover', borderRadius: '50%'  }}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className={styles.dataContainer}>
+              <p>Julian Brangold</p>
+            </div>
+          </Link>
           <Link href="./julietaprotoBoca">
             <div className={styles.imgContainer}>
               <Image
@@ -206,6 +221,36 @@ export default function Artists() {
             <div className={styles.dataContainer}>
               <p>Matias Tomas</p>
 
+            </div>
+          </Link>
+          <Link href="./pastel">
+            <div className={styles.imgContainer}>
+              <Image
+                src="/artists/pastelObra.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover', borderRadius: '50%'  }}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className={styles.dataContainer}>
+              <p>Pastel</p>
+            </div>
+          </Link>
+          <Link href="./samanthaFerro">
+            <div className={styles.imgContainer}>
+              <Image
+                src="/artists/samantha ferro obra.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover', borderRadius: '50%'  }}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className={styles.dataContainer}>
+              <p>Samantha Ferro</p>
             </div>
           </Link>
           <Link href="./sofiaCastro">

@@ -15,9 +15,9 @@ export default function Artists() {
         duration: 0.75,
         x: { duration: 0.25 }
         }}>
-        <div className={styles.content}>
-          <h1 className={styles.title} style={{textAlign: 'center'}}>Exhibiciones</h1>
-          <div className={styles.container}>
+        <div className={styles.content} style={{marginTop: '0px'}}>
+          {/* <h1 className={styles.title} style={{textAlign: 'center'}}>Exhibiciones</h1> */}
+          <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
             <div className={styles.exhibitions}>
               <div className={styles.exhibition_info}>
                 <p className={styles.title}>Valentina</p>
@@ -28,8 +28,8 @@ export default function Artists() {
                 <p className={styles.subtitle}>Buenos Aires / 2024</p>
               </div>
               <div className={styles.imageContainer}>
-                <Image
-                      src="/exhibiciones/VALENTINA(1).jpg"
+              <Image
+                      src="/exhibiciones/VALENTINA(2).jpg"
                       width={0}
                       height={0}
                       sizes="100vw"
@@ -37,7 +37,7 @@ export default function Artists() {
                       alt="memética"
                 />
                 <Image
-                      src="/exhibiciones/VALENTINA(2).jpg"
+                      src="/exhibiciones/VALENTINA(1).jpg"
                       width={0}
                       height={0}
                       sizes="100vw"
@@ -143,6 +143,30 @@ export default function Artists() {
               <div className={styles.imageContainer}>
                 <Image
                       src="/exhibiciones/losPatitosFeos.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="Picture of the author"
+                />
+                <Image
+                      src="/exhibiciones/losPatitosFeos2.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="Picture of the author"
+                />
+                <Image
+                      src="/exhibiciones/losPatitosFeos3.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="Picture of the author"
+                />
+                <Image
+                      src="/exhibiciones/losPatitosFeos4.jpg"
                       width={0}
                       height={0}
                       sizes="100vw"
