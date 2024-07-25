@@ -64,22 +64,25 @@ export default function RootLayout({ children }) {
               Artistas representados
             </p>
             <p>
-              Alvaro Godoy /
-              Elias Leiro /
-              Facundo Belen /
-              Facundo Jesus Lugea /
-              Fanny Diaz /
+            <Link href="./alvaroGodoy"> Alvaro Godoy /</Link>
+            <Link href="./eliasLeiro"> Elias Leiro /</Link>
+            <Link href="./facundoBelen">  Facundo Belen /</Link>
+            <Link href="./facundoLugea">  Facundo Jesus Lugea /</Link>
+            <Link href="/fannyedithDiaz">  Fanny Diaz /</Link>
               {/* Franco Palioff / */}
-              Frenetik Void /
-              Julieta Proto Boca /
-              Leonardo Sanchez /
-              Marco Pimentel /
-              Vladimir Maruts Ballet /
-              Matias Tomas /
-              Sofia Castro /
-              Tomo Cabrera /
-              Trinidad Metz Brea /
-              Valentina Quintero
+            <Link href="./frenetikVoid">  Frenetik Void /</Link>
+            <Link href="./julianBrangold">  Julian Brangold /</Link>
+            <Link href="./julietaprotoBoca">  Julieta Proto Boca /</Link>
+            <Link href="./leonardoSanchez">  Leonardo Sanchez /</Link>
+            <Link href="./marcoPimentel">  Marco Pimentel /</Link>
+            <Link href="./vladimirmarutsBallet">  Vladimir Maruts Ballet /</Link>
+            <Link href="./matiasTomas">  Matias Tomas /</Link>
+            <Link href="./pastel">  Pastel /</Link>
+            <Link href="./samanthaFerro">  Samantha Ferro /</Link>
+            <Link href="./sofiaCastro">  Sofia Castro /</Link>
+            <Link href="./tomoCabrera">  Tomo Cabrera /</Link>
+            <Link href="./trinidadmetzBarra">  Trinidad Metz Brea /</Link>
+            <Link href="./valentinaQuintero">  Valentina Quintero</Link>
               
 
               </p>

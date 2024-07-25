@@ -16,25 +16,21 @@ export default function Home() {
         x: { duration: 0.25 }
       }}>
 
-      <div className={styles.center}>
-
-        <Image
-          className={styles.logo}
-          src="/valeriesLogo2.png"
-          alt="Valeries factory"
-          width={0}
-          height={0}
-          sizes="100vw"
-          style={{ width: '100%', height: 'auto', maxWidth: '800px' }}
-        />
-      </div>
-
-      <video autoPlay muted loop playsInline style={{ width: '100%', height: '100%', position: 'fixed', objectFit: 'cover', zIndex: '-1', right: '0', bottom: '0', pointerEvents: 'none', }}>
-        <source src="/auravaleries bloon heart0001_H.264_H.264.mp4" />
-      </video>
-
+        <div className={styles.center}>
+          <Image
+            className={styles.logo}
+            src="/valeriesLogo2.png"
+            alt="Valeries factory"
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: '100%', height: 'auto', maxWidth: '800px' }}
+          />
+        </div>
+        <video autoPlay muted loop playsInline style={{ width: '100%', height: '100%', position: 'fixed', objectFit: 'cover', zIndex: '-1', right: '0', bottom: '0', pointerEvents: 'none', }}>
+          <source src="/auravaleries bloon heart0001_H.264_H.264.mp4" />
+        </video>
       </motion.div>
-
     </main>
   );
 }

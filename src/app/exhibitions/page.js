@@ -391,45 +391,6 @@ export default function Artists() {
               </div>
             </div>
           </div>
-          
-          <div className={styles.container}>
-            <div className={styles.exhibitions}>
-              <div className={styles.exhibition_info}>
-                <p className={styles.title}>En El Nombre De Nadie</p>
-                <p className={styles.subtitle}>Artista</p>
-                <p className={styles.exhibition_text}>Leonardo Sanchez</p>
-                <p className={styles.subtitle}>Curaduría y Texto</p>
-                <p className={styles.exhibition_text}>Nicolas Cuello </p>
-                <p className={styles.subtitle}>Buenos Aires / 2022</p>
-              </div>
-              <div className={styles.imageContainer}>
-                <Image
-                      src="/exhibiciones/ENELNOMBREDENADIE(1).jpg"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                      alt="memética"
-                />
-                <Image
-                      src="/exhibiciones/ENELNOMBREDENADIE(2).jpg"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                      alt="memética"
-                />
-                <Image
-                      src="/exhibiciones/ENELNOMBREDENADIE(3).jpg"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                      alt="memética"
-                />
-              </div>             
-            </div>
-          </div>
 
           <div className={styles.container}>
             <div className={styles.exhibitions}>
@@ -689,47 +650,120 @@ export default function Artists() {
           </div> */}
 
         
+        <div className={styles.container}>
+          <div className={styles.exhibitions}>
+            <div className={styles.exhibition_info}>
+              <p className={styles.title}>En El Nombre De Nadie</p>
+              <p className={styles.subtitle}>Artista</p>
+              <p className={styles.exhibition_text}>Leonardo Sanchez</p>
+              <p className={styles.subtitle}>Curaduría y Texto</p>
+              <p className={styles.exhibition_text}>Nicolas Cuello </p>
+              <p className={styles.subtitle}>Buenos Aires / 2022</p>
+            </div>
+            <div className={styles.imageContainer}>
+              <Image
+                    src="/exhibiciones/ENELNOMBREDENADIE(1).jpg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                    alt="memética"
+              />
+              <Image
+                    src="/exhibiciones/ENELNOMBREDENADIE(2).jpg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                    alt="memética"
+              />
+              <Image
+                    src="/exhibiciones/ENELNOMBREDENADIE(3).jpg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                    alt="memética"
+              />
+            </div>             
+          </div>
+        </div>
 
         <div className={styles.container}>
-            <div className={styles.exhibitions}>
-              <div className={styles.exhibition_info}>
-                <p className={styles.title}>Arte Ba</p>
-                <p className={styles.subtitle}>Utopía</p>
-                <p className={styles.subtitle}>Artistas</p>
-                <p className={styles.exhibition_text}>Franco Pailoff</p>
-                <p className={styles.subtitle}>Aura VTV</p>
-                <p className={styles.subtitle}>Argentina / 2022</p>
-              </div>
-              <div className={styles.imageContainer}>
-                <Image
-                      src="/exhibiciones/arteBA2022.JPG"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                      alt="Picture of the author"
-                />
-                <Image
-                  src="/exhibiciones/arteBA20222.JPG"
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                  alt="Picture of the author"
-                />
-                <Image
-                  src="/exhibiciones/arteBA20223.jpg"
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                  alt="Picture of the author"
-                />
-
-              </div>
-              
+          <div className={styles.exhibitions}>
+            <div className={styles.exhibition_info}>
+              <p className={styles.title}>Arte Ba</p>
+              <p className={styles.subtitle}>Utopía</p>
+              <p className={styles.subtitle}>Artistas</p>
+              <p className={styles.exhibition_text}>Franco Pailoff</p>
+              <p className={styles.subtitle}>Aura VTV</p>
+              <p className={styles.subtitle}>Argentina / 2022</p>
             </div>
+            <div className={styles.imageContainer}>
+              <Image
+                    src="/exhibiciones/arteBA2022.JPG"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                    alt="Picture of the author"
+              />
+              <Image
+                src="/exhibiciones/arteBA20222.JPG"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                alt="Picture of the author"
+              />
+              <Image
+                src="/exhibiciones/arteBA20223.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                alt="Picture of the author"
+              />
+            </div>       
           </div>
+        </div>
+
+        <div className={styles.container}>
+          <div className={styles.exhibitions}>
+            <div className={styles.exhibition_info}>
+              <p className={styles.title}>  Normcore</p>
+              <p className={styles.subtitle}>Artista</p>
+              <p className={styles.exhibition_text}>Elías Leiro</p>
+              <p className={styles.subtitle}>Buenos Aires / 2022</p>
+            </div>
+            <div className={styles.imageContainer}>
+              <Image
+                    src="/exhibiciones/NORMCORE.jpg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                    alt="Picture of the author"
+              />
+              <Image
+                src="/exhibiciones/NORMCORE2.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                alt="Picture of the author"
+              />
+              <Image
+                src="/exhibiciones/NORMCORE3.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                alt="Picture of the author"
+              />
+            </div>       
+          </div>
+        </div>
 
           <div className={styles.container}>
             <div className={styles.exhibitions}>
@@ -761,8 +795,7 @@ export default function Artists() {
               </div>
             </div>
           </div>
-        
-          </div>
+        </div>
         
 
         </motion.div>
