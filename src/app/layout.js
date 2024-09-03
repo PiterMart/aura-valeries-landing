@@ -88,7 +88,7 @@ export default function RootLayout({ children }) {
               </p>
           </div>
           <div className={styles.contentSection} style={{borderTop: '1px solid #ffffff'}}>
-            <div style={{gap: '2rem', display: 'flex', flexDirection: 'column', alignItems: "baseline"}}>
+            <div style={{gap: '2rem', display: 'flex', flexDirection: 'column', alignItems: "baseline", alignSelf: "baseline"}}>
               <p>
                 <a href="mailto:valerie@valeriesfactory.com">
                 valerie@valeriesfactory.com
