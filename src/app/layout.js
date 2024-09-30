@@ -25,6 +25,7 @@ export default function RootLayout({ children }) {
               alt="Valeries"
               width={60}
               height={60}
+              className={styles.navImage}
               priority
             />
 
@@ -33,7 +34,11 @@ export default function RootLayout({ children }) {
           <div className={styles.list}>
             <ul>
               <li><Link href="/artists">Artistas</Link></li>
+              <p>/</p>
               <li><Link href="/exhibitions">Exhibiciones</Link></li>
+              <p>/</p>
+              <li><Link href="/fairs">Ferias</Link></li>
+              <p>/</p>
               <li><Link href="/contact">Contacto</Link></li>
             </ul>
           </div>

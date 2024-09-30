@@ -20,12 +20,124 @@ export default function Artists() {
           <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
             <div className={styles.exhibitions}>
               <div className={styles.exhibition_info}>
+                <p className={styles.title}>Cuando Empiece La Temporada</p>
+                <p className={styles.subtitle}>Artista</p>
+                <p className={styles.exhibition_text}>Elías Leiro </p>
+                <p className={styles.subtitle}>Curaduría</p>
+                <p className={styles.exhibition_text}>Julia Volpato</p>
+                <p className={styles.subtitle}>Texto</p>
+                <p className={styles.exhibition_text}>Lucía Requejo</p>
+                <p className={styles.subtitle}>Buenos Aires / 2024</p>
+                <a href="/VF_EliasLeiro.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a>
+              </div>
+              <div className={styles.imageContainer}>
+              <Image
+                      src="/exhibiciones/cuandoEmpiezeLaTemporada.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+                <Image
+                      src="/exhibiciones/cuandoEmpiezeLaTemporada2.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+                <Image
+                      src="/exhibiciones/cuandoEmpiezeLaTemporada3.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+              </div>             
+            </div>
+          </div>
+          <div className={styles.container}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
+                <p className={styles.title}>Video</p>
+                <p className={styles.subtitle}>Artista</p>
+                <p className={styles.exhibition_text}>Leo Sanchez </p>
+                <p className={styles.subtitle}>Curaduría</p>
+                <p className={styles.exhibition_text}>Nicanor Aráoz</p>
+                <p className={styles.subtitle}>Texto</p>
+                <p className={styles.exhibition_text}>Bruno Mendonça</p>
+                <p className={styles.subtitle}>Buenos Aires / 2024</p>
+                <a href="/VF_LeoSanchez.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a>
+              </div>
+              <div className={styles.imageContainer}>
+              <Image
+                      src="/exhibiciones/video.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+                <Image
+                      src="/exhibiciones/video2.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+                <Image
+                      src="/exhibiciones/video3.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+              </div>             
+            </div>
+          </div>
+          <div className={styles.container}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
+                <p className={styles.title}>Mundo: Se</p>
+                <p className={styles.subtitle}>Artistas</p>
+                <p className={styles.exhibition_text}> Matías Tomás, Facundo Lugea</p>
+                <p className={styles.subtitle}>Buenos Aires / 2024</p>
+                <a href="/VF_MundoSe.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a>
+              </div>
+              <div className={styles.imageContainer}>
+              <Image
+                      src="/exhibiciones/mundoSe.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+                <Image
+                      src="/exhibiciones/mundoSe2.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+              </div>             
+            </div>
+          </div>
+          <div className={styles.container}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
                 <p className={styles.title}>Valentina</p>
                 <p className={styles.subtitle}>Artista</p>
                 <p className={styles.exhibition_text}>Valentina Quintero </p>
                 <p className={styles.subtitle}>Texto</p>
                 <p className={styles.exhibition_text}>Leandro Martínez Depietri</p>
                 <p className={styles.subtitle}>Buenos Aires / 2024</p>
+                <a href="/VF_ValentinaQuintero.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a>
               </div>
               <div className={styles.imageContainer}>
               <Image
@@ -64,6 +176,7 @@ export default function Artists() {
                 <p className={styles.subtitle}>Mentoría</p>
                 <p className={styles.exhibition_text}>Julieta García Vázquez</p>
                 <p className={styles.subtitle}>Buenos Aires / 2024</p>
+                <a href="/VF_TomoCabrera.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a>
               </div>
               <div className={styles.imageContainer}>
                 <Image
@@ -100,6 +213,7 @@ export default function Artists() {
                 <p className={styles.subtitle}>Artista</p>
                 <p className={styles.exhibition_text}>China / Julian Brangold / Frenetik Void / Mauro Koliva / Álvaro Godoy </p>
                 <p className={styles.subtitle}>Buenos Aires / 2024</p>
+                <a href="/VF_Memetica.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a>
               </div>
               <div className={styles.imageContainer}>
                 <Image
@@ -175,47 +289,6 @@ export default function Artists() {
                 />
               </div>
               
-            </div>
-          </div>
-
-          <div className={styles.container}>
-            <div className={styles.exhibitions}>
-              <div className={styles.exhibition_info}>
-              <p className={styles.title}>Pinta Miami</p>
-              <p className={styles.subtitle}>Feria Pinta / sector NEXT</p>
-              <p className={styles.subtitle}>Artistas</p>
-              <p className={styles.exhibition_text}>Trinidad Metz Brea / Julieta Proto</p>
-              <p className={styles.subtitle}>Curaduría</p>
-              <p className={styles.exhibition_text}>Giuliana Vidarte</p>
-              <p className={styles.subtitle}>Estados Unidos / 2023</p>
-              <p className={styles.subtitle}>Aura x Valeries</p>
-              </div>
-              <div className={styles.imageContainer}>
-                <Image
-                      src="/exhibiciones/pintaMiami.jpeg"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                      alt="Picture of the author"
-                />
-                <Image
-                  src="/exhibiciones/pintaMiami2.JPG"
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                  alt="Picture of the author"
-                />
-                <Image
-                  src="/exhibiciones/pintaMiami3.jpeg"
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                  alt="Picture of the author"
-                />
-              </div>
             </div>
           </div>
 
@@ -348,117 +421,6 @@ export default function Artists() {
                 />
 
               </div>
-            </div>
-          </div>
-
-          <div className={styles.container}>
-            <div className={styles.exhibitions}>
-              <div className={styles.exhibition_info}>
-                <p className={styles.title}>Amniótica</p>
-                <p className={styles.subtitle}>Aura</p>
-                <p className={styles.subtitle}>Artista</p>
-                <p className={styles.exhibition_text}>Fausto Valiente</p>
-                <p className={styles.subtitle}>Texto</p>
-                <p className={styles.exhibition_text}>Renata Molinari</p>
-                <p className={styles.subtitle}>Argentina / 2023</p>
-              </div>
-              <div className={styles.imageContainer}>
-                <Image
-                      src="/exhibiciones/amniotica.jpg"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                      alt="Picture of the author"
-                />
-                <Image
-                  src="/exhibiciones/amniotica2.jpg"
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                  alt="Picture of the author"
-                />
-                <Image
-                  src="/exhibiciones/amniotica3.jpg"
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                  alt="Picture of the author"
-                />
-
-              </div>
-            </div>
-          </div>
-
-          <div className={styles.container}>
-            <div className={styles.exhibitions}>
-              <div className={styles.exhibition_info}>
-                <p className={styles.title}>Arte BA</p>
-                <p className={styles.subtitle}>Utopía</p>
-                <p className={styles.subtitle}>Artistas</p>
-                <p className={styles.exhibition_text}>Sofi Castro / Valentina Quintero / Leonardo Sanchez  / Tomo Cabrera / Fanny Díaz / Julieta Proto / Matías Tomás / Elias Leiro </p>
-                <p className={styles.subtitle}>Buenos Aires / 2023</p>
-              </div>
-              <div className={styles.imageContainer}>
-                <Image
-                    src="/exhibiciones/ARTEBA2022 (1).jpg"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                    alt="Picture of the author"
-                  />
-                  <Image
-                    src="/exhibiciones/ARTEBA2022 (2).jpg"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                    alt="Picture of the author"
-                  />
-              </div>
-            </div>
-          </div>
-
-          <div className={styles.container}>
-            <div className={styles.exhibitions}>
-              <div className={styles.exhibition_info}>
-                <p className={styles.title}>Arte BA</p>
-                <p className={styles.subtitle}>Utopía</p>
-                <p className={styles.subtitle}>Artistas</p>
-                <p className={styles.exhibition_text}>Aun Helden / Enco / Eva Moro Cafiero / Facundo Jesus Luega / Franco Pailoff / Frenetik Void / Juan Pablo Ferlat / Lila Llunez / Orkgotik / Trinidad Metz Brea</p>
-                <p className={styles.subtitle}>Buenos Aires - 2023</p>
-                <p className={styles.subtitle}>Aura VTV</p>
-              </div>
-              <div className={styles.imageContainer}>
-                <Image
-                      src="/exhibiciones/arteBA2023.jpg"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                      alt="Picture of the author"
-                />
-                <Image
-                  src="/exhibiciones/arteBA20232.jpg"
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                  alt="Picture of the author"
-                />
-                <Image
-                  src="/exhibiciones/arteBA20233.jpg"
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                  alt="Picture of the author"
-                />
-                
-              </div>              
             </div>
           </div>
 
@@ -636,168 +598,84 @@ export default function Artists() {
             
           </div>
 
-          {/* <div className={styles.container}>
+          <div className={styles.container}>
             <div className={styles.exhibitions}>
               <div className={styles.exhibition_info}>
-                <p className={styles.title}>Magma Futura</p>
+                <p className={styles.title}>En El Nombre De Nadie</p>
                 <p className={styles.subtitle}>Artista</p>
-                <p className={styles.exhibition_text}>Franco Pailoff</p>
-                <p className={styles.subtitle}>Aura VTV</p>
-                <p className={styles.subtitle}>Uruguay / 2023</p>
+                <p className={styles.exhibition_text}>Leonardo Sanchez</p>
+                <p className={styles.subtitle}>Curaduría y Texto</p>
+                <p className={styles.exhibition_text}>Nicolas Cuello </p>
+                <p className={styles.subtitle}>Buenos Aires / 2022</p>
               </div>
-              <div className={styles.imageContainer}></div>
+              <div className={styles.imageContainer}>
+                <Image
+                      src="/exhibiciones/ENELNOMBREDENADIE(1).jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+                <Image
+                      src="/exhibiciones/ENELNOMBREDENADIE(2).jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+                <Image
+                      src="/exhibiciones/ENELNOMBREDENADIE(3).jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+              </div>             
             </div>
-          </div> */}
-
-        
-        <div className={styles.container}>
-          <div className={styles.exhibitions}>
-            <div className={styles.exhibition_info}>
-              <p className={styles.title}>En El Nombre De Nadie</p>
-              <p className={styles.subtitle}>Artista</p>
-              <p className={styles.exhibition_text}>Leonardo Sanchez</p>
-              <p className={styles.subtitle}>Curaduría y Texto</p>
-              <p className={styles.exhibition_text}>Nicolas Cuello </p>
-              <p className={styles.subtitle}>Buenos Aires / 2022</p>
-            </div>
-            <div className={styles.imageContainer}>
-              <Image
-                    src="/exhibiciones/ENELNOMBREDENADIE(1).jpg"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                    alt="memética"
-              />
-              <Image
-                    src="/exhibiciones/ENELNOMBREDENADIE(2).jpg"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                    alt="memética"
-              />
-              <Image
-                    src="/exhibiciones/ENELNOMBREDENADIE(3).jpg"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                    alt="memética"
-              />
-            </div>             
           </div>
-        </div>
-
-        <div className={styles.container}>
-          <div className={styles.exhibitions}>
-            <div className={styles.exhibition_info}>
-              <p className={styles.title}>Arte Ba</p>
-              <p className={styles.subtitle}>Utopía</p>
-              <p className={styles.subtitle}>Artistas</p>
-              <p className={styles.exhibition_text}>Franco Pailoff</p>
-              <p className={styles.subtitle}>Aura VTV</p>
-              <p className={styles.subtitle}>Argentina / 2022</p>
-            </div>
-            <div className={styles.imageContainer}>
-              <Image
-                    src="/exhibiciones/arteBA2022.JPG"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                    alt="Picture of the author"
-              />
-              <Image
-                src="/exhibiciones/arteBA20222.JPG"
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                alt="Picture of the author"
-              />
-              <Image
-                src="/exhibiciones/arteBA20223.jpg"
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                alt="Picture of the author"
-              />
-            </div>       
-          </div>
-        </div>
-
-        <div className={styles.container}>
-          <div className={styles.exhibitions}>
-            <div className={styles.exhibition_info}>
-              <p className={styles.title}>  Normcore</p>
-              <p className={styles.subtitle}>Artista</p>
-              <p className={styles.exhibition_text}>Elías Leiro</p>
-              <p className={styles.subtitle}>Buenos Aires / 2022</p>
-            </div>
-            <div className={styles.imageContainer}>
-              <Image
-                    src="/exhibiciones/NORMCORE.jpg"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                    alt="Picture of the author"
-              />
-              <Image
-                src="/exhibiciones/NORMCORE2.jpg"
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                alt="Picture of the author"
-              />
-              <Image
-                src="/exhibiciones/NORMCORE3.jpg"
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                alt="Picture of the author"
-              />
-            </div>       
-          </div>
-        </div>
 
           <div className={styles.container}>
             <div className={styles.exhibitions}>
               <div className={styles.exhibition_info}>
-                <p className={styles.title}>SP Arte</p>
-                <p className={styles.subtitle}>Bienal De São Paulo</p>
-                <p className={styles.subtitle}>Aura</p>
-                <p className={styles.subtitle}>Artistas</p>
-                <p className={styles.exhibition_text}>Enco Desgem / Aun Helden</p>
-                <p className={styles.subtitle}>Brazil / 2022</p>
+                <p className={styles.title}>  Normcore</p>
+                <p className={styles.subtitle}>Artista</p>
+                <p className={styles.exhibition_text}>Elías Leiro</p>
+                <p className={styles.subtitle}>Buenos Aires / 2022</p>
               </div>
               <div className={styles.imageContainer}>
                 <Image
-                    src="/exhibiciones/SP.jpeg"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                    alt="Picture of the author"
-                  />
-                  <Image
-                    src="/exhibiciones/SP2.jpg"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                    alt="Picture of the author"
-                  />
-              </div>
+                  src="/exhibiciones/NORMCORE.jpg"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                  alt="Picture of the author"
+                />
+                <Image
+                  src="/exhibiciones/NORMCORE2.jpg"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                  alt="Picture of the author"
+                />
+                <Image
+                  src="/exhibiciones/NORMCORE3.jpg"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                  alt="Picture of the author"
+                />
+              </div>       
             </div>
           </div>
+
         </div>
         
-
         </motion.div>
       </main>
     );

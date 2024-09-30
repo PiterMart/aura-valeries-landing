@@ -67,6 +67,28 @@ export default function Artists() {
                   lucia@valeriesfactory.com
                 </a>
               </p>
+              <p className={styles.subtitle}>
+                Sofía Goldemberg 
+              </p>
+              <p>
+                <a href="mailto:sogo@valeriesfactory.com">
+                  sogo@valeriesfactory.com
+                </a>
+              </p>
+            </div>
+          </div>
+          <div className={styles.contentSection}>
+
+            <p className={styles.subtitle}>COMUNICACIÓN</p>
+            <div className={styles.contactInfo}>
+              <p className={styles.subtitle}>
+                Tomo Cabrera
+              </p>
+              <p>
+                <a href="mailto:tomo@valeriesfactory.com">
+                  tomo@valeriesfactory.com 
+                </a>
+              </p>
             </div>
           </div>
         </div>

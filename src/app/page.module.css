@@ -88,9 +88,13 @@
   z-index: 1;
   font-family: var(--font-mono);
   margin: auto;
-  padding: 1rem;
-  background: #ffffff60;
-  border-bottom: solid#F73939;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  /* background: #ffffff60; */
+  /* background: rgb(229,229,229);
+  background: linear-gradient(180deg, rgba(229,229,229,1) 73%, rgba(0,0,0,0) 100%); */
+  background: #f73838;
+  color: white;
   font-family: "Parisienne", cursive;
   font-weight: 400;
   font-style: normal;
@@ -104,12 +108,10 @@
 }
 
 .nav p {
-  position: relative;
-  margin: 0;
-  padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
-  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
-  border-radius: var(--border-radius);
+  padding: 0.5rem;
+}
+.navImage{
+  filter: brightness(5)
 }
 .footer {
   display: flex;
@@ -283,8 +285,7 @@
   animation-duration: 5ms;
   transition: color .2s ease-in, font-weight .2s ease-in-out, letter-spacing .7s ease-in-out, transform .3s ease-in-out;
   box-shadow: black;
-  font-weight: 600;
-  color: #F73939;
+  text-decoration: underline 1px white;
   /* letter-spacing: 10px; */
 }
 
@@ -375,6 +376,27 @@
   .nav {
     padding: 0.5rem;
     font-size: 1.5rem;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+    background: #ffffff60;
+    color: black;
+  }
+  .nav p{
+    display: none;
+
+  }
+  .navImage{
+    filter: none;
+  }
+  .list a:hover{
+    animation-duration: 5ms;
+    transition: color .2s ease-in, font-weight .2s ease-in-out, letter-spacing .7s ease-in-out, transform .3s ease-in-out;
+    box-shadow: black;
+    text-decoration: underline 1px black;
+  }
+  .list li{
+    padding: 0.5rem;
+    padding-bottom: 0.15rem;
   }
   .logo {
     position: fixed;
@@ -402,7 +424,7 @@
 
   .main{
     padding: 1rem;
-    padding-top: 7rem;
+    padding-top: 10rem;
     padding-bottom: 7rem;
   }
 
@@ -526,7 +548,7 @@
   }
   .exhibition_info{
     margin: auto;
-    margin-left: 10rem;
+    margin-left: 0rem;
   }
   .imageContainer{
     display: flex;
@@ -535,6 +557,7 @@
     flex-direction: column;
     border-left: none;
     padding-left: 0rem;
+    width: 100%;
   }
   .artistNav {
     left: 4rem;
