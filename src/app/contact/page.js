@@ -60,19 +60,11 @@ export default function Artists() {
             <p className={styles.subtitle}>PRODUCCIÓN ARTÍSTICA</p>
             <div className={styles.contactInfo}>
               <p className={styles.subtitle}>
-                Lucia Ranzuglia
+                Ayelen Ruiz
               </p>
               <p>
-                <a href="mailto:lucia@valeriesfactory.com">
-                  lucia@valeriesfactory.com
-                </a>
-              </p>
-              <p className={styles.subtitle}>
-                Sofía Goldemberg 
-              </p>
-              <p>
-                <a href="mailto:sogo@valeriesfactory.com">
-                  sogo@valeriesfactory.com
+                <a href="mailto:ayelen@valeriesfactory.com">
+                ayelen@valeriesfactory.com
                 </a>
               </p>
             </div>
