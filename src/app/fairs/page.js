@@ -24,9 +24,20 @@ export default function Artists() {
                 <p className={styles.title}>Arte BA 2024</p>
                 <p className={styles.subtitle}>Sección principal</p>
                 <p className={styles.subtitle}>Artistas</p>
-                <p className={styles.exhibition_text}>Trinidad Metz Brea / Valentina Quintero / Julieta Proto Boca</p>
+                <p className={styles.exhibition_text}>
+                <Link href="./julietaprotoBoca">  Julieta Proto /</Link>
+                  <Link href="./trinidadmetzBarra"> Trinidad Metz Brea /</Link> 
+                  <Link href="./valentinaQuintero">  Valentina Quintero </Link> 
+                </p>
                 <p className={styles.subtitle}>Trastienda</p>
-                <p className={styles.exhibition_text}>Sofia Castro / Frenetik Void / Vladimir Maruts Ballet / Pastel / Samantha Ferro / Julian Brangold</p>
+                <p className={styles.exhibition_text}>
+                  <Link href="./sofiaCastro">  Sofia Castro /</Link> 
+                  <Link href="./frenetikVoid">  Frenetik Void /</Link> 
+                  <Link href="./vladimirmarutsBallet">  Vladimir Maruts Ballet /</Link> 
+                  <Link href="./pastel">  Pastel /</Link>
+                  <Link href="./samanthaFerro">  Samantha Ferro /</Link> 
+                  <Link href="./julianBrangold">  Julian Brangold </Link>
+                </p>
                 <p className={styles.subtitle}>Buenos Aires / 2024</p>
                 </div>
                 <div className={styles.imageContainer}>
@@ -80,7 +91,10 @@ export default function Artists() {
                 <p className={styles.title}>Pinta Miami</p>
                 <p className={styles.subtitle}>Feria Pinta / sector NEXT</p>
                 <p className={styles.subtitle}>Artistas</p>
-                <p className={styles.exhibition_text}>Trinidad Metz Brea / Julieta Proto</p>
+                <p className={styles.exhibition_text}>
+                  <Link href="./trinidadmetzBarra">  Trinidad Metz Brea /</Link> 
+                  <Link href="./julietaprotoBoca">  Julieta Proto Boca </Link>
+                </p>
                 <p className={styles.subtitle}>Curaduría</p>
                 <p className={styles.exhibition_text}>Giuliana Vidarte</p>
                 <p className={styles.subtitle}>Estados Unidos / 2023</p>
@@ -121,7 +135,16 @@ export default function Artists() {
                   <p className={styles.title}>Arte BA 2023</p>
                   <p className={styles.subtitle}>Utopía</p>
                   <p className={styles.subtitle}>Artistas</p>
-                  <p className={styles.exhibition_text}>Sofi Castro / Valentina Quintero / Leonardo Sanchez  / Tomo Cabrera / Fanny Díaz / Julieta Proto / Matías Tomás / Elias Leiro </p>
+                  <p className={styles.exhibition_text}>
+                    <Link href="./sofiaCastro">  Sofia Castro /</Link> 
+                    <Link href="./valentinaQuintero">  Valentina Quintero</Link> 
+                    <Link href="./leonardoSanchez">  Leonardo Sanchez /</Link> 
+                    <Link href="./tomoCabrera">  Tomo Cabrera /</Link> 
+                    <Link href="/fannyedithDiaz">  Fanny Diaz /</Link>
+                    <Link href="./julietaprotoBoca">  Julieta Proto Boca /</Link>
+                    <Link href="./matiasTomas">  Matias Tomas /</Link> 
+                    <Link href="./eliasLeiro"> Elias Leiro </Link>
+                  </p>
                   <p className={styles.subtitle}>Buenos Aires / 2023</p>
                 </div>
                 <div className={styles.imageContainer}>
@@ -151,7 +174,18 @@ export default function Artists() {
                   <p className={styles.title}>Arte BA 2023</p>
                   <p className={styles.subtitle}>Utopía</p>
                   <p className={styles.subtitle}>Artistas</p>
-                  <p className={styles.exhibition_text}>Aun Helden / Enco / Eva Moro Cafiero / Facundo Jesus Luega / Franco Pailoff / Frenetik Void / Juan Pablo Ferlat / Lila Llunez / Orkgotik / Trinidad Metz Brea</p>
+                  <p className={styles.exhibition_text}>
+                    Aun Helden / 
+                    Enco / 
+                    Eva Moro Cafiero / 
+                    Facundo Jesus Luega / 
+                    Franco Pailoff / 
+                    <Link href="./frenetikVoid">  Frenetik Void / </Link> 
+                    Juan Pablo Ferlat / 
+                    Lila Llunez / 
+                    Orkgotik / 
+                    <Link href="./trinidadmetzBarra">  Trinidad Metz Brea / </Link>
+                  </p>
                   <p className={styles.subtitle}>Buenos Aires - 2023</p>
                   <p className={styles.subtitle}>Aura VTV</p>
                 </div>

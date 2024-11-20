@@ -53,7 +53,11 @@ export default function RootLayout({ children }) {
 
           <div className={styles.contentSection} style={{borderTop: '0px solid #ffffff', marginTop: '1rem'}}>
             <p>
-              Valerie’s Factory es una galería de arte contemporáneo dirigida por Jimena Lusi, Xul Jan y Sandro Guevara. Es un espacio de cruce de lenguajes teniendo como núcleo las artes visuales, que pondera el trabajo colaborativo entre artistas, diseñadores, músicxs, curadores y gestores. Nos excitan los desafíos y lxs artistas apasionadxs, la moda y el futuro, las obras que  auguran ese espíritu que ama los días de sol, las girl-girls, las boy girls, los girl-boys y los boy-boys. 
+              Valerie’s Factory es una galería de arte contemporáneo dirigida por Jimena Lusi, Xul Jan y Sandro Guevara. Es un espacio de cruce de lenguajes teniendo como núcleo las artes visuales, que pondera el trabajo colaborativo entre artistas, diseñadores, músicxs, curadores y gestores. 
+              Nos excitan los desafíos y lxs artistas apasionadxs, 
+              la moda y el futuro, las obras que  auguran ese espíritu 
+              que ama los días de sol, las girl-girls, las boy girls, 
+              los girl-boys y los boy-boys. 
               es proyectar una imagen de potencialidad y posibilidad
               en nombre de otro tiempo y otro lugar, socavando el tejido de la realidad.
               Una imagen intermedial del futuro,
@@ -73,7 +77,6 @@ export default function RootLayout({ children }) {
             <Link href="./facundoBelen">  Facundo Belen /</Link>
             <Link href="./facundoLugea">  Facundo Jesus Lugea /</Link>
             <Link href="/fannyedithDiaz">  Fanny Diaz /</Link>
-              {/* Franco Palioff / */}
             <Link href="./frenetikVoid">  Frenetik Void /</Link>
             <Link href="./julianBrangold">  Julian Brangold /</Link>
             <Link href="./julietaprotoBoca">  Julieta Proto Boca /</Link>
@@ -87,8 +90,6 @@ export default function RootLayout({ children }) {
             <Link href="./tomoCabrera">  Tomo Cabrera /</Link>
             <Link href="./trinidadmetzBarra">  Trinidad Metz Brea /</Link>
             <Link href="./valentinaQuintero">  Valentina Quintero</Link>
-              
-
               </p>
           </div>
           <div className={styles.contentSection} style={{borderTop: '1px solid #ffffff'}}>

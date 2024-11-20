@@ -22,7 +22,7 @@ export default function Artists() {
               <div className={styles.exhibition_info}>
                 <p className={styles.title}>Cuando Empiece La Temporada</p>
                 <p className={styles.subtitle}>Artista</p>
-                <p className={styles.exhibition_text}>Elías Leiro </p>
+                <p className={styles.exhibition_text}><Link href="./eliasLeiro"> Elias Leiro</Link></p>
                 <p className={styles.subtitle}>Curaduría</p>
                 <p className={styles.exhibition_text}>Julia Volpato</p>
                 <p className={styles.subtitle}>Texto</p>
@@ -63,7 +63,7 @@ export default function Artists() {
               <div className={styles.exhibition_info}>
                 <p className={styles.title}>Video</p>
                 <p className={styles.subtitle}>Artista</p>
-                <p className={styles.exhibition_text}>Leo Sanchez </p>
+                <p className={styles.exhibition_text}><Link href="./leonardoSanchez">  Leonardo Sanchez </Link></p>
                 <p className={styles.subtitle}>Curaduría</p>
                 <p className={styles.exhibition_text}>Nicanor Aráoz</p>
                 <p className={styles.subtitle}>Texto</p>
@@ -104,7 +104,7 @@ export default function Artists() {
               <div className={styles.exhibition_info}>
                 <p className={styles.title}>Mundo: Se</p>
                 <p className={styles.subtitle}>Artistas</p>
-                <p className={styles.exhibition_text}> Matías Tomás, Facundo Lugea</p>
+                <p className={styles.exhibition_text}> <Link href="./matiasTomas">  Matias Tomas </Link>, <Link href="./facundoLugea">  Facundo Jesus Lugea </Link></p>
                 <p className={styles.subtitle}>Buenos Aires / 2024</p>
                 <a href="/VF_MundoSe.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a>
               </div>
@@ -133,7 +133,7 @@ export default function Artists() {
               <div className={styles.exhibition_info}>
                 <p className={styles.title}>Valentina</p>
                 <p className={styles.subtitle}>Artista</p>
-                <p className={styles.exhibition_text}>Valentina Quintero </p>
+                <p className={styles.exhibition_text}><Link href="./valentinaQuintero">  Valentina Quintero</Link></p>
                 <p className={styles.subtitle}>Texto</p>
                 <p className={styles.exhibition_text}>Leandro Martínez Depietri</p>
                 <p className={styles.subtitle}>Buenos Aires / 2024</p>
@@ -172,7 +172,7 @@ export default function Artists() {
               <div className={styles.exhibition_info}>
                 <p className={styles.title}>El Publico</p>
                 <p className={styles.subtitle}>Artista</p>
-                <p className={styles.exhibition_text}>Tomo Cabrera</p>
+                <p className={styles.exhibition_text}><Link href="./tomoCabrera">  Tomo Cabrera </Link></p>
                 <p className={styles.subtitle}>Mentoría</p>
                 <p className={styles.exhibition_text}>Julieta García Vázquez</p>
                 <p className={styles.subtitle}>Buenos Aires / 2024</p>
@@ -211,7 +211,7 @@ export default function Artists() {
               <div className={styles.exhibition_info}>
                 <p className={styles.title}>Memética</p>
                 <p className={styles.subtitle}>Artista</p>
-                <p className={styles.exhibition_text}>China / Julian Brangold / Frenetik Void / Mauro Koliva / Álvaro Godoy </p>
+                <p className={styles.exhibition_text}>China / <Link href="./julianBrangold">  Julian Brangold </Link> / <Link href="./frenetikVoid">  Frenetik Void /</Link> Mauro Koliva / <Link href="./alvaroGodoy"> Alvaro Godoy </Link> </p>
                 <p className={styles.subtitle}>Buenos Aires / 2024</p>
                 <a href="/VF_Memetica.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a>
               </div>
@@ -248,7 +248,24 @@ export default function Artists() {
               <div className={styles.exhibition_info}>
                 <p className={styles.title}>Los Patitos Feos (Colectiva)</p>
                 <p className={styles.subtitle}>Artistas</p>
-                <p className={styles.exhibition_text}>Alvaro Godoy / Elias Leiro / Facundo Belen / Facundo Jesus Lugea / Fanny Diaz / Franco Palioff / Frenetik Void / Julieta Proto Boca / Leonardo Sanchez / Marco Pimentel / Maruts Ballet / Matias Tomas / Sofia Castro / Tomo Cabrera / Trinidad Metz Brea / Valentina Quintero.</p>
+                <p className={styles.exhibition_text}>
+                  <Link href="./alvaroGodoy"> Alvaro Godoy /</Link> 
+                  <Link href="./eliasLeiro"> Elias Leiro /</Link> 
+                  <Link href="./facundoBelen">  Facundo Belen /</Link> 
+                  <Link href="./facundoLugea">  Facundo Jesus Lugea /</Link> 
+                  <Link href="/fannyedithDiaz">  Fanny Diaz /</Link> 
+                  Franco Palioff / 
+                  <Link href="./frenetikVoid">  Frenetik Void /</Link> 
+                  <Link href="./julietaprotoBoca">  Julieta Proto Boca /</Link> 
+                  <Link href="./leonardoSanchez">  Leonardo Sanchez /</Link> 
+                  <Link href="./marcoPimentel">  Marco Pimentel /</Link> 
+                  <Link href="./vladimirmarutsBallet">  Vladimir Maruts Ballet /</Link> 
+                  <Link href="./matiasTomas">  Matias Tomas /</Link> 
+                  <Link href="./sofiaCastro">  Sofia Castro /</Link> 
+                  <Link href="./tomoCabrera">  Tomo Cabrera /</Link> 
+                  <Link href="./trinidadmetzBarra">  Trinidad Metz Brea /</Link> 
+                  <Link href="./valentinaQuintero">  Valentina Quintero</Link>
+                </p>
                 <p className={styles.subtitle}>Curaduría</p>
                 <p className={styles.exhibition_text}>Raúl Flores </p>
                 <p className={styles.subtitle}>Buenos Aires / 2024</p>
@@ -298,7 +315,7 @@ export default function Artists() {
               <p className={styles.title}>Ferales</p>
               <p className={styles.subtitle}>Aura</p>
               <p className={styles.subtitle}>Artistas</p>
-              <p className={styles.exhibition_text}>Trinidad Metz Brea</p>
+              <p className={styles.exhibition_text}><Link href="./trinidadmetzBarra">  Trinidad Metz Brea </Link> </p>
               <p className={styles.subtitle}>Curaduría</p>
               <p className={styles.exhibition_text}>Sofía Dourron</p>
               <p className={styles.subtitle}>Argentina / 2023</p>
@@ -350,7 +367,11 @@ export default function Artists() {
                 <p className={styles.title}>Psipsikoko</p>
                 <p className={styles.subtitle}>Aura</p>
                 <p className={styles.subtitle}>Artistas</p>
-                <p className={styles.exhibition_text}>Julian Brangold / Frenetik Void / Artdao</p>
+                <p className={styles.exhibition_text}>
+                  <Link href="./julianBrangold">  Julian Brangold /</Link>
+                  <Link href="./frenetikVoid">  Frenetik Void / </Link>
+                   Artdao
+                </p>
                 <p className={styles.subtitle}>Argentina - 2023</p>
               </div>
               <div className={styles.imageContainer}>
@@ -389,7 +410,7 @@ export default function Artists() {
                 <p className={styles.title}>Papa Urbano 1</p>
                 <p className={styles.subtitle}>Aura</p>
                 <p className={styles.subtitle}>Artista</p>
-                <p className={styles.exhibition_text}>Vladimir Maruts Ballet</p>
+                <p className={styles.exhibition_text}><Link href="./vladimirmarutsBallet">  Vladimir Maruts Ballet </Link></p>
                 <p className={styles.subtitle}>Texto</p>
                 <p className={styles.exhibition_text}>Jorge Pomar</p>
                 <p className={styles.subtitle}>Buenos Aires / 2023</p>
@@ -472,7 +493,7 @@ export default function Artists() {
                 <p className={styles.title}>Las Chicas C.</p>
                 <p className={styles.subtitle}>Barrakesh</p>
                 <p className={styles.subtitle}>Artista</p>
-                <p className={styles.exhibition_text}>Julieta Proto</p>
+                <p className={styles.exhibition_text}><Link href="./julietaprotoBoca">  Julieta Proto Boca </Link></p>
                 <p className={styles.subtitle}>Curaduría</p>
                 <p className={styles.exhibition_text}>Gimena Macri</p>
                 <p className={styles.subtitle}>Buenos Aires / 2023</p>
@@ -554,7 +575,28 @@ export default function Artists() {
               <p className={styles.title}>Novias</p>
               <p className={styles.subtitle}>Barrakesh</p>
               <p className={styles.subtitle}>Artistas</p>
-              <p className={styles.exhibition_text}>Adrian Quiroz / Ana Vallejo / Archivo de la Memoria Trans / Bett Pavetti / Carlos Cima / Dana Balajovsky / Dana Vitorino / Fanny Díaz / Foto Estudio Luisita / GagBall / Julia Sbriller / Karina Acosta / Kasa Loka / Leo Sanchez / Marisol Mendez / Mariana Papagni / Óscar Sánchez Gómez / Rafaelly (La Conga Rosa) / Rocío Englender / Thales Pessoa</p>
+              <p className={styles.exhibition_text}>
+                Adrian Quiroz / 
+                Ana Vallejo / 
+                Archivo de la Memoria Trans / 
+                Bett Pavetti / 
+                Carlos Cima / 
+                Dana Balajovsky / 
+                Dana Vitorino / 
+                <Link href="/fannyedithDiaz">  Fanny Diaz / </Link>
+                Foto Estudio Luisita / 
+                GagBall / 
+                Julia Sbriller / 
+                Karina Acosta / 
+                Kasa Loka / 
+                Leo Sanchez / 
+                Marisol Mendez / 
+                Mariana Papagni / 
+                Óscar Sánchez Gómez / 
+                Rafaelly (La Conga Rosa) / 
+                Rocío Englender / 
+                Thales Pessoa
+              </p>
               <p className={styles.subtitle}>Curaduría</p>
               <p className={styles.exhibition_text}>Luis Juárez / Jimena Lusi </p>
               <p className={styles.subtitle}>Buenos Aires / 2023</p>
@@ -603,7 +645,7 @@ export default function Artists() {
               <div className={styles.exhibition_info}>
                 <p className={styles.title}>En El Nombre De Nadie</p>
                 <p className={styles.subtitle}>Artista</p>
-                <p className={styles.exhibition_text}>Leonardo Sanchez</p>
+                <p className={styles.exhibition_text}><Link href="./leonardoSanchez">  Leonardo Sanchez </Link></p>
                 <p className={styles.subtitle}>Curaduría y Texto</p>
                 <p className={styles.exhibition_text}>Nicolas Cuello </p>
                 <p className={styles.subtitle}>Buenos Aires / 2022</p>
@@ -642,7 +684,7 @@ export default function Artists() {
               <div className={styles.exhibition_info}>
                 <p className={styles.title}>  Normcore</p>
                 <p className={styles.subtitle}>Artista</p>
-                <p className={styles.exhibition_text}>Elías Leiro</p>
+                <p className={styles.exhibition_text}><Link href="./eliasLeiro"> Elias Leiro </Link></p>
                 <p className={styles.subtitle}>Buenos Aires / 2022</p>
               </div>
               <div className={styles.imageContainer}>

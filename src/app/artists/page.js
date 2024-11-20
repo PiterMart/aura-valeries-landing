@@ -96,22 +96,6 @@ export default function Artists() {
 
             </div>
           </Link>
-          {/* <Link href="./francoPalioff">
-            <div className={styles.imgContainer}>
-              <Image
-                src="/francopalioffT.png"
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover', borderRadius: '50%'  }}
-                alt="Picture of the author"
-              />
-            </div>
-            <div className={styles.dataContainer}>
-              <p>Franco Palioff</p>
-
-            </div>
-          </Link> */}
           <Link href="./frenetikVoid">
             <div className={styles.imgContainer}>
               <Image

@@ -38,7 +38,7 @@ export default function Artists() {
                 <li><a href="#bio">Biografía</a></li>
                 <li><a href="#statement">Statement</a></li>
                 <li><a href="#muestras">Muestras</a></li>
-                <li><a href="#catalogo">Catálogo</a></li>
+                {/* <li><a href="#catalogo">Catálogo</a></li> */}
                 {/* <li><a href="#redes">Redes</a></li> */}
               </ul>
             </div>
@@ -160,12 +160,12 @@ export default function Artists() {
                 (2019-2022) MDA -Método Diana Aisenberg-
               </p>
             </div>
-            <div className={styles.artistSection} id="catalogo">
+            {/* <div className={styles.artistSection} id="catalogo">
 
               <p className={styles.subtitle}>CATÁLOGO</p>
 
               <a href="/ALVARO.pdf" target="_blank">PDF</a>
-            </div>
+            </div> */}
             {/* <div className={styles.artistSection} id="redes">
 
               <p className={styles.subtitle}>REDES</p>

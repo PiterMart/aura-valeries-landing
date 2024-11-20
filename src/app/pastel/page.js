@@ -38,7 +38,7 @@ export default function Artists() {
                 <li><a href="#bio">Biografía</a></li>
                 <li><a href="#statement">Statement</a></li>
                 <li><a href="#muestras">Muestras</a></li>
-                <li><a href="#catalogo">Catálogo</a></li>
+                {/* <li><a href="#catalogo">Catálogo</a></li> */}
                 <li><a href="#redes">Redes</a></li>
               </ul>
             </div>
@@ -140,7 +140,7 @@ export default function Artists() {
               (2009) GRAFFITIMUNDO EXHIBITION / Casa L’Inc / Buenos Aires, Argentina Galeria Proyecto A / Muestra Colectiva / Buenos Aires, Argentina
               </p>
             </div>
-{/*             
+            {/*             
             <div className={styles.artistSection} id="catalogo">
 
               <p className={styles.subtitle}>CATÁLOGO</p>
