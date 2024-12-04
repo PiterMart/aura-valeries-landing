@@ -20,6 +20,84 @@ export default function Artists() {
           <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
             <div className={styles.exhibitions}>
               <div className={styles.exhibition_info}>
+                <p className={styles.title}>Para Editar</p>
+                <p className={styles.subtitle}>Artista</p>
+                <p className={styles.exhibition_text}><Link href="./frenetikVoid">  Frenetik Void </Link></p>
+                <p className={styles.subtitle}>Curaduría</p>
+                <p className={styles.exhibition_text}>Carlos Huffmann</p>
+                <p className={styles.subtitle}>Buenos Aires / 2024</p>
+                {/* <a href="/VF_EliasLeiro.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a> */}
+              </div>
+              <div className={styles.imageContainer}>
+              <Image
+                      src="/exhibiciones/PARAEDITAR1.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+                <Image
+                      src="/exhibiciones/PARAEDITAR2.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+                <Image
+                      src="/exhibiciones/PARAEDITAR3.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+              </div>             
+            </div>
+          </div>
+          <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
+                <p className={styles.title}>Apotropaica</p>
+                <p className={styles.subtitle}>Artista</p>
+                <p className={styles.exhibition_text}><Link href="./samanthaFerro">  Samantha Ferro </Link></p>
+                <p className={styles.subtitle}>Text0</p>
+                <p className={styles.exhibition_text}>Mercedes López Moreyra</p>
+                <p className={styles.subtitle}>Buenos Aires / 2024</p>
+                {/* <a href="/VF_EliasLeiro.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a> */}
+              </div>
+              <div className={styles.imageContainer}>
+              <Image
+                      src="/exhibiciones/APOTROPAICA3.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+                <Image
+                      src="/exhibiciones/APOTROPAICA2.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+                <Image
+                      src="/exhibiciones/APOTROPAICA1.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="memética"
+                />
+              </div>             
+            </div>
+          </div>
+          <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
                 <p className={styles.title}>Cuando Empiece La Temporada</p>
                 <p className={styles.subtitle}>Artista</p>
                 <p className={styles.exhibition_text}><Link href="./eliasLeiro"> Elias Leiro</Link></p>
