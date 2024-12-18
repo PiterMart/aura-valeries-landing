@@ -40,11 +40,7 @@ export default function Artists() {
                   </a>
                 </p>
               </div>
-            </div>
-          </div>
-          <div className={styles.contentSection}>
-            <p className={styles.subtitle}>PRODUCCIÓN EJECUTIVA</p>
-            <div className={styles.contactInfo}>
+              <div className={styles.contactInfo}>
               <p className={styles.subtitle}>
                  Sandro Guevara
               </p>
@@ -54,7 +50,11 @@ export default function Artists() {
                 </a>
               </p>
             </div>
+            </div>
           </div>
+          {/* <div className={styles.contentSection}>
+            <p className={styles.subtitle}>PRODUCCIÓN EJECUTIVA</p>
+          </div> */}
           {/* <div className={styles.contentSection}>
 
             <p className={styles.subtitle}>PRODUCCIÓN ARTÍSTICA</p>
