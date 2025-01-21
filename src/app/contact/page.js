@@ -43,7 +43,7 @@ export default function Artists() {
             </div>
           </div>
           <div className={styles.contentSection}>
-            <p className={styles.subtitle}>PRODUCCIÓN EJECUTIVA</p>
+            <p className={styles.subtitle}>DIRECCIÓN EJECUTIVA</p>
             <div className={styles.contactInfo}>
               <p className={styles.subtitle}>
                  Sandro Guevara
