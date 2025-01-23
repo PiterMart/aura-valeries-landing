@@ -16,6 +16,132 @@ export default function Artists() {
         x: { duration: 0.25 }
         }}>
         <div className={styles.content} style={{marginTop: '0px'}}>
+        <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
+                <p className={styles.title}>Sala C</p>
+                <p className={styles.subtitle}>Artistas</p>
+                <p className={styles.exhibition_text}>
+                  <Link href="https://www.instagram.com/natachavoliakovsky/"> Natacha Voliakovsky /</Link> 
+                  <Link href="./alvaroGodoy"> Alvaro Godoy / </Link> 
+                  <Link href="/fannyedithDiaz">  Fanny Diaz / </Link>
+                  <Link href="./leonardoSanchez">  Leonardo Sanchez / </Link>
+                  <Link href="./marcoPimentel">  Marco Pimentel / </Link> 
+                  <Link href="./matiasTomas">  Matias Tomas /</Link>
+                  <Link href="./trinidadmetzBarra">  Trinidad Metz Brea </Link>
+                </p>
+                <p className={styles.subtitle}>Buenos Aires / 2024</p>
+                {/* <a href="/VF_EliasLeiro.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a> */}
+              </div>
+              <div className={styles.imageContainer}>
+              <Image
+                      src="/exhibiciones/SALAC1.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+                <Image
+                      src="/exhibiciones/SALAC2.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA CS"
+                />
+                <Image
+                      src="/exhibiciones/SALAC3.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+              </div>             
+            </div>
+          </div>
+          
+        <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
+                <p className={styles.title}>Flores salvajes</p>
+                <p className={styles.subtitle}>Artista</p>
+                <p className={styles.exhibition_text}><Link href="./julietaprotoBoca"> Julieta Proto Boca  </Link></p>
+                <p className={styles.subtitle}>Curaduría</p>
+                <p className={styles.exhibition_text}>Carlos Baragli </p>
+                <p className={styles.subtitle}>Texto</p>
+                <p className={styles.exhibition_text}>Juan Laxagueborde</p>
+                <p className={styles.subtitle}>Buenos Aires / 2024</p>
+                {/* <a href="/VF_EliasLeiro.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a> */}
+              </div>
+              <div className={styles.imageContainer}>
+              <Image
+                      src="/exhibiciones/FLORESSALVAJES.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="FLORESSALVAJES"
+                />
+                <Image
+                      src="/exhibiciones/FLORESSALVAJES2.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="FLORESSALVAJES"
+                />
+                <Image
+                      src="/exhibiciones/FLORESSALVAJES3.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="FLORESSALVAJES"
+                />
+              </div>             
+            </div>
+          </div>
+        <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
+                <p className={styles.title}>La mitad entre el cielo y el infinito</p>
+                <p className={styles.subtitle}>Artista</p>
+                <p className={styles.exhibition_text}><Link href="./alvaroGodoy">  Álvaro Godoy </Link></p>
+                <p className={styles.subtitle}>Texto</p>
+                <p className={styles.exhibition_text}>Tobías Mao</p>
+                <p className={styles.subtitle}>Buenos Aires / 2024</p>
+                {/* <a href="/VF_EliasLeiro.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a> */}
+              </div>
+              <div className={styles.imageContainer}>
+              <Image
+                      src="/exhibiciones/LAMITAD.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="LA MITAD ENTRE EL CIELO Y EL INFINITO"
+                />
+                <Image
+                      src="/exhibiciones/LAMITAD2.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="LA MITAD ENTRE EL CIELO Y EL INFINITO"
+                />
+                <Image
+                      src="/exhibiciones/LAMITAD3.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="LA MITAD ENTRE EL CIELO Y EL INFINITO"
+                />
+              </div>             
+            </div>
+          </div>
           {/* <h1 className={styles.title} style={{textAlign: 'center'}}>Exhibiciones</h1> */}
           <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
             <div className={styles.exhibitions}>
@@ -182,7 +308,7 @@ export default function Artists() {
               <div className={styles.exhibition_info}>
                 <p className={styles.title}>Mundo: Se</p>
                 <p className={styles.subtitle}>Artistas</p>
-                <p className={styles.exhibition_text}> <Link href="./matiasTomas">  Matias Tomas </Link>, <Link href="./facundoLugea">  Facundo Jesus Lugea </Link></p>
+                <p className={styles.exhibition_text}> <Link href="./matiasTomas">  Matias Tomas /</Link> <Link href="./facundoLugea">  Facundo Jesus Lugea </Link></p>
                 <p className={styles.subtitle}>Buenos Aires / 2024</p>
                 <a href="/VF_MundoSe.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a>
               </div>
