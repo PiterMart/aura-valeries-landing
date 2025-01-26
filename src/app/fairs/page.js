@@ -177,7 +177,7 @@ export default function Artists() {
                     <Link href="./valentinaQuintero">  Valentina Quintero</Link> 
                     <Link href="./leonardoSanchez">  Leonardo Sanchez /</Link> 
                     <Link href="./tomoCabrera">  Tomo Cabrera /</Link> 
-                    <Link href="/fannyedithDiaz">  Fanny Diaz /</Link>
+                    <Link href="">  Fanny Diaz /</Link>
                     <Link href="./julietaprotoBoca">  Julieta Proto Boca /</Link>
                     <Link href="./matiasTomas">  Matias Tomas /</Link> 
                     <Link href="./eliasLeiro"> Elias Leiro </Link>

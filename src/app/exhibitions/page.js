@@ -24,7 +24,7 @@ export default function Artists() {
                 <p className={styles.exhibition_text}>
                   <Link href="https://www.instagram.com/natachavoliakovsky/"> Natacha Voliakovsky /</Link> 
                   <Link href="./alvaroGodoy"> Alvaro Godoy / </Link> 
-                  <Link href="/fannyedithDiaz">  Fanny Diaz / </Link>
+                  <Link href="">  Fanny Diaz / </Link>
                   <Link href="./leonardoSanchez">  Leonardo Sanchez / </Link>
                   <Link href="./marcoPimentel">  Marco Pimentel / </Link> 
                   <Link href="./matiasTomas">  Matias Tomas /</Link>
@@ -457,7 +457,7 @@ export default function Artists() {
                   <Link href="./eliasLeiro"> Elias Leiro /</Link> 
                   <Link href="./facundoBelen">  Facundo Belen /</Link> 
                   <Link href="./facundoLugea">  Facundo Jesus Lugea /</Link> 
-                  <Link href="/fannyedithDiaz">  Fanny Diaz /</Link> 
+                  <Link href="">  Fanny Diaz /</Link> 
                   Franco Palioff / 
                   <Link href="./frenetikVoid">  Frenetik Void /</Link> 
                   <Link href="./julietaprotoBoca">  Julieta Proto Boca /</Link> 
@@ -787,7 +787,7 @@ export default function Artists() {
                 Carlos Cima / 
                 Dana Balajovsky / 
                 Dana Vitorino / 
-                <Link href="/fannyedithDiaz">  Fanny Diaz / </Link>
+                <Link href="">  Fanny Diaz / </Link>
                 Foto Estudio Luisita / 
                 GagBall / 
                 Julia Sbriller / 

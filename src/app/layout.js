@@ -76,7 +76,7 @@ export default function RootLayout({ children }) {
             <Link href="./eliasLeiro"> Elias Leiro /</Link>
             <Link href="./facundoBelen">  Facundo Belen /</Link>
             <Link href="./facundoLugea">  Facundo Jesus Lugea /</Link>
-            <Link href="/fannyedithDiaz">  Fanny Diaz /</Link>
+            {/* <Link href="/fannyedithDiaz">  Fanny Diaz /</Link> */}
             <Link href="./frenetikVoid">  Frenetik Void /</Link>
             <Link href="./julianBrangold">  Julian Brangold /</Link>
             <Link href="./julietaprotoBoca">  Julieta Proto Boca /</Link>
