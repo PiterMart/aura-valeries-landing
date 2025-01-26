@@ -80,22 +80,6 @@ export default function Artists() {
 
             </div>
           </Link>
-          <Link href="/fannyedithDiaz">
-            <div className={styles.imgContainer}>
-              <Image
-                src="/artists/fannyT.jpg"
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{ width: '100%', height: '10rem', maxWidth: '150px', objectFit: 'cover', borderRadius: '50%' }}
-                alt="Picture of the author"
-              />
-            </div>
-            <div className={styles.dataContainer}>
-              <p>Fanny Edith Diaz</p>
-
-            </div>
-          </Link>
           <Link href="./frenetikVoid">
             <div className={styles.imgContainer}>
               <Image
