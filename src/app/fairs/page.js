@@ -19,6 +19,44 @@ export default function Artists() {
           <div className={styles.container}style={{marginTop: '0px', borderTop: '0px'}} >
               <div className={styles.exhibitions}>
                 <div className={styles.exhibition_info}>
+                <p className={styles.title}>Círculo de Galerías </p>
+                <p className={styles.subtitle}>Artistas</p>
+                <p className={styles.exhibition_text}>
+                  <Link href="./valentinaQuintero">  Valentina Quintero </Link> 
+                </p>
+                <p className={styles.subtitle}>Chile / 2024</p>
+                </div>
+                <div className={styles.imageContainer}>
+                  <Image
+                        src="/exhibiciones/CIRCULODEGALERIAS_CHILE1.jpg"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                        alt="Picture of the author"
+                  />
+                  <Image
+                    src="/exhibiciones/CIRCULODEGALERIAS_CHILE2.jpg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                    alt="Picture of the author"
+                  />
+                  <Image
+                    src="/exhibiciones/CIRCULODEGALERIAS_CHILE3.jpg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                    alt="Picture of the author"
+                  />
+                </div>
+              </div>
+            </div>
+          <div className={styles.container}style={{marginTop: '0px', borderTop: '0px'}} >
+              <div className={styles.exhibitions}>
+                <div className={styles.exhibition_info}>
                 <p className={styles.title}>Pinta Miami</p>
                 <p className={styles.subtitle}>Artistas</p>
                 <p className={styles.exhibition_text}>
