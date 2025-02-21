@@ -55,20 +55,20 @@ export default function Artists() {
               </p>
             </div>
           </div>
-          {/* <div className={styles.contentSection}>
+          <div className={styles.contentSection}>
 
             <p className={styles.subtitle}>PRODUCCIÓN ARTÍSTICA</p>
             <div className={styles.contactInfo}>
               <p className={styles.subtitle}>
-                Ayelen Ruiz
+                Lucia Ranzuglia
               </p>
               <p>
-                <a href="mailto:ayelen@valeriesfactory.com">
-                ayelen@valeriesfactory.com
+                <a href="mailto:lucia@valeriesfactory.com">
+                lucia@valeriesfactory.com
                 </a>
               </p>
             </div>
-          </div> */}
+          </div>
           <div className={styles.contentSection}>
 
             <p className={styles.subtitle}>COMUNICACIÓN</p>
