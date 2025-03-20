@@ -56,6 +56,7 @@ export default function RootLayout({ children }) {
               la moda y el futuro, las obras que  auguran ese espíritu 
               que ama los días de sol, las girl-girls, las boy girls, 
               los girl-boys y los boy-boys. 
+              Nuestra utopía tiene objetivos múltiples;
               es proyectar una imagen de potencialidad y posibilidad
               en nombre de otro tiempo y otro lugar, socavando el tejido de la realidad.
               Una imagen intermedial del futuro,
