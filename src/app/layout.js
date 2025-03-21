@@ -54,12 +54,12 @@ export default function RootLayout({ children }) {
               Valerie’s Factory es una galería de arte contemporáneo dirigida por Jimena Lusi, Xul Jan y Sandro Guevara. Es un espacio de cruce de lenguajes teniendo como núcleo las artes visuales, que pondera el trabajo colaborativo entre artistas, diseñadores, músicxs, curadores y gestores. 
               Nos excitan los desafíos y lxs artistas apasionadxs, 
               la moda y el futuro, las obras que  auguran ese espíritu 
-              que ama los días de sol, las girl-girls, las boy girls, 
+              que ama los días de sol, las girl-girls, las boy-girls, 
               los girl-boys y los boy-boys. 
               Nuestra utopía tiene objetivos múltiples;
               es proyectar una imagen de potencialidad y posibilidad
               en nombre de otro tiempo y otro lugar, socavando el tejido de la realidad.
-              Una imagen intermedial del futuro,
+              Una imagen intermedial del futuro.
               Negamos el presente que nos entristece.
               Nuestrx organismo como una ilegalidad,
               ninguna legalidad excepto el placer.
