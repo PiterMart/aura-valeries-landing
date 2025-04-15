@@ -30,15 +30,15 @@ export default function Artists() {
         <div className={styles.artist}>
 
           <div className={styles.artistNav}>
-          <p className={styles.title}>Tomo Cabrera</p>
+          <p className={styles.title}>Nana Schelz</p>
 
             <div className={styles.artistList}>
               <ul>
                 <li><a href="#obra">Obra</a></li>
                 <li><a href="#bio">Biografía</a></li>
-                <li><a href="#statement">Statement</a></li>
+                {/* <li><a href="#statement">Statement</a></li> */}
                 <li><a href="#muestras">Muestras</a></li>
-                {/* <li><a href="#catalogo">Catálogo</a></li> */}
+                <li><a href="#catalogo">Catálogo</a></li>
                 <li><a href="#redes">Redes</a></li>
               </ul>
             </div>
@@ -48,7 +48,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FtomoCabrera%2FtomocabreraCarnet.jpg?alt=media&token=19412bd7-b1cc-429e-bccd-04f42e35f048"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FnanaSchelz%2FnanaSchelzObra.jpg?alt=media&token=d8d87ab9-f029-4632-9b1b-1485c7d7fc67"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -60,9 +60,9 @@ export default function Artists() {
             ref={element}
             style={{opacity: scrollYProgress}}
             >
-            <p className={styles.subtitle}>Nacido en Ciudad Autónoma de Buenos Aires, en 1992.</p>
+            <p className={styles.subtitle}>Nació en Agosto de 1989, en Buenos Aires, Argentina.  </p>
             <Image
-                src="/artists/tomocabreraCarnet.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FnanaSchelz%2FnanaSchelzCarnet.jpg?alt=media&token=a6e2347e-6173-42c9-80ed-a345a879a100"
                 width={200}
                 height={200}
                 alt="Picture of the author"
@@ -77,19 +77,15 @@ export default function Artists() {
 
 
               <p>
-              Según su madre, nunca tuvo miedo. 
+              Se crió viendo TV en exceso, en especial Cartoon Network y coleccionando stickers holográficos. De chica su accesorio favorito era la caja flúor de sus aparatos.
               <br></br>
               <br></br>
-              Tomo Cabrera es un artista audiovisual que inició su camino queriendo estudiar cine y encontró asilo en la carrera de Diseño de Imagen y Sonido. Las ideas de ser director de cine se borronearon al descubrir que se podía ser hijo de Internet, gurú de la simulación, perro-humano o artesano de memes. Es decir, había un saber audiovisual que extremaba las reflexiones alrededor de las mediatizaciones y la representación, lo verosímil. A su vez, experimentó el trabajo en la industria como director de arte y productor en cine, publicidad y videoclips además de desarrollarse en otras áreas como guionista de series internacionales de televisión y director de incipientes obras autorales. 
+              Transitó las carreras de indumentaria y artes en la UBA pero no las terminó. Se formó a partir de múltiples talleres y clínicas. Participó de la residencia Casero en Río de Janeiro, y la Residencia Virreina, en Colombia (2024) Formó parte del programa Manglar (2021), del Programa de Artistas de la Universidad Torcuato Di Tella (2022- 2023) y del  programa Hito Cultural (2024) Su obra quedó seleccionada en la 13 edición del premio Itaú Artes Visuales, en el 16 -17 premio de pintura Bancor.
               <br></br>
               <br></br>
-              Actualmente, es miembro activo del colectivo transespecie Suavecitxs que explora los límites identitarios de humanxs que deciden hibridarse con animales y del Club de Lectura que se sumerge en imaginaciones delirantes sobre política, cultura y vida asumiendo un triunfo de la estética por sobre la retórica.
+               En 2022 tuvo su muestra Vivero en Acéfala. Participó de la muestra Monumentos que crecen hacia adentro en Chela y en Un Jarrón en el Ciberespacio en galería Vermeer. 
               <br></br>
               <br></br>
-              Tomo necesita de la creación de relatos ficcionales que hilen sus prácticas artísticas ancladas en la elucubración de investigaciones y proyectos, sirviéndose así de la cultura pop, la cosmovisión de internet, el post-humanismo, las teorías cyborg, la ciencia ficción y la admiración-desconfianza a la tecnología. Podrían pensar que lo que intenta sintonizar es “un clima de época” pero también le preocupan los históricos estados alterados de la sociedad y los procesos profundos de la política.
-              <br></br>
-              <br></br>
-              Mezcla, digiere y ejecuta distintas herramientas, no con destreza, sino con un conocimiento profundo de sus alcances en la representación, medio para pensar y reflexionar. De alguna forma, el eje rector de su trabajo es la idea de ensayo poético y académico que lo encuentra atravesando dispositivos tecnológicos, interfaces de redes sociales, en la reapropiación de sonidos y videos, la post-fotografía, el diseño y el dibujo, la escritura y performance. Su palabra clave es puesta en escena.
 
               </p>
 
@@ -99,48 +95,79 @@ export default function Artists() {
               <p className={styles.subtitle}>FORMACIÓN ACADÉMICA</p>
               
               <p>
-              (2011 - 2018) Graduado como Diseñador de Imagen y Sonido, Facultad de Arquitectura, Diseño y Urbanismo, Universidad de Buenos Aires.
+              UBA, Diseño de indumentaria, 2009- 2012
               <br></br>
               <br></br>
-              Investigador del proyecto “Morfologías Audiovisuales II” (PIA - UBACYT) dirigido por Verónica Vitullo
+              UBA, Licenciada en artes 2013- 2018
               <br></br>
               <br></br>
+              Estudió composición y color en la Art Student League of New York.
               </p>
 
             </div>
             <div className={styles.artistSection}>
 
               <p className={styles.subtitle}>FORMACIÓN ESPECIFICA</p>
-              
-              <p>
-              (2023- 2024) Programa de Artistas del Di Tella.
-              <br></br>
-              <br></br>
-              (2022) Éxtasis, seminario de práctica performátiva dictado por Silvio Lang.
-              <br></br>
-              <br></br>
-              (2021) Laboratorio de exploración y creación escénica “Territorios de Ocupación” dictado por Silvio Lang. 
-              <br></br>
-              <br></br>
-              (2020 - 2021) Diplomatura “Corporeidades y  Tecnonarrativas”, Facultad de Filosofía y Letras, Universidad de Buenos Aires. 
-              <br></br>
-              <br></br>
-              (2020) Seguir viviendo, clínica sobre cultura dictado por Silvio Lang. 
-              <br></br>
-              <br></br>
-              (2020) Teoría del límite, clínica de obra con Lucas Despósito. 
-              <br></br>
-              <br></br>
-              (2020) Programa de Artistas x Artistas, Fundación El Mirador. 
-              <br></br>
-              <br></br>
-              (2018) Residencia de dramaturgia y escritura coordinado por Agustina Gatto, Lumitón.
-              <br></br>
-              <br></br>
-              (2017 - 2019) Entrenamiento Vocal con Micaela.
-              </p>
 
+              <p>
+                Seminario de acuarela en la Art Student League of New York. Febrero - Abril 2012
+                <br></br>
+                <br></br>
+                Clínica con Fabiana Barreda. 2012 - 2013
+                <br></br>
+                <br></br>
+                Taller de pintura con Aníbal Garfunkel. 2012 - 2014
+                <br></br>
+                <br></br>
+                Clínica con Romina Resuche. 2013 - 2015
+                <br></br>
+                <br></br>
+                Clínica con Patricia Hakim. Octubre 2017 - Junio 2018
+                <br></br>
+                <br></br>
+                Taller El texto de la obra con Silvia Gurfein. Febrero 2019
+                <br></br>
+                <br></br>
+                Taller de clínica con Hernán Salamanco. 2019
+                <br></br>
+                <br></br>
+                Programa de artistas Manglar con Andrés Labaké. 2021
+                <br></br>
+                <br></br>
+                Programa de artistas de la Universidad Torcuato Di Tella. 2022 - 2023
+                <br></br>
+                <br></br>
+                Participación del programa Hito Cultural. 2024
+                <br></br>
+                <br></br>
+              </p>
             </div>
+            <div className={styles.artistSection}>
+              <p className={styles.subtitle}>RESIDENCIAS</p>
+              <p>
+                (2017) "Residencia Casero" – Río de Janeiro, Brasil. Marzo-Junio
+                <br></br>
+                <br></br>
+                (2024) "Residencia Virreina" – Santander, Colombia. Marzo
+                <br></br>
+                <br></br>
+              </p>
+            </div>
+            <div className={styles.artistSection}>
+              <p className={styles.subtitle}>PREMIOS</p>
+              <p>
+                "Participación de la 13° edición del Premio Itaú Artes Visuales"
+                <br></br>
+                <br></br>
+                "Participación de la 16° y 17° edición del Premio Bancor"
+                <br></br>
+                <br></br>
+                "Participación del 68° Salón de Artes Plásticas Manuel Belgrano"
+                <br></br>
+                <br></br>
+              </p>
+            </div>
+
             <div className={styles.artistSection} id="statement">
               <p className={styles.subtitle}>STATEMENT</p>
               <p>
@@ -156,71 +183,65 @@ export default function Artists() {
             
             <div className={styles.artistSection} id="muestras">
 
-              <p className={styles.subtitle}>MUESTRAS COLECTIVAS</p>
-              
+            <p className={styles.subtitle}>EXHIBICIONES</p>
               <p>
-              (2022) “Cómo debes imaginarme” curado por Lucia Nielsen, ECA Mendoza.
-              <br></br>
-              <br></br>
-              (2022) “Playas paradisíacas, Talleres Brasil.
-              <br></br>
-              <br></br>
-              (2021) “Eterno resplandor” curado por Julieta Tarraubella, Munar. 
-              <br></br>
-              <br></br>
-              (2021)  “______ Prensado”, Edificio Diario La Prensa.
-              <br></br>
-              <br></br>
-              (2019) “Inflexiones de la memoria” curado por la Mediateca FADU, Noches de los Museos, FADU UBA.
+                (2017) "Sopro Colectivo" – Performance en Fábrica Bhering, Río de Janeiro, Brasil. Junio
+                <br></br>
+                <br></br>
+                (2019) "Inflexiones de la memoria" curado por la Mediateca FADU, Noches de los Museos, FADU UBA.
+                <br></br>
+                <br></br>
+                (2021) "Siempre en otra parte" – Muestra colectiva en Decentraland. Junio
+                <br></br>
+                <br></br>
+                (2021) "Eterno resplandor" curado por Julieta Tarraubella, Munar.
+                <br></br>
+                <br></br>
+                (2021) "______ Prensado", Edificio Diario La Prensa.
+                <br></br>
+                <br></br>
+                (2021) "Derrumbe programado" – Muestra colectiva en Acéfala Galería. Noviembre
+                <br></br>
+                <br></br>
+                (2021) "No existe tierra más allá" – Muestra colectiva en Chela. Diciembre
+                <br></br>
+                <br></br>
+                (2021) "Festival del Puente" – Muestra colectiva en Viedma. Diciembre
+                <br></br>
+                <br></br>
+                (2022) "Vivero" – Muestra individual en Acéfala Galería. Marzo
+                <br></br>
+                <br></br>
+                (2022) "Cómo debes imaginarme" curado por Lucía Nielsen, ECA Mendoza.
+                <br></br>
+                <br></br>
+                (2022) "Playas paradisíacas", Talleres Brasil.
+                <br></br>
+                <br></br>
+                (2023) "Un jarrón en el ciberespacio" – Muestra colectiva en Vermeer. Mayo
+                <br></br>
+                <br></br>
+                (2023) "Mil y una fugas" – Muestra colectiva en Acoyte. Mayo
+                <br></br>
+                <br></br>
+                (2023) "Monumentos que crecen hacia adentro" – Muestra de cierre del Programa de Artistas UTDT.
+                <br></br>
+                <br></br>
+                (2024) "Festín" – Muestra colectiva en Barrakesh. Febrero
+                <br></br>
+                <br></br>
               </p>
-
             </div>
-            <div className={styles.artistSection}>
-
-              <p className={styles.subtitle}>PERFORMANCE</p>
-
-              <p>
-              (2021) “CLANDE.SUDOR.CGI” en el stand “Esperando como una pendeja” Arteba21, Valerie’s Factory.
-              <br></br>
-              <br></br>
-              (2019) “La jauría de Dylan” en la Carpa Rosa
-              <br></br>
-              <br></br>
-              (2019) “Me puse una correa al drone” en el marco de Perfuch Disidentx curado por Jair Jesús Toledo, Perfuch 4k, UV STUDIOS.
-              <br></br>
-              <br></br>
-              (2018) “Sísifo” en el cheLA.
-              </p>
-
-            </div>
-            <div className={styles.artistSection}>
-
-              <p className={styles.subtitle}>PROYECCIONES</p>
-
-              <p>
-              “En otro momento te cuento I, II, III y IV” (video-ensayo) en el marco de la Jornadas Ver Poder (2017-2018) en el Centro Cultural Haroldo Conti.
-              <br></br>
-              <br></br>
-              “No era el silencio” (cortometraje ficción) en el Festival de la Luz 2016 y en el Festival de Cine de la Universidad VGIK 2017 (Rusia)
-              <br></br>
-              <br></br>
-              “Principio de precaución” (cortometraje documental) Poéticas documentales - Festival de Cine de Mar del Plata (no competencia) y Festival Pergamino Cine 2017 (ganador a Mejor Cortometraje Documental)
-              <br></br>
-              <br></br>
-              </p>
-
-            </div>
-            {/* <div className={styles.artistSection} id="catalogo">
+            <div className={styles.artistSection} id="catalogo">
 
               <p className={styles.subtitle}>CATÁLOGO</p>
-              <a href="/TOMO CABRERA.pdf" target="_blank">PDF</a>
-            </div> */}
+              <a href="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FnanaSchelz%2Fcat%C3%A1logo%20VF%20Nana.pdf?alt=media&token=c3f9fdcc-f5f3-49f8-b655-791421e618fc" target="_blank">PDF</a>
+            </div>
             <div className={styles.artistSection} id="redes">
 
               <p className={styles.subtitle}>REDES</p>
-              <a href="https://tcabrerac.com/" target="_blank">Web</a>
-              <a href="https://www.instagram.com/tcabrerac/" target="_blank">Instagram</a>
-              <a href="https://vimeo.com/user5369142" target="_blank">Vimeo</a>
+              <a href="https://www.nanasch.com.ar/" target="_blank">Web</a>
+              <a href="https://www.instagram.com/nanaschlez/?hl=es" target="_blank">Instagram</a>
             </div>
           </div>
         </div>

@@ -207,6 +207,22 @@ export default function Artists() {
 
             </div>
           </Link>
+          <Link href="./nanaSchelz">
+            <div className={styles.imgContainer}>
+              <Image
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FnanaSchelz%2FnanaSchelzObra.jpg?alt=media&token=d8d87ab9-f029-4632-9b1b-1485c7d7fc67"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover', borderRadius: '50%'  }}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className={styles.dataContainer}>
+              <p>Nana Schelz</p>
+
+            </div>
+          </Link>
           <Link href="./pastel">
             <div className={styles.imgContainer}>
               <Image
