@@ -48,7 +48,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/artists/facundolugeaObra.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FfacundoLugea%2FfacundolugeaObra.jpg?alt=media&token=25f2582b-5db0-47e9-80bc-5cc8f8067426"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -62,7 +62,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>Nacido en Mar del Plata, en 1996.</p>
             <Image
-                src="/artists/facundolugeaCarnet.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FfacundoLugea%2FfacundolugeaCarnet.jpg?alt=media&token=92cecb20-7190-41f8-a1e5-33720b67fc78"
                 width={200}
                 height={200}
                 alt="Picture of the author"

@@ -48,7 +48,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/artists/valentinaquinteroObra.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FvalentinaQuintero%2FvalentinaquinteroObra.jpg?alt=media&token=6d33e9b3-1d22-4f8a-8378-9910ad0b2ede"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -62,7 +62,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>Nacida en 1997 en Mendoza, Argentina.</p>
             <Image
-                src="/artists/valentineCarnet.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FvalentinaQuintero%2FvalentinaquinteroCarnet.jpg?alt=media&token=e6a6f468-7a4b-40df-9e2e-24299d81f338"
                 width={200}
                 height={200}
                 alt="Picture of the author"

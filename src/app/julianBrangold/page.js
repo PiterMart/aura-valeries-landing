@@ -48,7 +48,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/artists/julianbrangoldObra.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FjulianBarangold%2FjulianbrangoldObra.jpg?alt=media&token=5c873be2-1d5a-465a-86b9-fef3f3abd10c"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -62,7 +62,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>Nacido en Buenos Aires, en 1986...</p>
             <Image
-                src="/artists/julianbrangoldCarnet.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FjulianBarangold%2FjulianbrangoldCarnet.jpg?alt=media&token=2d1c1cff-8e6e-4015-b151-0ac9b32f877b"
                 width={200}
                 height={200}
                 alt="Picture of the author"

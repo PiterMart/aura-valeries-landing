@@ -48,7 +48,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/artists/marutsballetObra.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FvladimirmartusBallet%2FvladimirmarutsObra.jpg?alt=media&token=e5b3c8e8-9eae-4f63-a4dc-e9abfd7c01b0"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -62,7 +62,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>Nacido en Buenos Aires, en 1985.</p>
             <Image
-                src="/artists/vladimirmarutsCarnet.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FvladimirmartusBallet%2FvladimirmarutsCarnet.jpg?alt=media&token=39a28256-b388-4bbe-8980-e1af7763defb"
                 width={200}
                 height={200}
                 alt="Picture of the author"

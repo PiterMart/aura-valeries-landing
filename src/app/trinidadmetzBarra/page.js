@@ -48,7 +48,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/artists/trinidametzbreaObra.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FtrinidadmetzBarra%2FtrinidametzbreaObra.jpg?alt=media&token=e58f9fb7-af2e-4bf8-b45b-a61dab026c5d"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -62,7 +62,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>Nacida en Buenos Aires, en 1994.</p>
             <Image
-                src="/artists/trinidadmetzbreaCarnet.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FtrinidadmetzBarra%2FtrinidadmetzbreaCarnet.jpg?alt=media&token=69a96f7c-405d-417c-acd7-606efbe4bff2"
                 width={200}
                 height={200}
                 alt="Picture of the author"

@@ -48,7 +48,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/artists/eliasleiroObra.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FeliasLeiro%2FeliasleiroObra.jpg?alt=media&token=f299807e-ae07-482e-9986-e741999b1193"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -62,7 +62,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>Nacido en Buenos Aires, en 1995.</p>
             <Image
-                src="/artists/eliasleiroCarnet.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FeliasLeiro%2FeliasleiroCarnet.jpg?alt=media&token=07c0821e-f029-499f-853a-5d2a7f88c9c9"
                 width={200}
                 height={200}
                 alt="Picture of the author"

@@ -47,7 +47,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/artists/sofiacastroObra.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FsofiaCastro%2FsofiacastroObra.jpg?alt=media&token=ad442038-b1e9-4ae4-b94f-42dc5023f553"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -61,7 +61,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>Nacida en Buenos Aires, en 1977.</p>
             <Image
-                src="/artists/sofiacastroCarnet.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FsofiaCastro%2FsofiacastroCarnet.jpg?alt=media&token=9fcea160-8a7a-4985-9a29-c1372724432f"
                 width={200}
                 height={200}
                 alt="Picture of the author"

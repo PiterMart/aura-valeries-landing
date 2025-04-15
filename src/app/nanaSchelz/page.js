@@ -48,7 +48,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FtomoCabrera%2FtomocabreraObra.jpg?alt=media&token=c9151833-53ca-45ea-88e8-6f1130f45d6f"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FtomoCabrera%2FtomocabreraCarnet.jpg?alt=media&token=19412bd7-b1cc-429e-bccd-04f42e35f048"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -62,7 +62,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>Nacido en Ciudad Autónoma de Buenos Aires, en 1992.</p>
             <Image
-                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FtomoCabrera%2FtomocabreraCarnet.jpg?alt=media&token=19412bd7-b1cc-429e-bccd-04f42e35f048"
+                src="/artists/tomocabreraCarnet.jpg"
                 width={200}
                 height={200}
                 alt="Picture of the author"

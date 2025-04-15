@@ -47,7 +47,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/artists/frenetikvoidObra.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FfrenetikVoid%2FfrenetikvoidObra.jpg?alt=media&token=1a198362-c070-4e47-a703-c3d4595f4751"
                 width={0}
                 height={0}
                 sizes="100vw"

@@ -48,7 +48,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/artists/julietaprotoObra.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FjulietaprotoBoca%2FjulietaprotobocaObra.jpg?alt=media&token=67f16be8-0831-4c96-bc1e-1dfaaa45da9c"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -62,7 +62,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>Nacida en Buenos Aires, en 1996.</p>
             <Image
-                src="/artists/julietaprotobocaCarnet.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FjulietaprotoBoca%2FjulietaprotobocaCarnet.jpg?alt=media&token=80961d57-1b26-41c9-bb4b-1292c9ef31cf"
                 width={200}
                 height={200}
                 alt="Picture of the author"

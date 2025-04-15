@@ -48,7 +48,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/artists/pastelObra.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2Fpastel%2FpastelObra.jpg?alt=media&token=97e011cf-bb94-42aa-89d1-7a33761544df"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -62,7 +62,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>.</p>
             <Image
-                src="/artists/pastelCarnet.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2Fpastel%2FpastelCarnet.jpg?alt=media&token=4f7fe1a3-0e2d-4c0d-87a7-33b67ce872ef"
                 width={200}
                 height={200}
                 alt="Picture of the author"

@@ -19,7 +19,7 @@ export default function Artists() {
           <Link href="./alvaroGodoy">
             <div className={styles.imgContainer}>
               <Image
-                src="/artists/alvarogodoyObra.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FalvaroGodoy%2FalvarogodoyObra.jpg?alt=media&token=1c42d740-f989-4833-8a77-eb50d59467c0"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -35,7 +35,7 @@ export default function Artists() {
           <Link href="./eliasLeiro">
             <div className={styles.imgContainer}>
               <Image
-                src="/artists/eliasT.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FeliasLeiro%2FeliasleiroObra.jpg?alt=media&token=f299807e-ae07-482e-9986-e741999b1193"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -51,7 +51,7 @@ export default function Artists() {
           <Link href="./facundoBelen">
             <div className={styles.imgContainer}>
               <Image
-                src="/artists/facubelenT.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FfacundoBelen%2FfacubelenT.jpg?alt=media&token=7dfaee97-dbc5-4486-af2f-750f9603eb52"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -67,7 +67,7 @@ export default function Artists() {
           <Link href="./facundoLugea">
             <div className={styles.imgContainer}>
               <Image
-                src="/artists/faculugeaT.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FfacundoLugea%2FfacundolugeaObra.jpg?alt=media&token=25f2582b-5db0-47e9-80bc-5cc8f8067426"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -80,10 +80,26 @@ export default function Artists() {
 
             </div>
           </Link>
+          <Link href="./francoPalioff">
+            <div className={styles.imgContainer}>
+              <Image
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FfrancoPalioff%2FfrancopalioffT.jpg?alt=media&token=087e6dc7-1290-4312-9dcc-e3edfc3991f9"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: '10rem', maxWidth: '150px', "overflow-clip-margin": 'content-box', objectFit: 'cover', borderRadius: '50%'  }}
+                alt="Picture of the author"
+              />
+            </div>
+            <div className={styles.dataContainer}>
+              <p>Franco Palioff</p>
+
+            </div>
+          </Link>
           <Link href="./frenetikVoid">
             <div className={styles.imgContainer}>
               <Image
-                src="/artists/frenetikvoidObra.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FfrenetikVoid%2FfrenetikvoidObra.jpg?alt=media&token=1a198362-c070-4e47-a703-c3d4595f4751"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -99,7 +115,7 @@ export default function Artists() {
           <Link href="./julianBrangold">
             <div className={styles.imgContainer}>
               <Image
-                src="/artists/julianbrangoldObra.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FjulianBarangold%2FjulianbrangoldObra.jpg?alt=media&token=5c873be2-1d5a-465a-86b9-fef3f3abd10c"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -114,7 +130,7 @@ export default function Artists() {
           <Link href="./julietaprotoBoca">
             <div className={styles.imgContainer}>
               <Image
-                src="/artists/juliprotoT.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FjulietaprotoBoca%2FjuliprotoT.jpg?alt=media&token=6cd78531-4b06-4c04-9837-c6f8c38223ac"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -130,7 +146,7 @@ export default function Artists() {
           <Link href="./leonardoSanchez">
             <div className={styles.imgContainer}>
               <Image
-                src="/artists/leosnchezT.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FleonardoSanchez%2FleosnchezT.jpg?alt=media&token=4b408b95-f46e-44ed-a3a3-dba7fb993c7c"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -146,7 +162,7 @@ export default function Artists() {
           <Link href="./marcoPimentel">
             <div className={styles.imgContainer}>
               <Image
-                src="/artists/marcopimentelObra.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FmarcoPimentel%2FmarcopimentelObra.jpg?alt=media&token=31b8cc7f-0888-48c5-86f5-45c28043271d"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -162,7 +178,7 @@ export default function Artists() {
           <Link href="./vladimirmarutsBallet">
             <div className={styles.imgContainer}>
               <Image
-                src="/artists/marutsT.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FvladimirmartusBallet%2FvladimirmarutsT.jpg?alt=media&token=d3893dad-927c-4301-9e52-48bcea80ddd6"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -178,7 +194,7 @@ export default function Artists() {
           <Link href="./matiasTomas">
             <div className={styles.imgContainer}>
               <Image
-                src="/artists/matitomasT.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FmatiasTomas%2FmatitomasT.jpg?alt=media&token=b11e7388-1fe5-41a1-960c-e71e3b30dbff"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -194,7 +210,7 @@ export default function Artists() {
           <Link href="./pastel">
             <div className={styles.imgContainer}>
               <Image
-                src="/artists/pastelObra.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2Fpastel%2FpastelObra.jpg?alt=media&token=97e011cf-bb94-42aa-89d1-7a33761544df"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -209,7 +225,7 @@ export default function Artists() {
           <Link href="./samanthaFerro">
             <div className={styles.imgContainer}>
               <Image
-                src="/artists/samantha ferro obra.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FsamanthaFerro%2FsamanthaferroObra.jpg?alt=media&token=6869098d-f83b-402f-931c-d7e00979b1c8"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -224,7 +240,7 @@ export default function Artists() {
           <Link href="./sofiaCastro">
             <div className={styles.imgContainer}>
               <Image
-                src="/artists/soficastroT.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FsofiaCastro%2FsoficastroT.jpg?alt=media&token=86d69b34-2855-4a6c-8f94-936f7f02b45a"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -240,7 +256,7 @@ export default function Artists() {
           <Link href="./tomoCabrera">
             <div className={styles.imgContainer}>
               <Image
-                src="/artists/tomocabreraObra.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FtomoCabrera%2FtomocabreraObra.jpg?alt=media&token=c9151833-53ca-45ea-88e8-6f1130f45d6f"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -256,7 +272,7 @@ export default function Artists() {
           <Link href="./trinidadmetzBarra">
             <div className={styles.imgContainer}>
               <Image
-                src="/artists/triniT.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FtrinidadmetzBarra%2FtrinidametzbreaObra.jpg?alt=media&token=e58f9fb7-af2e-4bf8-b45b-a61dab026c5d"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -272,7 +288,7 @@ export default function Artists() {
           <Link href="./valentinaQuintero">
             <div className={styles.imgContainer}>
               <Image
-                src="/artists/valentineT.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FvalentinaQuintero%2FvalentinaquinteroT.jpg?alt=media&token=9814eac5-ae41-416f-a79b-c5bbc6b6ec5f"
                 width={0}
                 height={0}
                 sizes="100vw"

@@ -48,7 +48,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/artists/leonardosanchezObra.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FleonardoSanchez%2FleonardosanchezObra.jpg?alt=media&token=9235f548-885c-41c4-bc79-5b910944024b"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -62,7 +62,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>Nacido en Buenos Aires, en 1986.</p>
             <Image
-                src="/artists/leonardosanchezCarnet.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FleonardoSanchez%2FleonardosanchezCarnet.jpg?alt=media&token=baed1719-1530-4bc0-8d5c-1660ba8d1562"
                 width={200}
                 height={200}
                 alt="Picture of the author"

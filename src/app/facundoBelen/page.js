@@ -48,7 +48,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/artists/facundobelenObra.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FfacundoBelen%2FfacundobelenObra.jpg?alt=media&token=78244c48-5b65-4ecd-81d6-50d2e0f0f33d"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -62,7 +62,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>Nacido en La Plata, en 1979</p>
             <Image
-                src="/artists/facundobelenCarnet.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FfacundoBelen%2FfacundobelenCarnet.jpg?alt=media&token=b5b743ea-157e-4f3c-bbd0-869cd0345218"
                 width={200}
                 height={200}
                 alt="Picture of the author"

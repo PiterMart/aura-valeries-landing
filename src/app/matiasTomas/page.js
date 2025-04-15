@@ -48,7 +48,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/artists/matiastomasObra.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FmatiasTomas%2FmatiastomasObra.jpg?alt=media&token=dfc2513e-c5ed-4a8b-8845-770e48223be1"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -62,7 +62,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>Nacido en Tucumán, en 1990. </p>
             <Image
-                src="/artists/matiastomasCarnet.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FmatiasTomas%2FmatiastomasCarnet.jpg?alt=media&token=e308372e-5805-4cc7-9aea-cad63393c645"
                 width={200}
                 height={200}
                 alt="Picture of the author"

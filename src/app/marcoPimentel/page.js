@@ -48,7 +48,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/artists/marcopimentelObra.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FmarcoPimentel%2FmarcopimentelObra.jpg?alt=media&token=31b8cc7f-0888-48c5-86f5-45c28043271d"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -62,7 +62,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>Nacido en Buenos Aires, en 1995.</p>
             <Image
-                src="/artists/marcopimentelCarnet.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FmarcoPimentel%2FmarcopimentelCarnet.jpg?alt=media&token=7f441836-2460-45b5-9b75-e83982d18eea"
                 width={200}
                 height={200}
                 alt="Picture of the author"

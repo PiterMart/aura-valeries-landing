@@ -48,7 +48,7 @@ export default function Artists() {
           <div className={styles.artistContent}>
             <div className={styles.artistSection} id="obra">    
               <Image
-                src="/artists/alvarogodoyObra.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FalvaroGodoy%2FalvarogodoyObra.jpg?alt=media&token=1c42d740-f989-4833-8a77-eb50d59467c0"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -62,7 +62,7 @@ export default function Artists() {
             >
             <p className={styles.subtitle}>Nacido en Buenos Aires, en 1994. </p>
             <Image
-                src="/alvarogodoyCarnet.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FalvaroGodoy%2FalvarogodoyCarnet.jpg?alt=media&token=684d600a-7f56-42c1-b4e1-a38ac4abcaa5"
                 width={200}
                 height={200}
                 alt="Picture of the author"
