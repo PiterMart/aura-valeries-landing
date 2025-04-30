@@ -28,7 +28,7 @@ export default function Artists() {
                 </div>
                 <div className={styles.imageContainer}>
                   <Image
-                        src="/exhibiciones/FERIA_CAPITAL_1.jpg"
+                        src="/exhibiciones/STAND_FERIA_CAPITAL_1.jpg"
                         width={0}
                         height={0}
                         sizes="100vw"
@@ -36,7 +36,7 @@ export default function Artists() {
                         alt="Picture of the author"
                   />
                   <Image
-                    src="/exhibiciones/FERIA_CAPITAL_2.jpg"
+                    src="/exhibiciones/STAND_FERIA_CAPITAL_2.jpg"
                     width={0}
                     height={0}
                     sizes="100vw"
@@ -44,7 +44,7 @@ export default function Artists() {
                     alt="Picture of the author"
                   />
                   <Image
-                    src="/exhibiciones/FERIA_CAPITAL_3.jpg"
+                    src="/exhibiciones/STAND_FERIA_CAPITAL_3.jpg"
                     width={0}
                     height={0}
                     sizes="100vw"
