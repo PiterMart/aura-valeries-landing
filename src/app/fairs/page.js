@@ -33,7 +33,7 @@ export default function Artists() {
                         height={0}
                         sizes="100vw"
                         style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                        alt="Picture of the author"
+                        alt="Feria Capital"
                   />
                   <Image
                     src="/exhibiciones/STAND_FERIA_CAPITAL_2.jpg"
@@ -41,7 +41,7 @@ export default function Artists() {
                     height={0}
                     sizes="100vw"
                     style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                    alt="Picture of the author"
+                    alt="Feria Capital"
                   />
                   <Image
                     src="/exhibiciones/STAND_FERIA_CAPITAL_3.jpg"
@@ -49,7 +49,7 @@ export default function Artists() {
                     height={0}
                     sizes="100vw"
                     style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                    alt="Picture of the author"
+                    alt="Feria Capital"
                   />
                 </div>
               </div>
