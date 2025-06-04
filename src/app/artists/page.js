@@ -191,7 +191,7 @@ export default function Artists() {
 
             </div>
           </Link>
-          <Link href="./matiasTomas">
+          {/* <Link href="./matiasTomas">
             <div className={styles.imgContainer}>
               <Image
                 src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FmatiasTomas%2FmatitomasT.jpg?alt=media&token=b11e7388-1fe5-41a1-960c-e71e3b30dbff"
@@ -206,8 +206,8 @@ export default function Artists() {
               <p>Matias Tomas</p>
 
             </div>
-          </Link>
-          <Link href="./nanaSchelz">
+          </Link> */}
+          <Link href="./nanaSchlez">
             <div className={styles.imgContainer}>
               <Image
                 src="https://firebasestorage.googleapis.com/v0/b/valeries-factory.appspot.com/o/artistas%2FnanaSchelz%2FnanaSchelzObra.jpg?alt=media&token=d8d87ab9-f029-4632-9b1b-1485c7d7fc67"
@@ -219,7 +219,7 @@ export default function Artists() {
               />
             </div>
             <div className={styles.dataContainer}>
-              <p>Nana Schelz</p>
+              <p>Nana Schlez</p>
 
             </div>
           </Link>

@@ -30,7 +30,7 @@ export default function Artists() {
         <div className={styles.artist}>
 
           <div className={styles.artistNav}>
-          <p className={styles.title}>Nana Schelz</p>
+          <p className={styles.title}>Nana Schlez</p>
 
             <div className={styles.artistList}>
               <ul>

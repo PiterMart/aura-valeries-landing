@@ -83,8 +83,8 @@ export default function RootLayout({ children }) {
             <Link href="./leonardoSanchez">  Leonardo Sanchez /</Link>
             <Link href="./marcoPimentel">  Marco Pimentel /</Link>
             <Link href="./vladimirmarutsBallet">  Vladimir Maruts Ballet /</Link>
-            <Link href="./matiasTomas">  Matias Tomas /</Link>
-            <Link href="./nanaSchelz">  Nana Schelz /</Link>
+            {/* <Link href="./matiasTomas">  Matias Tomas /</Link> */}
+            <Link href="./nanaSchlez">  Nana Schlez /</Link>
             <Link href="./pastel">  Pastel /</Link>
             <Link href="./samanthaFerro">  Samantha Ferro /</Link>
             <Link href="./sofiaCastro">  Sofia Castro /</Link>
