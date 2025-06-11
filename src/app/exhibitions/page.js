@@ -19,6 +19,96 @@ export default function Artists() {
         <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
             <div className={styles.exhibitions}>
               <div className={styles.exhibition_info}>
+                <p className={styles.title}>Creer o Reventar</p>
+                <p className={styles.subtitle}>Artista</p>
+                <p className={styles.exhibition_text}>
+                <Link href="./facundoBelen">  Facundo Belen</Link> 
+                </p>
+                <p className={styles.subtitle}>Diseño expositivo</p>
+                <p className={styles.exhibition_text}> Endi Ruiz</p>
+                <p className={styles.subtitle}>Buenos Aires / 2025</p>
+                {/* <a href="/VF_EliasLeiro.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a> */}
+              </div>
+              <div className={styles.imageContainer}>
+              <Image
+                      src="/exhibiciones/CreerOReventar1.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+                <Image
+                      src="/exhibiciones/CreerOReventar2.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA CS"
+                />
+                <Image
+                      src="/exhibiciones/CreerOReventar3.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+              </div>             
+            </div>
+          </div>
+        <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
+                <p className={styles.title}>Nature Is Healing</p>
+                <p className={styles.subtitle}>Artista</p>
+                <p className={styles.exhibition_text}>
+                  <Link href="./nanaSchlez"> Nana Schlez </Link> 
+                </p>
+                <p className={styles.subtitle}>Curaduría</p>
+                <p className={styles.exhibition_text}>Carlos Gutiérrez </p>
+                <p className={styles.subtitle}>Buenos Aires / 2025</p>
+                {/* <a href="/VF_EliasLeiro.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a> */}
+              </div>
+              <div className={styles.imageContainer}>
+              <Image
+                      src="/exhibiciones/NATURE_1.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+                <Image
+                      src="/exhibiciones/NATURE_2.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA CS"
+                />
+                <Image
+                      src="/exhibiciones/NATURE_3.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+                <Image
+                      src="/exhibiciones/NATURE_4.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+              </div>             
+            </div>
+          </div>
+          <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
                 <p className={styles.title}>Sala C</p>
                 <p className={styles.subtitle}>Artistas</p>
                 <p className={styles.exhibition_text}>
