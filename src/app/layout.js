@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
           <div>
             <Link href="/">
             <Image
-              src="/valeriesLogo.png"
+              src="/valeriesLogoVERDE.png"
               alt="Valeries"
               width={60}
               height={60}

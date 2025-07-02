@@ -75,7 +75,8 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #F73939;
+  /* background: #F73939; */
+  background: #183d2d;
 }
 
 a {

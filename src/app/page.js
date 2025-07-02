@@ -19,7 +19,7 @@ export default function Home() {
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/valeriesLogo2.png"
+            src="/valeriesLogo2VERDE.png"
             alt="Valeries factory"
             width={0}
             height={0}
@@ -28,7 +28,7 @@ export default function Home() {
           />
         </div>
         <video autoPlay muted loop playsInline style={{ width: '100%', height: '100%', position: 'fixed', objectFit: 'cover', zIndex: '-1', right: '0', bottom: '0', pointerEvents: 'none', }}>
-          <source src="/auravaleries bloon heart0001_H.264_H.264.mp4" />
+          <source src="/auravaleries bloon heart green0026_1.mp4" />
         </video>
       </motion.div>
     </main>

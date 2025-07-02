@@ -11,6 +11,7 @@
   padding-bottom: 7rem;
   min-height: 100vh;
   cursor: url("/heart.svg"), auto;
+  color: #183d2d;
 
 }
 .content{
@@ -93,8 +94,8 @@
   /* background: #ffffff60; */
   /* background: rgb(229,229,229);
   background: linear-gradient(180deg, rgba(229,229,229,1) 73%, rgba(0,0,0,0) 100%); */
-  background: #f73838;
-  color: white;
+  background: #183d2d;
+  color: #e6f1ec;
   font-family: "Parisienne", cursive;
   font-weight: 400;
   font-style: normal;
@@ -125,8 +126,8 @@
   margin: auto;
   padding: 1rem;
   padding-right: 2rem;
-  color: white;
-  background: #F73939;
+  color: 	#e6f1ec;
+  background: #183d2d;
   position: absolute;
   padding-bottom: 10rem;
   padding-top: 5rem;
@@ -278,7 +279,7 @@
   transition: color .2s ease-in, font-weight .2s ease-in-out, text-decoration .7s ease-in-out, ;
   box-shadow: black;
   font-weight: 600;
-  color: #F73939;
+  color: #264f3b;
 }
 
 .list a:hover{
