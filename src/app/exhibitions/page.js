@@ -88,7 +88,7 @@ export default function Artists() {
                       alt="SALA CS"
                 />
                 <Image
-                      src="/exhibiciones/NATURE_3.jpg"
+                      src="/exhibiciones/NATURE_4.jpg"
                       width={0}
                       height={0}
                       sizes="100vw"
@@ -96,7 +96,7 @@ export default function Artists() {
                       alt="SALA C"
                 />
                 <Image
-                      src="/exhibiciones/NATURE_4.jpg"
+                      src="/exhibiciones/NATURE_5.jpg"
                       width={0}
                       height={0}
                       sizes="100vw"

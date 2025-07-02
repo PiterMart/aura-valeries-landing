@@ -26,7 +26,7 @@ export default function Artists() {
                 </p>
                 <p>
                   <a href="mailto:xul@valeriesfactory.com">
-                    xul@valeriesfactory.com
+                    GENESIS: 
                   </a>
                 </p>
               </div>
