@@ -186,7 +186,7 @@ export default function Artists() {
                 alt="Picture of the author"
               />
             </div>
-            <div className={styles.dataContainer}>
+            <div className={styles.dataContainer} style={{maxWidth: '158px'}}>
               <p> Vladimir Maruts Ballet</p>
 
             </div>
