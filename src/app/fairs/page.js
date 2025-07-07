@@ -19,6 +19,54 @@ export default function Artists() {
           <div className={styles.container}style={{marginTop: '0px', borderTop: '0px'}} >
               <div className={styles.exhibitions}>
                 <div className={styles.exhibition_info}>
+                <p className={styles.title}>Liste </p>
+                <p className={styles.subtitle}>Artistas</p>
+                <p className={styles.exhibition_text}>
+                <Link href="./trinidadmetzBarra">  Trinidad Metz Brea /</Link> 
+                <br></br>
+                <Link href="./valentinaQuintero">  Valentina Quintero </Link> 
+                </p>
+                <p className={styles.subtitle}>Basel / 2025  </p>
+                </div>
+                <div className={styles.imageContainer}>
+                  <Image
+                        src="/exhibiciones/LISTE2025.jpg"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                        alt="Feria Capital"
+                  />
+                  <Image
+                    src="/exhibiciones/LISTE2025_2.jpg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                    alt="Feria Capital"
+                  />
+                  <Image
+                    src="/exhibiciones/LISTE2025_3.jpg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                    alt="Feria Capital"
+                  />
+                  <Image
+                    src="/exhibiciones/LISTE2025_4.jpg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                    alt="Feria Capital"
+                  />
+                </div>
+              </div>
+            </div>
+          <div className={styles.container}style={{marginTop: '0px', borderTop: '0px'}} >
+              <div className={styles.exhibitions}>
+                <div className={styles.exhibition_info}>
                 <p className={styles.title}>Feria Capital </p>
                 <p className={styles.subtitle}>Artistas</p>
                 <p className={styles.exhibition_text}>

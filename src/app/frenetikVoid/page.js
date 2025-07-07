@@ -59,7 +59,7 @@ export default function Artists() {
             ref={element}
             style={{opacity: scrollYProgress}}
             >
-            <p className={styles.subtitle}>Nacido en Buenos Aires, en 1994.</p>
+            <p className={styles.subtitle}>Franco Verrascina nace en Buenos Aires, en 1994.</p>
             <Image
                 src="/valeriesLogo.png"
                 width={200}
@@ -76,13 +76,22 @@ export default function Artists() {
 
 
               <p>
-              Es un artista digital que trabaja con múltiples herramientas y tecnologías. Su relación con este medio comenzó desde chico con los videojuegos. La posibilidad de crear mundo dentro de mundos, lo inspiraron a crear su propio universo virtual. A través del 3D, el collage digital y la Inteligencia Artifical, Frenetik Void creó un amplio cuerpo de obra que fue exhibiendo a lo largo de los años en diversas galerías digitales.
+              Su relación con la tecnología comenzó en la infancia a través de los videojuegos. La posibilidad de crear mundos dentro de mundos lo inspiró a desarrollar su propio universo visual, combinando softwares de 3D, edición digital e inteligencia artificial. Su universo se nutre de un imaginario surrealista, configurado por simulaciones y experiencias virtuales.
               <br></br>
               <br></br>
-              A partir del 2019 se dedicó a explorar las incipientes plataformas de arte en la blockchain, lo que lo posicionó velozmente como un referente local de este medio. Sus obras se exhiben y comercializan en plataformas como Superrare, Foundation, Makersplace y KnownOrigin. 
+              Bajo el seudónimo de “Frenetik Void” desarrolló un amplio cuerpo de obra digital que ha sido exhibida en diversos espacios alrededor del mundo como Museo della Permanente, (Mián) Palacio Giustinian Lolin (Venecia) Pavilhao Bienal (San Pablo) OGR Torino (Turin) y Newton Gallery (Nueva York). 
               <br></br>
               <br></br>
-              En 2020 creó “CryptoArg” la comunidad de crypto artistas más grande de Latinoamérica con cuatro muestras en su haber. En 2021 creó junto a Milton Sanz y 0xeegeno “Game Disease” un proyecto de NFTs coleccionables con perspectiva transmedia. En 2023 inauguró Sereno de mi Mente”, su primer muestra individual en C.h.e.L.A y “Psipsi Koko” una muestra junto a Julian Brangold en Aura Galería. Su obra también se exhibió en diversas muestras grupales en Nueva York, París, Lisboa, Miami, México, San Pablo, Milán, Turín y Venecia.
+              En 2019, comenzó a experimentar con las incipientes plataformas de arte en la blockchain, posicionándose rápidamente como un referente del criptoarte. Sus obras se han exhibido y comercializado en plataformas de NFTs como SuperRare, Foundation, MakersPlace y KnownOrigin, entre otras. Además fue exhibida en bienales como The Iconic Biennale y The Wrong Digital Biennale.
+              <br></br>
+              <br></br>
+              A lo largo de su carrera creó diversos proyectos colectivos como Magma, un ciclo de muestras para estudiantes de la carrera de Imagen y Sonido, CryptoArg, la comunidad de criptoartistas más grande de Latinoamérica, Psipsikoko, un proyecto híbrido digital/instalativo y Game Disease, un proyecto de NFTs coleccionables con perspectiva transmedia.
+              <br></br>
+              <br></br>
+              En 2023, inauguró Sereno de mi Mente, su primera muestra individual en cheLA. En 2024 presentó Para Editar, muestra individual en Valerie’s Factory curada por Carlos Huffmann que marcó su transición del arte digital al físico. Asimismo participó en muestras colectivas como Los Patitos Feos y Memética, ambas en Valerie’s Factory.
+              <br></br>
+              <br></br>
+              Actualmente continúa investigando formas de enlazar su obra digital a formatos físicos. 
               </p>
 
             </motion.div>
@@ -91,59 +100,92 @@ export default function Artists() {
               <p className={styles.subtitle}>MUESTRAS INDIVIDUALES</p>
               
               <p>
-              (2023) Sereno de mi Mente - C.h.e.L.A / Buenos Aires
+              Para Editar, curada por Carlos Huffmann, Valerie’s Factory (Buenos Aires, 2024)
               <br></br>
               <br></br>
-              (2023) Psipsi Koko junto a Julián Brangold - Aura / Buenos Aires
+              Psipsikoko junto a Julián Brangold, RnA Studio (Lisboa, 2024)
+              <br></br>
+              <br></br>
+              Sereno de mi Mente, cheLA  (Buenos Aires, 2023)
+              <br></br>
+              <br></br>
+              Psipsikoko junto a Julián Brangold, Valerie’s Factory (Buenos Aires, 2023)
               </p>
 
             </div>
 
             <div className={styles.artistSection}>
 
-              <p className={styles.subtitle}>MUESTRAS COLECTIVAS</p>
-              
-              <p>
-              (2023) NFT Brasil - Pavilhao Bienal / San Pablo
-              <br></br>
-              <br></br>
-              (2023) Intertwined - Armazém Soul / Lisboa
-              <br></br>
-              <br></br>
-              (2023) Non Places - L’Atelier Éphémère / Paris
-              <br></br>
-              <br></br>
-              (2023) CryptoArg x Bright Moments  - Galería Güemes / Buenos Aires
-              <br></br>
-              <br></br>
-              (2022) Decentral Art Pavilion / Venecia
-              <br></br>
-              <br></br>
-              (2022) RIP HEN - Curated by Jesse Drexler, Switzerland.
-              <br></br>
-              <br></br>
-              (2022) Riesgo País - Newton Gallery / Nueva York
-              <br></br>
-              <br></br>
-              (2022) Italian Tech Week - OGR Torino  / Turin
-              <br></br>
-              <br></br>
-              (2022) Art Week Miami / Miami
-              <br></br>
-              <br></br>
-              (2022) Eth Latam - Centro de Convenciones / Buenos Aires
-              <br></br>
-              <br></br>
-              (2022) The Non NFT Summit - Prim / México DF
-              <br></br>
-              <br></br>
-              (2021) The Wrong Biennale - Museo della Permanente / Milan 
-              <br></br>
-              <br></br>
-              (2021) No Existe Tierra Más Allá - C.h.e.L.A / Buenos Aires
-              </p>
+             <p className={styles.subtitle}>MUESTRAS COLECTIVAS</p>
+             
+             <p>
+               (2024) Los Patitos Feos - Valerie’s Factory / Buenos Aires
+               <br></br>
+               <br></br>
+               (2024) Memética - Valerie’s Factory / Buenos Aires
+               <br></br>
+               <br></br>
+               (2023) NFT Brasil - Pavilhao Bienal / San Pablo
+               <br></br>
+               <br></br>
+               (2023) Intertwined - Armazém Soul / Lisboa
+               <br></br>
+               <br></br>
+               (2023) Non Places - L’Atelier Éphémère / Paris
+               <br></br>
+               <br></br>
+               (2023) Boca+Arte - Centro Cultural San Martín / Buenos Aires
+               <br></br>
+               <br></br>
+               (2023) CryptoArg x Bright Moments  - Galería Güemes / Buenos Aires
+               <br></br>
+               <br></br>
+               (2022) Decentral Art Pavilion - Palazzo Giustinian Lolin / Venecia
+               <br></br>
+               <br></br>
+               (2022) RIP HEN - Curated by Jesse Drexler, Switzerland.
+               <br></br>
+               <br></br>
+               (2022) Riesgo País - Newton Gallery / Nueva York
+               <br></br>
+               <br></br>
+               (2022) Italian Tech Week - OGR Torino  / Turin
+               <br></br>
+               <br></br>
+               (2022) Art Week Miami / Miami
+               <br></br>
+               <br></br>
+               (2022) Eth Latam - Centro de Convenciones / Buenos Aires
+               <br></br>
+               <br></br>
+               (2022) The Non NFT Summit - Prim / México DF
+               <br></br>
+               <br></br>
+               (2021) The Wrong Biennale - Museo della Permanente / Milan 
+               <br></br>
+               <br></br>
+               (2021) No Existe Tierra Más Allá - C.h.e.L.A / Buenos Aires
+               <br></br>
+               <br></br>
+               (2021) CryptoArg x MOCA - Decentraland / Digital
+               <br></br>
+               <br></br>
+               (2020) CAOS - CryptoArg - CryptoVoxels / Digital
+               <br></br>
+               <br></br>
+               (2019) The Wrong Biennale / Digital
+               <br></br>
+               <br></br>
+               (2019) Obscure Distortion - Espacio Byte / Digital
+               <br></br>
+               <br></br>
+               (2018) The Wrong Biennale - Mutant Club / Digital
+               <br></br>
+               <br></br>
+               (2017) Iconic Digital Art Biennale / Digital
+               </p>
 
-            </div>
+           </div>
             {/* <div className={styles.artistSection} id="catalogo">
 
               <p className={styles.subtitle}>CATÁLOGO</p>
