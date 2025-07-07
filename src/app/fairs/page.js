@@ -29,6 +29,14 @@ export default function Artists() {
                 <p className={styles.subtitle}>Basel / 2025  </p>
                 </div>
                 <div className={styles.imageContainer}>
+                <Image
+                    src="/exhibiciones/LISTE2025_4.jpg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                    alt="Feria Capital"
+                  />
                   <Image
                         src="/exhibiciones/LISTE2025.jpg"
                         width={0}
@@ -47,14 +55,6 @@ export default function Artists() {
                   />
                   <Image
                     src="/exhibiciones/LISTE2025_3.jpg"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                    alt="Feria Capital"
-                  />
-                  <Image
-                    src="/exhibiciones/LISTE2025_4.jpg"
                     width={0}
                     height={0}
                     sizes="100vw"
