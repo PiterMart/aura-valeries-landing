@@ -55,7 +55,7 @@ export default function Artists() {
               </p>
             </div>
           </div>
-          <div className={styles.contentSection}>
+          {/* <div className={styles.contentSection}>
 
             <p className={styles.subtitle}>PRODUCCIÓN ARTÍSTICA</p>
             <div className={styles.contactInfo}>
@@ -68,7 +68,7 @@ export default function Artists() {
                 </a>
               </p>
             </div>
-          </div>
+          </div> */}
           <div className={styles.contentSection}>
 
             <p className={styles.subtitle}>COMUNICACIÓN</p>
