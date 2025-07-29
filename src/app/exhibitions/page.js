@@ -19,6 +19,123 @@ export default function Artists() {
         <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
             <div className={styles.exhibitions}>
               <div className={styles.exhibition_info}>
+                <p className={styles.title}>Uoco</p>
+                <p className={styles.subtitle}>Artista</p>
+                <p className={styles.exhibition_text}>
+                <Link href="./francoPalioff">  Franco Palioff</Link> 
+                </p>
+                <p className={styles.subtitle}>Texto</p>
+                <p className={styles.exhibition_text}>  Jack Holmer</p>
+                <p className={styles.subtitle}>Buenos Aires / 2025</p>
+                {/* <a href="/VF_EliasLeiro.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a> */}
+              </div>
+              <div className={styles.imageContainer}>
+              <Image
+                      src="/exhibiciones/UOCO.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+                <Image
+                      src="/exhibiciones/UOCO2.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA CS"
+                />
+              </div>             
+            </div>
+          </div>
+        <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
+                <p className={styles.title}>Desvelo</p>
+                <p className={styles.subtitle}>Artista</p>
+                <p className={styles.exhibition_text}>
+                <p>  Ginevra Landini</p> 
+                </p>
+                <p className={styles.subtitle}>Poema</p>
+                <p className={styles.exhibition_text}> Daria Pozzer</p>
+                <p className={styles.subtitle}>Buenos Aires / 2025</p>
+                {/* <a href="/VF_EliasLeiro.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a> */}
+              </div>
+              <div className={styles.imageContainer}>
+              <Image
+                      src="/exhibiciones/DESVELO3.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+                <Image
+                      src="/exhibiciones/DESVELO2.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA CS"
+                />
+                <Image
+                      src="/exhibiciones/DESVELO.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+              </div>             
+            </div>
+          </div>
+          <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
+                <p className={styles.title}>Rituales Mutantes</p>
+                <p className={styles.subtitle}>Artistas</p>
+                <p className={styles.exhibition_text}>
+                <Link href="./trinidadmetzBarra">  Trinidad Metz Brea /</Link> 
+                <Link href="./alvaroGodoy">  Alvaro Godoy /</Link> 
+                <p>  Luis Enrique Zela-Koort</p> 
+                </p>
+                <p className={styles.subtitle}>Curaduría</p>
+                <p className={styles.exhibition_text}> Paty Siller</p>
+                <p className={styles.subtitle}>Buenos Aires / 2025</p>
+                {/* <a href="/VF_EliasLeiro.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a> */}
+              </div>
+              <div className={styles.imageContainer}>
+              <Image
+                      src="/exhibiciones/RITUALESMUTANTES.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+                <Image
+                      src="/exhibiciones/RITUALESMUTANTES2.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA CS"
+                />
+                <Image
+                      src="/exhibiciones/RITUALESMUTANTES3.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+              </div>             
+            </div>
+          </div>
+        <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
                 <p className={styles.title}>Creer o Reventar</p>
                 <p className={styles.subtitle}>Artista</p>
                 <p className={styles.exhibition_text}>
