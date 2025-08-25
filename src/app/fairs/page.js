@@ -102,7 +102,7 @@ export default function Artists() {
                 </div>
               </div>
             </div>
-          <div className={styles.container}style={{marginTop: '0px', borderTop: '0px'}} >
+          {/* <div className={styles.container}style={{marginTop: '0px', borderTop: '0px'}} >
               <div className={styles.exhibitions}>
                 <div className={styles.exhibition_info}>
                 <p className={styles.title}>Urvanity Fair </p>
@@ -143,7 +143,7 @@ export default function Artists() {
                   />
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className={styles.container}style={{marginTop: '0px', borderTop: '0px'}} >
                 <div className={styles.exhibitions}>
                   <div className={styles.exhibition_info}>
@@ -195,12 +195,12 @@ export default function Artists() {
                     </div>
                     <div className={styles.imageContainer}>
                       <Image
-                            src="/exhibiciones/PINTAMIAMI2024.jpg"
-                            width={0}
-                            height={0}
-                            sizes="100vw"
-                            style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                            alt="Picture of the author"
+                        src="/exhibiciones/PINTAMIAMI2024.jpg"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                        alt="Picture of the author"
                       />
                       <Image
                         src="/exhibiciones/PINTAMIAMI20242.jpg"
