@@ -31,7 +31,7 @@ export default function Artists() {
               </div>
               <div className={styles.imageContainer}>
               <Image
-                      src="/exhibiciones/ESTANOCHE.jpg"
+                      src="/exhibiciones/ESTANOCHE_1.jpg"
                       width={0}
                       height={0}
                       sizes="100vw"
@@ -73,6 +73,14 @@ export default function Artists() {
               <div className={styles.imageContainer}>
               <Image
                       src="/exhibiciones/CAMINANTES_1.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+                <Image
+                      src="/exhibiciones/CAMINANTES_4.jpg"
                       width={0}
                       height={0}
                       sizes="100vw"

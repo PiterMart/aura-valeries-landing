@@ -33,23 +33,7 @@ export default function Artists() {
                 <p className={styles.subtitle}>Buenos Aires / 2025  </p>
                 </div>
                 <div className={styles.imageContainer}>
-                <Image
-                    src="/exhibiciones/ABA25.jpg"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                    alt="Feria Capital"
-                  />
-                  <Image
-                    src="/exhibiciones/ABA25_2.jpg"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                    alt="Feria Capital"
-                  />
-                  <Image
+                                                      <Image
                     src="/exhibiciones/ABA25_3.jpg"
                     width={0}
                     height={0}
@@ -57,8 +41,24 @@ export default function Artists() {
                     style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
                     alt="Feria Capital"
                   />
-                  <Image
+                                    <Image
                     src="/exhibiciones/ABA25_4.jpg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                    alt="Feria Capital"
+                  />
+                                    <Image
+                    src="/exhibiciones/ABA25_2.jpg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                    alt="Feria Capital"
+                  />
+                <Image
+                    src="/exhibiciones/ABA25.jpg"
                     width={0}
                     height={0}
                     sizes="100vw"
