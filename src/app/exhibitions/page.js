@@ -16,6 +16,88 @@ export default function Artists() {
         x: { duration: 0.25 }
         }}>
         <div className={styles.content} style={{marginTop: '0px'}}>
+          <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
+                <p className={styles.title}>Esta Noche Nos Caemos Del Mundo</p>
+                <p className={styles.subtitle}>Artista</p>
+                <p className={styles.exhibition_text}>
+                  Matias Ercole
+                </p>
+                <p className={styles.subtitle}>Curaduria</p>
+                <p className={styles.exhibition_text}>  Sol Ganim</p>
+                <p className={styles.subtitle}>Buenos Aires / 2025</p>
+                {/* <a href="/VF_EliasLeiro.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a> */}
+              </div>
+              <div className={styles.imageContainer}>
+              <Image
+                      src="/exhibiciones/ESTANOCHE.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+                <Image
+                      src="/exhibiciones/ESTANOCHE_2.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+                <Image
+                      src="/exhibiciones/ESTANOCHE_3.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+              </div>             
+            </div>
+          </div>
+          <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
+                <p className={styles.title}>Caminantes</p>
+                <p className={styles.subtitle}>Artista</p>
+                <p className={styles.exhibition_text}>
+                  Seba Calfuqueo
+                </p>
+                <p className={styles.subtitle}>Curaduria</p>
+                <p className={styles.exhibition_text}>  Laura Hakel</p>
+                <p className={styles.subtitle}>Buenos Aires / 2025</p>
+                {/* <a href="/VF_EliasLeiro.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a> */}
+              </div>
+              <div className={styles.imageContainer}>
+              <Image
+                      src="/exhibiciones/CAMINANTES_1.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+                <Image
+                      src="/exhibiciones/CAMINANTES_3.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+                <Image
+                      src="/exhibiciones/CAMINANTES_2.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+              </div>             
+            </div>
+          </div>
         <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
             <div className={styles.exhibitions}>
               <div className={styles.exhibition_info}>
