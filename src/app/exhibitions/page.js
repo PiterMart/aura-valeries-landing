@@ -19,6 +19,129 @@ export default function Artists() {
           <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
             <div className={styles.exhibitions}>
               <div className={styles.exhibition_info}>
+                <p className={styles.title}> Trauma Clickbait</p>
+                <p className={styles.subtitle}>Artista</p>
+                <p className={styles.exhibition_text}>
+                  <Link href="./julianBrangold">  Julian Brangold </Link>
+                </p>
+                <p className={styles.subtitle}>Buenos Aires / 2025</p>
+              </div>
+              <div className={styles.imageContainer}>
+              <Image
+                      src="/exhibiciones/TRAUMACB_3.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+                <Image
+                      src="/exhibiciones/TRAUMACB_2.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+                <Image
+                      src="/exhibiciones/TRAUMACB_1.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+              </div>             
+            </div>
+          </div>
+          <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
+                <p className={styles.title}>Interfaz de la Carne</p>
+                <p className={styles.subtitle}>Artista</p>
+                <p className={styles.exhibition_text}>
+                  Natacha Voliakovsky
+                </p>
+                <p className={styles.subtitle}>Curaduria</p>
+                <p className={styles.exhibition_text}>  Valentina Quintero</p>
+                <p className={styles.subtitle}>Buenos Aires / 2025</p>
+                {/* <a href="/VF_EliasLeiro.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a> */}
+              </div>
+              <div className={styles.imageContainer}>
+              <Image
+                      src="/exhibiciones/INTERFAZDLC_3.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+                <Image
+                      src="/exhibiciones/INTERFAZDLC_2.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+                <Image
+                      src="/exhibiciones/INTERFAZDLC_1.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+              </div>             
+            </div>
+          </div>
+          <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
+                <p className={styles.title}>Poma Ao Rostro</p>
+                <p className={styles.exhibition_text}>
+                  exhibición en colaboración con Gruta
+                </p>
+                <p className={styles.subtitle}>Artista</p>
+                <p className={styles.exhibition_text}>  Andy Villela / Iahra / </p>
+                <p className={styles.exhibition_text}> 
+                <Link href="./trinidadmetzBarra">Trinidad Metz Brea /</Link>
+                <Link href="./valentinaQuintero">  Valentina Quintero </Link> 
+                </p>
+                <p className={styles.subtitle}>Brasil / 2025</p>
+                {/* <a href="/VF_EliasLeiro.pdf" target="_blank" className={styles.subtitle} style={{color: 'red', margin: '1rem'}}>{'>'} PDF {'<'} </a> */}
+              </div>
+              <div className={styles.imageContainer}>
+              <Image
+                      src="/exhibiciones/POEMAAR_3.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+                <Image
+                      src="/exhibiciones/POEMAAR_2.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+                <Image
+                      src="/exhibiciones/POEMAAR_1.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+              </div>             
+            </div>
+          </div>
+          <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
                 <p className={styles.title}>Esta Noche Nos Caemos Del Mundo</p>
                 <p className={styles.subtitle}>Artista</p>
                 <p className={styles.exhibition_text}>
