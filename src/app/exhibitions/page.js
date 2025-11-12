@@ -77,7 +77,7 @@ export default function Artists() {
                       alt="SALA C"
                 />
                 <Image
-                      src="/exhibiciones/INTERFAZDLC_2.jpg"
+                      src="/exhibiciones/INTARFAZDLC_2.jpg"
                       width={0}
                       height={0}
                       sizes="100vw"
@@ -85,7 +85,7 @@ export default function Artists() {
                       alt="SALA C"
                 />
                 <Image
-                      src="/exhibiciones/INTERFAZDLC_1.jpg"
+                      src="/exhibiciones/iNTERFAZDLC_1.jpg"
                       width={0}
                       height={0}
                       sizes="100vw"
