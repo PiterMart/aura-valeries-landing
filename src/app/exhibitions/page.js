@@ -19,44 +19,6 @@ export default function Artists() {
           <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
             <div className={styles.exhibitions}>
               <div className={styles.exhibition_info}>
-                <p className={styles.title}> Trauma Clickbait</p>
-                <p className={styles.subtitle}>Artista</p>
-                <p className={styles.exhibition_text}>
-                  <Link href="./julianBrangold">  Julian Brangold </Link>
-                </p>
-                <p className={styles.subtitle}>Buenos Aires / 2025</p>
-              </div>
-              <div className={styles.imageContainer}>
-              <Image
-                      src="/exhibiciones/TRAUMACB_3.jpg"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                      alt="SALA C"
-                />
-                <Image
-                      src="/exhibiciones/TRAUMACB_2.jpg"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                      alt="SALA C"
-                />
-                <Image
-                      src="/exhibiciones/TRAUMACB_1.jpg"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                      alt="SALA C"
-                />
-              </div>             
-            </div>
-          </div>
-          <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
-            <div className={styles.exhibitions}>
-              <div className={styles.exhibition_info}>
                 <p className={styles.title}>Interfaz de la Carne</p>
                 <p className={styles.subtitle}>Artista</p>
                 <p className={styles.exhibition_text}>
@@ -95,6 +57,44 @@ export default function Artists() {
               </div>             
             </div>
           </div>
+                    <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
+            <div className={styles.exhibitions}>
+              <div className={styles.exhibition_info}>
+                <p className={styles.title}> Trauma Clickbait</p>
+                <p className={styles.subtitle}>Artista</p>
+                <p className={styles.exhibition_text}>
+                  <Link href="./julianBrangold">  Julian Brangold </Link>
+                </p>
+                <p className={styles.subtitle}>Buenos Aires / 2025</p>
+              </div>
+              <div className={styles.imageContainer}>
+              <Image
+                      src="/exhibiciones/TRAUMACB_3.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+                <Image
+                      src="/exhibiciones/TRAUMACB_2.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+                <Image
+                      src="/exhibiciones/TRAUMACB_1.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+              </div>             
+            </div>
+          </div>
           <div className={styles.container} style={{marginTop: '0px', borderTop: '0px'}}>
             <div className={styles.exhibitions}>
               <div className={styles.exhibition_info}>
@@ -113,14 +113,6 @@ export default function Artists() {
               </div>
               <div className={styles.imageContainer}>
               <Image
-                      src="/exhibiciones/POEMAAR_3.jpg"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
-                      alt="SALA C"
-                />
-                <Image
                       src="/exhibiciones/POEMAAR_2.jpg"
                       width={0}
                       height={0}
@@ -130,6 +122,14 @@ export default function Artists() {
                 />
                 <Image
                       src="/exhibiciones/POEMAAR_1.jpg"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto', maxWidth: '900px', "overflow-clip-margin": 'content-box', objectFit: 'cover', margin: 'auto'  }}
+                      alt="SALA C"
+                />
+                <Image
+                      src="/exhibiciones/POEMAAR_3.jpg"
                       width={0}
                       height={0}
                       sizes="100vw"
